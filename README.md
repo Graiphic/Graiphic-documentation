@@ -78,17 +78,5 @@ Main features:
 
 ---
 
-## Image Directory
-
-All toolkit visuals are stored in the [`/img`](./img) folder:
-
-| Toolkit | Image |
-|---------|--------|
-| SOTA | <img src="./img/sota-png.png" width="70"/> |
-| Accelerator | <img src="./img/accelerator.png" width="60"/> |
-| Deep Learning | <img src="./img/deeplearning.svg" width="60"/> |
-
----
-
 © 2025 **Graiphic Technologies de France**  
 [https://graiphic.io](https://graiphic.io)
