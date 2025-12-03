@@ -1,7 +1,7 @@
 # Graiphic Toolkits Documentation
 
 Welcome to the official documentation index for **Graiphic Toolkits for LabVIEW**.  
-Below you will find direct access to the online documentation for **SOTA**, **Accelerator**, and **Deep Learning Toolkit**.
+Below you will find direct access to the online documentation for **SOTA**, **Accelerator**, **Deep Learning Toolkit**, **Computer Vision Toolkit**, and **CUDA Toolkit**.
 
 ---
 
@@ -75,6 +75,54 @@ Main features:
 - [Troubleshooting](https://graiphic.io/documentation/troubleshooting/)
 - [Deployment](https://graiphic.io/documentation/deployment/)
 - [FAQ](https://graiphic.io/documentation/faq/)
+
+---
+
+<!-- Computer Vision -->
+<div style="display: flex; align-items: center; gap: 16px;">
+  <img src="./img/computervision.svg" width="70"/>
+  <h2 style="margin: 0;">Computer Vision Toolkit</h2>
+</div>
+
+The **Computer Vision Toolkit** brings modern vision-AI capabilities into LabVIEW using the same unified ONNX Runtime backend as SOTA and Accelerator.  
+It enables real-time processing, image pipelines, and deployment of vision models for industrial and robotics applications.
+
+Main features:
+- Full ONNX vision model support  
+- Real-time image processing pipelines  
+- Integration with SOTA, Accelerator and Deep Learning Toolkit  
+- Easy deployment on CPUs, GPUs, and edge devices  
+
+**Documentation:**
+- [Installation Guide](https://graiphic.io/documentation/computer-vision-installation/)
+- [Beginner’s Guide](https://graiphic.io/documentation/beginners-guide/)
+- [Troubleshooting](https://graiphic.io/documentation/troubleshooting/)
+- [Deployment](https://graiphic.io/documentation/deployment/)
+- [Display & UI](https://graiphic.io/documentation/cv-display/)
+- [FAQ](https://graiphic.io/documentation/faq/)
+
+---
+
+<!-- CUDA Toolkit -->
+<div style="display: flex; align-items: center; gap: 16px;">
+  <img src="./img/cuda-module_1.png" width="70"/>
+  <h2 style="margin: 0;">CUDA Toolkit</h2>
+</div>
+
+The **CUDA Toolkit for LabVIEW** enables direct GPU acceleration for AI models, numerical computation, and parallel processing.  
+It integrates seamlessly with SOTA, Accelerator and Deep Learning Toolkit to bring maximum GPU performance to LabVIEW applications.
+
+Main features:
+- Native CUDA execution backend  
+- Automatic GPU memory management  
+- ONNX Runtime CUDA EP integration  
+- Compatible with NVIDIA RTX, Jetson, and data-center GPUs  
+
+**Documentation:**
+- [Installation Guide](https://graiphic.io/documentation/cuda/cuda)
+- [Introduction](https://graiphic.io/documentation/cuda/introduction/)
+- [Hardware Compatibility](https://graiphic.io/documentation/cuda/hardware-compatibility/)
+- [FAQ](https://graiphic.io/documentation/cuda/faq/)
 
 ---
 
