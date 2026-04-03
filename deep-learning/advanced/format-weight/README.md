@@ -1,0 +1,33 @@
+# Format Weight
+
+## Articles
+
+- [Resume](resume-11/README.md)
+- [Dense](dense-3/README.md)
+- [AdditiveAttention](additiveattention-3/README.md)
+- [Attention](attention-3/README.md)
+- [MultiHeadAttention](multiheadattention-3/README.md)
+- [BatchNormalization](batchnormalization-3/README.md)
+- [LayerNormalization](layernormalization-3/README.md)
+- [Bidirectional](bidirectional-3/README.md)
+- [GRU](gru-4/README.md)
+- [LSTM](lstm-4/README.md)
+- [SimpleRNN](simplernn-4/README.md)
+- [Conv1D](conv1d-3/README.md)
+- [Conv2D](conv2d-3/README.md)
+- [Conv3D](conv3d-3/README.md)
+- [Conv1DTranspose](conv1dtranspose-3/README.md)
+- [Conv2DTranspose](conv2dtranspose-3/README.md)
+- [Conv3DTranspose](conv3dtranspose-3/README.md)
+- [ConvLSTM1D](convlstm1d-3/README.md)
+- [ConvLSTM2D](convlstm2d-3/README.md)
+- [ConvLSTM3D](convlstm3d-3/README.md)
+- [DepthwiseConv2D](depthwiseconv2d-3/README.md)
+- [SeparableConv1D](separableconv1d-3/README.md)
+- [SeparableConv2D](separableconv2d-3/README.md)
+- [Embedding](embedding-3/README.md)
+- [PReLU 2D](prelu-2d-3/README.md)
+- [PReLU 3D](prelu-3d-3/README.md)
+- [PReLU 4D](prelu-4d-3/README.md)
+- [PReLU 5D](prelu-5d-3/README.md)
+

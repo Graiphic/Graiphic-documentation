@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    (function () {
+      var path = window.location.pathname || "/";
+      var search = window.location.search || "";
+      var hash = window.location.hash || "";
+      var repoBase = "/TestDocGraiphicV2";
+
+      if (path.indexOf(repoBase) === 0) {
+        path = path.slice(repoBase.length);
+      }
+
+      if (!path) {
+        path = "/";
+      }
+
+      var target = repoBase + "/#" + path + search + hash;
+      window.location.replace(target);
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to the documentation shell...</p>
+</body>
+</html>

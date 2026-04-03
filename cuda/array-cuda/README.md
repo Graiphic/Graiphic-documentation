@@ -1,0 +1,32 @@
+# Array
+
+## Articles
+
+- [Resume](resume/README.md)
+- [Array size](array-size/README.md)
+- [Index Array](index-array/README.md)
+- [Replace Subset](replace-subset/README.md)
+- [Insert Into Array](insert-into-array/README.md)
+- [Delete From Array](delete-from-array/README.md)
+- [Initialize Array](initialize-array/README.md)
+- [Concatenate Array](concatenate-array/README.md)
+- [Array Subset](array-subset/README.md)
+- [Min & Max](min-max/README.md)
+- [Reshape Array](reshape-array/README.md)
+- [Shuffle array](shuffle-array/README.md)
+- [Reverse 1D array](reverse-1d-array/README.md)
+- [Search In Array](search-in-array/README.md)
+- [Split 1D Array](split-1d-array/README.md)
+- [Split 2D Array](split-2d-array/README.md)
+- [Rotate 1D Array](rotate-1d-array/README.md)
+- [Increment Array Element](increment-array-element/README.md)
+- [Decrement Array Element](decrement-array-element/README.md)
+- [Interpolate 1D Array](interpolate-1d-array/README.md)
+- [Threshold 1D Array](threshold-1d-array/README.md)
+- [Interleave 1D Array](interleave-1d-array/README.md)
+- [Decimate 1D Array](decimate-1d-array/README.md)
+- [Transpose Array](transpose-array/README.md)
+- [Remove Duplicate From 1D Array](remove-duplicates-from-1d-array/README.md)
+- [Short Array](short-array/README.md)
+- [Build Array](build-array/README.md)
+

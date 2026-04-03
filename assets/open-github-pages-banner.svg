@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Open the GitHub Pages version</title>
+  <desc id="desc">Red call-to-action banner linking to the GitHub Pages site.</desc>
+  <defs>
+    <linearGradient id="bannerGradient" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#cf222e" />
+      <stop offset="100%" stop-color="#a40e26" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-10%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#6e0d1d" flood-opacity="0.28" />
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="12" y="14" width="1176" height="152" rx="28" fill="url(#bannerGradient)" />
+    <rect x="12" y="14" width="1176" height="152" rx="28" fill="none" stroke="#7f1021" stroke-width="4" />
+    <circle cx="96" cy="90" r="34" fill="#fff2f3" fill-opacity="0.18" />
+    <path d="M63 73c8-3 18-3 27 3v29c-8-5-18-6-27-3z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" />
+    <path d="M121 73c-8-3-18-3-27 3v29c8-5 18-6 27-3z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" />
+    <path d="M92 76v29" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+    <text x="154" y="86" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="1.2">
+      OPEN THE GITHUB PAGES VERSION
+    </text>
+    <text x="154" y="122" fill="#ffe5e8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">
+      Interactive website view of this repository
+    </text>
+  </g>
+</svg>

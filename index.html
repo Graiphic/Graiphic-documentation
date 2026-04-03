@@ -1,0 +1,2811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Graiphic toolkits documentation hosted on GitHub Pages.">
+  <title>Graiphic Documentation</title>
+  <script>
+    (function () {
+      var themeStorageKey = "graiphic-theme";
+      var preferredTheme = "light";
+
+      try {
+        var storedTheme = window.localStorage.getItem(themeStorageKey);
+        if (storedTheme === "light" || storedTheme === "dark") {
+          preferredTheme = storedTheme;
+        } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          preferredTheme = "dark";
+        }
+      } catch (error) {
+      }
+
+      document.documentElement.setAttribute("data-theme", preferredTheme);
+    })();
+  </script>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #0f766e;
+      --accent-color: #f97316;
+      --nav-safe-right: 18rem;
+      --nav-shift-left: 11rem;
+      --nav-shift-up: 0.6rem;
+      --body-bg: #f8fafc;
+      --body-bg-solid: #f8fafc;
+      --body-color: #1f2937;
+      --muted-color: #475569;
+      --sidebar-bg: rgba(255, 255, 255, 0.96);
+      --sidebar-border-color: #dbe4ee;
+      --heading-color: #0f172a;
+      --link-color: #0f766e;
+      --panel-bg: rgba(255, 255, 255, 0.98);
+      --panel-bg-soft: rgba(248, 250, 252, 0.92);
+      --surface-bg: rgba(255, 255, 255, 0.98);
+      --surface-muted: rgba(240, 249, 255, 0.92);
+      --surface-border: #dbe4ee;
+      --surface-shadow: rgba(15, 23, 42, 0.06);
+      --search-bg: #ffffff;
+      --search-border: #cbd5e1;
+      --search-shadow: rgba(15, 23, 42, 0.1);
+      --table-header-bg: #eff6ff;
+      --chip-bg: #ecfeff;
+      --chip-color: #0f766e;
+      --button-border: #99f6e4;
+      --button-bg: rgba(236, 254, 255, 0.92);
+      --button-bg-hover: #ccfbf1;
+      --button-color: #115e59;
+      --toggle-bg: rgba(255, 255, 255, 0.92);
+      --toggle-border: rgba(148, 163, 184, 0.45);
+      --toggle-shadow: rgba(15, 23, 42, 0.12);
+      --hero-border: #d8ecf2;
+      --hero-bg:
+        radial-gradient(circle at top right, rgba(251, 191, 36, 0.14), transparent 32%),
+        radial-gradient(circle at top left, rgba(34, 211, 238, 0.12), transparent 30%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.98));
+      --card-bg: rgba(255, 255, 255, 0.82);
+      --card-border: #dceaf1;
+      --card-shadow: rgba(15, 23, 42, 0.04);
+      --nav-hover-bg: #f8fafc;
+      --nav-active-bg: #f0fdfa;
+      --code-theme-text: #0f172a;
+      --code-bg: rgba(15, 23, 42, 0.06);
+      --page-glow-start: rgba(15, 118, 110, 0.12);
+      --page-glow-end: rgba(234, 88, 12, 0.08);
+      --sidebar-width: 300px;
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --theme-color: #58a6ff;
+      --body-bg: #0d1117;
+      --body-bg-solid: #0d1117;
+      --body-color: #c9d1d9;
+      --muted-color: #8b949e;
+      --sidebar-bg: #161b22;
+      --sidebar-border-color: #30363d;
+      --heading-color: #e6edf3;
+      --link-color: #79c0ff;
+      --panel-bg: #161b22;
+      --panel-bg-soft: rgba(13, 17, 23, 0.92);
+      --surface-bg: #161b22;
+      --surface-muted: rgba(33, 38, 45, 0.96);
+      --surface-border: #30363d;
+      --surface-shadow: rgba(1, 4, 9, 0.28);
+      --search-bg: #0d1117;
+      --search-border: #30363d;
+      --search-shadow: rgba(1, 4, 9, 0.28);
+      --table-header-bg: rgba(56, 139, 253, 0.12);
+      --chip-bg: rgba(56, 139, 253, 0.12);
+      --chip-color: #79c0ff;
+      --button-border: #30363d;
+      --button-bg: #21262d;
+      --button-bg-hover: #30363d;
+      --button-color: #e6edf3;
+      --toggle-bg: #161b22;
+      --toggle-border: #30363d;
+      --toggle-shadow: rgba(1, 4, 9, 0.25);
+      --hero-border: #30363d;
+      --hero-bg: linear-gradient(180deg, rgba(22, 27, 34, 0.98), rgba(13, 17, 23, 0.98));
+      --card-bg: linear-gradient(180deg, rgba(22, 27, 34, 0.98), rgba(13, 17, 23, 0.98));
+      --card-border: #30363d;
+      --card-shadow: rgba(1, 4, 9, 0.22);
+      --nav-hover-bg: rgba(33, 38, 45, 0.92);
+      --nav-active-bg: rgba(56, 139, 253, 0.12);
+      --code-theme-text: #e6edf3;
+      --code-bg: rgba(110, 118, 129, 0.16);
+      --page-glow-start: rgba(88, 166, 255, 0.06);
+      --page-glow-end: rgba(139, 148, 158, 0.04);
+    }
+
+    html:not([data-theme="dark"]) {
+      color-scheme: light;
+    }
+
+    body {
+      color: var(--body-color);
+      background:
+        radial-gradient(circle at top left, var(--page-glow-start), transparent 32%),
+        radial-gradient(circle at top right, var(--page-glow-end), transparent 24%),
+        var(--body-bg-solid);
+    }
+
+    .app-name-link img {
+      max-width: 180px;
+    }
+
+    .sidebar {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--sidebar-border-color);
+      box-shadow: 0 0 24px rgba(15, 23, 42, 0.03);
+    }
+
+    .markdown-section {
+      color: var(--body-color);
+      max-width: 1100px;
+      padding-bottom: 5rem;
+    }
+
+    .markdown-section a {
+      color: var(--link-color);
+      font-weight: 500;
+    }
+
+    .markdown-section p,
+    .markdown-section li,
+    .markdown-section ul li,
+    .markdown-section ol li,
+    .markdown-section blockquote,
+    .cover-main p,
+    .cover-main li {
+      color: var(--body-color);
+    }
+
+    .markdown-section strong,
+    .markdown-section b,
+    .markdown-section th,
+    .markdown-section h4,
+    .markdown-section h5,
+    .markdown-section h6,
+    .cover-main strong {
+      color: var(--heading-color);
+    }
+
+    .markdown-section em,
+    .markdown-section small,
+    .markdown-section blockquote p {
+      color: var(--muted-color);
+    }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .cover-main h1,
+    .cover-main h2,
+    .cover-main h3 {
+      color: var(--heading-color);
+    }
+
+    .markdown-section h1 a,
+    .markdown-section h2 a,
+    .markdown-section h3 a,
+    .markdown-section h1 a span,
+    .markdown-section h2 a span,
+    .markdown-section h3 a span {
+      color: var(--heading-color) !important;
+    }
+
+    .markdown-section table {
+      display: table;
+      width: 100%;
+      overflow: auto;
+      border-collapse: collapse;
+    }
+
+    .markdown-section table th {
+      background: var(--table-header-bg);
+    }
+
+    .markdown-section table th,
+    .markdown-section table td {
+      border-color: var(--surface-border);
+      color: var(--body-color);
+    }
+
+    html[data-theme="dark"] .markdown-section table td {
+      background: color-mix(in srgb, var(--surface-bg) 94%, transparent);
+    }
+
+    html[data-theme="dark"] .markdown-section table table td {
+      background: color-mix(in srgb, var(--surface-bg) 98%, transparent);
+    }
+
+    html[data-theme="dark"] .markdown-section table td strong,
+    html[data-theme="dark"] .markdown-section table td b,
+    html[data-theme="dark"] .markdown-section table td em,
+    html[data-theme="dark"] .markdown-section table td p,
+    html[data-theme="dark"] .markdown-section table td li {
+      color: inherit;
+    }
+
+    html[data-theme="dark"] .markdown-section table td a {
+      color: var(--link-color);
+    }
+
+    .markdown-section td[width="64"] {
+      width: 74px;
+    }
+
+    .markdown-section img.graiphic-param-icon {
+      display: block;
+      margin: 0 auto;
+      max-width: 56px;
+      height: auto;
+    }
+
+    .markdown-section td[width="30%"],
+    .markdown-section td[width="25%"],
+    .markdown-section td[width="35%"] {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .markdown-section td[width="30%"] > p,
+    .markdown-section td[width="25%"] > p,
+    .markdown-section td[width="35%"] > p {
+      margin: 0;
+    }
+
+    .markdown-section img.graiphic-param-detail-image {
+      display: block;
+      margin: 0 auto;
+      width: auto;
+      max-width: min(220px, 100%);
+      height: auto;
+    }
+
+    .markdown-section img.graiphic-content-illustration {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .markdown-section .graiphic-formula-block {
+      margin: 0 0 1rem;
+      padding: 0.95rem 1.1rem;
+      border: 1px solid var(--surface-border);
+      border-radius: 12px;
+      background: var(--panel-bg-soft);
+      color: var(--body-color);
+      font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 0.94rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      overflow-x: auto;
+    }
+
+    .markdown-section [data-render-target="github"] {
+      display: none !important;
+    }
+
+    .graiphic-video-embed {
+      width: 100%;
+      max-width: 520px;
+      margin: 1.25rem 0;
+    }
+
+    .graiphic-video-frame {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      overflow: hidden;
+      background: #0f172a;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px var(--surface-shadow);
+    }
+
+    .graiphic-video-frame iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .graiphic-video-caption {
+      margin: 0.7rem 0 0;
+      font-size: 0.95rem;
+      color: var(--muted-color);
+    }
+
+    .search {
+      order: 0;
+      padding: 1rem 1rem 0.35rem;
+      border-bottom: 0;
+    }
+
+    .search input {
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid var(--search-border);
+      padding: 0.75rem 0.9rem;
+      color: var(--body-color);
+      background: var(--search-bg);
+      box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
+    }
+
+    .search .results-panel {
+      display: none;
+      margin-top: 0.5rem;
+      border-radius: 12px;
+      border: 1px solid var(--surface-border);
+      box-shadow: 0 18px 48px var(--search-shadow);
+      overflow: hidden;
+      background: var(--panel-bg);
+    }
+
+    .search .results-panel.show {
+      display: block;
+    }
+
+    .search .input-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .search .clear-button {
+      display: none;
+      width: 28px;
+      height: 28px;
+      flex: 0 0 28px;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--muted-color);
+      cursor: pointer;
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+
+    .search .clear-button.show {
+      display: inline-flex;
+    }
+
+    .search .matching-post {
+      border-bottom: 1px solid var(--surface-border);
+    }
+
+    .search .matching-post:last-child {
+      border-bottom: 0;
+    }
+
+    .search .matching-post a {
+      display: block;
+      padding: 0.9rem 1rem;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .search .matching-post a:hover {
+      background: var(--surface-muted);
+    }
+
+    .search .matching-post h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
+      line-height: 1.35;
+      color: var(--heading-color);
+    }
+
+    .search .matching-post p {
+      margin: 0;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      color: var(--muted-color);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .search .search-keyword {
+      font-style: normal;
+      font-weight: 700;
+      color: var(--link-color);
+    }
+
+    .search p.empty {
+      margin: 0;
+      padding: 1rem;
+      text-align: center;
+      color: var(--muted-color);
+    }
+
+    .app-name {
+      order: 1;
+      margin: 0;
+      padding: 0.25rem 1rem 1rem;
+      color: var(--heading-color);
+      opacity: 1;
+    }
+
+    .app-name a {
+      color: var(--heading-color);
+      font-size: 1.18rem;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      opacity: 1;
+    }
+
+    .app-name a:hover {
+      color: var(--theme-color);
+    }
+
+    .sidebar-nav {
+      order: 2;
+      padding: 1rem 0 2rem;
+    }
+
+    .graiphic-home-hero {
+      margin: 0 0 2rem;
+      padding: 2rem 2.1rem;
+      border: 1px solid var(--hero-border);
+      border-radius: 30px;
+      background: var(--hero-bg);
+      box-shadow: 0 18px 50px var(--surface-shadow);
+    }
+
+    .graiphic-home-kicker {
+      margin: 0 0 1rem;
+      font-size: clamp(1.9rem, 3.4vw, 2.7rem);
+      font-weight: 650;
+      line-height: 1.14;
+      color: var(--heading-color);
+      letter-spacing: -0.03em;
+    }
+
+    .graiphic-home-kicker-line {
+      display: block;
+    }
+
+    .graiphic-home-kicker-line + .graiphic-home-kicker-line {
+      margin-top: 0.34em;
+    }
+
+    .graiphic-home-lead {
+      margin: 0 0 1.35rem;
+      max-width: 950px;
+      font-size: 1.08rem;
+      line-height: 1.7;
+      color: var(--body-color);
+    }
+
+    .graiphic-home-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 0 0 1.45rem;
+    }
+
+    .markdown-section .graiphic-home-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.62rem 1rem;
+      border-radius: 999px;
+      background: var(--chip-bg);
+      color: var(--chip-color);
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.08);
+    }
+
+    .graiphic-home-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      margin: 0 0 0.9rem;
+    }
+
+    .markdown-section a.graiphic-home-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 210px;
+      padding: 0.95rem 1.35rem;
+      border-radius: 999px;
+      border: 1px solid var(--button-border);
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.2;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .markdown-section a.graiphic-home-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px var(--surface-shadow);
+      text-decoration: none;
+    }
+
+    .markdown-section a.graiphic-home-button-primary {
+      background: var(--button-bg);
+      color: var(--button-color);
+    }
+
+    .markdown-section a.graiphic-home-button-secondary {
+      background: var(--surface-bg);
+      color: var(--button-color);
+    }
+
+    .graiphic-home-note {
+      margin: 0;
+      color: var(--muted-color);
+      font-size: 0.97rem;
+      line-height: 1.55;
+    }
+
+    .graiphic-home-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0 2rem;
+    }
+
+    .markdown-section a.graiphic-home-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      padding: 1.1rem 1rem;
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      background: var(--card-bg);
+      color: var(--heading-color);
+      text-decoration: none;
+      box-shadow: 0 8px 24px var(--card-shadow);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+
+    .markdown-section a.graiphic-home-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--button-border);
+      box-shadow: 0 16px 34px var(--surface-shadow);
+      text-decoration: none;
+    }
+
+    .graiphic-home-card-media {
+      display: flex;
+      align-items: center;
+      min-height: 66px;
+    }
+
+    .graiphic-home-card-media img {
+      width: auto !important;
+      max-width: min(180px, 100%) !important;
+      max-height: 62px;
+      object-fit: contain;
+    }
+
+    .graiphic-home-card-title {
+      font-size: 1.06rem;
+      font-weight: 750;
+      color: var(--heading-color);
+    }
+
+    .graiphic-home-card-copy {
+      color: var(--muted-color);
+      line-height: 1.55;
+      font-size: 0.95rem;
+    }
+
+    .sidebar-resize-handle {
+      position: absolute;
+      top: 0;
+      right: -4px;
+      bottom: 0;
+      width: 8px;
+      cursor: col-resize;
+      z-index: 30;
+      background: transparent;
+    }
+
+    .sidebar-resize-handle::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 3px;
+      width: 2px;
+      background: transparent;
+      transition: background-color 0.15s ease;
+    }
+
+    .sidebar-resize-handle:hover::after,
+    body.is-resizing-sidebar .sidebar-resize-handle::after {
+      background: var(--button-border);
+    }
+
+    .graiphic-nav {
+      font-size: 14px;
+    }
+
+    .graiphic-nav-section + .graiphic-nav-section {
+      margin-top: 0.55rem;
+    }
+
+    .graiphic-nav-section-title {
+      padding: 0.2rem 0.9rem 0.3rem;
+      color: var(--muted-color);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .graiphic-nav-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .graiphic-nav-children {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .graiphic-nav-item {
+      margin: 0;
+    }
+
+    .graiphic-nav-link,
+    .graiphic-nav-toggle {
+      display: flex;
+      width: 100%;
+      align-items: flex-start;
+      gap: 0.3rem;
+      min-height: 1.55rem;
+      padding-top: 0.16rem;
+      padding-bottom: 0.16rem;
+      border-left: 2px solid transparent;
+      text-decoration: none;
+      line-height: 1.25;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+
+    .graiphic-nav-link:hover,
+    .graiphic-nav-toggle:hover {
+      background: var(--nav-hover-bg);
+      text-decoration: none;
+    }
+
+    .graiphic-nav-toggle {
+      background: transparent;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 0;
+      font: inherit;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .graiphic-nav-toggle.is-category,
+    .graiphic-nav-link.is-category {
+      color: var(--theme-color);
+      font-weight: 500;
+    }
+
+    .graiphic-nav-link.is-page {
+      color: var(--body-color);
+      font-weight: 500;
+    }
+
+    .graiphic-nav-link.is-active,
+    .graiphic-nav-toggle.is-active {
+      color: var(--theme-color);
+      background: var(--nav-active-bg);
+      border-left-color: var(--theme-color);
+      font-weight: 700;
+    }
+
+    .graiphic-nav-chevron {
+      width: 1.08rem;
+      height: 1.08rem;
+      flex: 0 0 1.08rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted-color);
+      font-size: 0.84rem;
+      line-height: 1;
+    }
+
+    .graiphic-nav-chevron.is-plusminus {
+      align-self: center;
+      border: 1px solid #cbe7d5;
+      border-radius: 0.35rem;
+      background: #eefaf2;
+      color: #31423a;
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.05);
+      font-weight: 800;
+      transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .graiphic-nav-toggle:hover .graiphic-nav-chevron.is-plusminus {
+      border-color: #b7ddc5;
+      background: #d6f4df;
+      transform: translateY(-1px);
+    }
+
+    .graiphic-nav-toggle.is-active .graiphic-nav-chevron.is-plusminus {
+      color: #2c4638;
+      border-color: #9fd7b4;
+      background: #baf0c9;
+    }
+
+    html[data-theme="dark"] .graiphic-nav-chevron.is-plusminus {
+      border-color: #30363d;
+      background: #21262d;
+      color: #c9d1d9;
+      box-shadow: 0 1px 3px rgba(1, 4, 9, 0.24);
+    }
+
+    html[data-theme="dark"] .graiphic-nav-toggle:hover .graiphic-nav-chevron.is-plusminus,
+    html[data-theme="dark"] .graiphic-nav-toggle.is-active .graiphic-nav-chevron.is-plusminus {
+      border-color: #484f58;
+      background: #30363d;
+      color: #e6edf3;
+    }
+
+    html[data-theme="dark"] .graiphic-nav-link:hover,
+    html[data-theme="dark"] .graiphic-nav-toggle:hover {
+      background: rgba(33, 38, 45, 0.96);
+    }
+
+    html[data-theme="dark"] .graiphic-nav-link.is-active,
+    html[data-theme="dark"] .graiphic-nav-toggle.is-active {
+      background: rgba(56, 139, 253, 0.18);
+      border-left-color: #58a6ff;
+    }
+
+    .graiphic-nav-chevron.is-empty {
+      border-color: transparent;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .graiphic-nav-label {
+      flex: 1 1 auto;
+      min-width: 0;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+
+    .graiphic-nav-more-button {
+      width: 100%;
+      padding-top: 0.18rem;
+      padding-bottom: 0.18rem;
+      background: transparent;
+      border: 0;
+      color: var(--muted-color);
+      font: inherit;
+      font-size: 0.92em;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .graiphic-nav-more-button:hover {
+      color: var(--body-color);
+      background: var(--nav-hover-bg);
+    }
+
+    .app-nav {
+      width: fit-content;
+      max-width: calc(100% - var(--nav-safe-right));
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: 0;
+      background: transparent;
+    }
+
+    .app-nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.35rem;
+      width: auto;
+    }
+
+    .app-nav li {
+      margin: 0;
+    }
+
+    .app-nav a {
+      color: var(--muted-color);
+      font-size: 1.15rem;
+      font-weight: 550;
+      letter-spacing: -0.01em;
+    }
+
+    .app-nav a:hover,
+    .app-nav a.active {
+      color: var(--theme-color);
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 16px;
+      right: 74px;
+      z-index: 1002;
+      min-width: 78px;
+      padding: 0.55rem 0.85rem;
+      border: 1px solid var(--toggle-border);
+      border-radius: 999px;
+      background: var(--toggle-bg);
+      color: var(--body-color);
+      box-shadow: 0 12px 30px var(--toggle-shadow);
+      backdrop-filter: blur(10px);
+      font: inherit;
+      font-weight: 700;
+      line-height: 1;
+      cursor: pointer;
+      transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .theme-toggle:hover {
+      transform: translateY(-1px);
+      border-color: var(--button-border);
+      background: var(--button-bg-hover);
+    }
+
+    .theme-toggle:focus-visible {
+      outline: 2px solid var(--theme-color);
+      outline-offset: 2px;
+    }
+
+    .markdown-section blockquote {
+      background: var(--panel-bg-soft);
+      border-left: 4px solid var(--surface-border);
+      border-radius: 0 10px 10px 0;
+    }
+
+    .markdown-section code {
+      color: var(--code-theme-text);
+      background: var(--code-bg);
+    }
+
+    .markdown-section pre {
+      background: var(--panel-bg);
+      border: 1px solid var(--surface-border);
+      box-shadow: 0 10px 24px var(--surface-shadow);
+    }
+
+    .markdown-section pre > code {
+      background: transparent;
+    }
+
+    .markdown-section hr,
+    .markdown-section h1,
+    .markdown-section h2 {
+      border-color: var(--surface-border);
+    }
+
+    .sidebar-toggle {
+      background: var(--sidebar-bg);
+      border-top: 1px solid var(--sidebar-bg);
+      box-shadow: none;
+    }
+
+    body.close .sidebar-toggle {
+      background: var(--sidebar-bg);
+      border-top-color: var(--sidebar-bg);
+      box-shadow: none;
+    }
+
+    .cover-main > p:last-child a {
+      background: var(--theme-color);
+      border-color: var(--theme-color);
+    }
+
+    @media screen and (min-width: 769px) {
+      .app-nav {
+        padding: 0.3rem 1.25rem 0.35rem;
+        transform: translate(
+          calc(var(--nav-shift-left) * -1),
+          calc(var(--nav-shift-up) * -1)
+        );
+      }
+
+      .sidebar {
+        width: var(--sidebar-width);
+      }
+
+      .content {
+        left: var(--sidebar-width);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .app-nav {
+        position: static;
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        padding: 0.75rem 3.9rem 0.45rem 0.85rem;
+        transform: none;
+        text-align: left;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        background: color-mix(in srgb, var(--sidebar-bg) 92%, transparent);
+        border-bottom: 1px solid var(--sidebar-border-color);
+        backdrop-filter: blur(10px);
+      }
+
+      .app-nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.45rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      .app-nav li {
+        display: block;
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 0;
+      }
+
+      .app-nav a {
+        display: block;
+        padding: 0.38rem 0.7rem;
+        font-size: 0.92rem;
+        line-height: 1.2;
+        border: 1px solid var(--surface-border);
+        border-radius: 999px;
+        background: var(--surface-bg);
+      }
+
+      .app-nav a.active {
+        border-bottom: 1px solid var(--button-border);
+        background: var(--nav-active-bg);
+      }
+
+      .app-nav::-webkit-scrollbar {
+        height: 0;
+      }
+
+      .github-corner {
+        display: none;
+      }
+
+      .theme-toggle {
+        top: auto;
+        right: 14px;
+        bottom: 14px;
+      }
+
+      .content {
+        padding-top: 0;
+      }
+
+      .markdown-section {
+        max-width: 100%;
+        padding: 1.1rem 1rem 2.75rem;
+      }
+
+      .graiphic-home-hero {
+        padding: 1.5rem 1.2rem;
+        border-radius: 24px;
+      }
+
+      .graiphic-home-lead {
+        font-size: 1rem;
+      }
+
+      .markdown-section a.graiphic-home-button {
+        width: 100%;
+        min-width: 0;
+      }
+
+      .markdown-section h1 {
+        margin: 0 0 0.85rem;
+        font-size: clamp(1.9rem, 8vw, 2.35rem);
+        line-height: 1.05;
+        overflow-wrap: anywhere;
+      }
+
+      .markdown-section h2 {
+        margin: 1.8rem 0 0.7rem;
+        font-size: clamp(1.45rem, 6vw, 1.85rem);
+        line-height: 1.15;
+        overflow-wrap: anywhere;
+      }
+
+      .markdown-section h3 {
+        margin: 1.45rem 0 0.55rem;
+        font-size: clamp(1.2rem, 5vw, 1.5rem);
+        line-height: 1.18;
+        overflow-wrap: anywhere;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
+  <div id="app">Loading documentation...</div>
+  <script>
+    var themeStorageKey = "graiphic-theme";
+
+    function preferredTheme() {
+      try {
+        var storedTheme = window.localStorage.getItem(themeStorageKey);
+        if (storedTheme === "light" || storedTheme === "dark") {
+          return storedTheme;
+        }
+      } catch (error) {
+      }
+
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function applyTheme(theme) {
+      var nextTheme = theme === "dark" ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", nextTheme);
+
+      var toggleButton = document.getElementById("theme-toggle");
+      if (!toggleButton) {
+        return;
+      }
+
+      var isDark = nextTheme === "dark";
+      toggleButton.textContent = isDark ? "Light" : "Dark";
+      toggleButton.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+      toggleButton.setAttribute("title", isDark ? "Switch to light mode" : "Switch to dark mode");
+      toggleButton.setAttribute("aria-pressed", String(isDark));
+    }
+
+    function ensureThemeToggle() {
+      var toggleButton = document.getElementById("theme-toggle");
+      if (!toggleButton || toggleButton.dataset.bound === "true") {
+        applyTheme(preferredTheme());
+        return;
+      }
+
+      toggleButton.addEventListener("click", function () {
+        var currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+        var nextTheme = currentTheme === "dark" ? "light" : "dark";
+        try {
+          window.localStorage.setItem(themeStorageKey, nextTheme);
+        } catch (error) {
+        }
+        applyTheme(nextTheme);
+      });
+
+      toggleButton.dataset.bound = "true";
+      applyTheme(preferredTheme());
+    }
+
+    ensureThemeToggle();
+
+    function normalizeDocPath(path) {
+      var normalized = path || "/README.md";
+      normalized = normalized.split("?")[0].split("#")[0];
+
+      if (!normalized.startsWith("/")) {
+        normalized = "/" + normalized;
+      }
+
+      if (!/\.md$/i.test(normalized)) {
+        if (!normalized.endsWith("/")) {
+          normalized += "/";
+        }
+        normalized += "README.md";
+      }
+
+      return normalized.replace(/\/+/g, "/");
+    }
+
+    function currentFileFromRoute(vm) {
+      var current = vm.route && (vm.route.file || vm.route.path) ? (vm.route.file || vm.route.path) : "/README.md";
+      return normalizeDocPath(current);
+    }
+
+    function collectKnownDocPaths(navData) {
+      var knownDocPaths = {};
+
+      function rememberPath(path) {
+        if (!path) {
+          return;
+        }
+
+        knownDocPaths[normalizeDocPath(path)] = true;
+      }
+
+      function visitNodes(nodes) {
+        if (!Array.isArray(nodes)) {
+          return;
+        }
+
+        nodes.forEach(function (node) {
+          if (!node) {
+            return;
+          }
+
+          rememberPath(node.path);
+          visitNodes(node.children);
+        });
+      }
+
+      if (navData && Array.isArray(navData.searchPaths)) {
+        navData.searchPaths.forEach(rememberPath);
+      }
+
+      if (navData && Array.isArray(navData.sections)) {
+        navData.sections.forEach(function (section) {
+          visitNodes(section && section.children);
+        });
+      }
+
+      return knownDocPaths;
+    }
+
+    function hasKnownDocPaths(knownDocPaths) {
+      for (var path in knownDocPaths) {
+        if (Object.prototype.hasOwnProperty.call(knownDocPaths, path)) {
+          return true;
+        }
+      }
+
+      return false;
+    }
+
+    function extractSearchResultDocPath(rawHref) {
+      if (!rawHref) {
+        return null;
+      }
+
+      var candidate = String(rawHref).trim();
+
+      if (!candidate) {
+        return null;
+      }
+
+      if (/^(?:https?:)?\/\//i.test(candidate)) {
+        try {
+          var parsed = new URL(candidate, window.location.href);
+          if (parsed.origin !== window.location.origin) {
+            return null;
+          }
+
+          if (parsed.hash && /^#\//.test(parsed.hash)) {
+            candidate = parsed.hash.slice(1);
+          } else {
+            candidate = parsed.pathname + (parsed.search || "") + (parsed.hash || "");
+          }
+        } catch (error) {
+          return null;
+        }
+      } else if (candidate.indexOf("/#/") !== -1) {
+        candidate = candidate.slice(candidate.indexOf("/#/") + 2);
+      } else if (candidate.indexOf("#/") === 0) {
+        candidate = candidate.slice(1);
+      } else if (candidate.charAt(0) === "#") {
+        candidate = candidate.slice(1);
+      }
+
+      candidate = candidate.replace(/^\/?TestDocGraiphicV2(?=\/)/i, "");
+
+      var candidatePath = candidate.split("?")[0].split("#")[0];
+      if (!candidatePath || candidatePath === "/") {
+        return null;
+      }
+
+      if (candidate.charAt(0) !== "/") {
+        candidate = "/" + candidate;
+      }
+
+      return normalizeDocPath(candidate);
+    }
+
+    function shouldKeepSearchResultHref(rawHref, knownDocPaths) {
+      var docPath = extractSearchResultDocPath(rawHref);
+
+      if (!docPath) {
+        return true;
+      }
+
+      return !!(knownDocPaths && knownDocPaths[docPath]);
+    }
+
+    function applySidebarWidth(width) {
+      var clamped = Math.max(260, Math.min(680, Math.round(width)));
+      document.documentElement.style.setProperty("--sidebar-width", clamped + "px");
+      return clamped;
+    }
+
+    function loadSidebarWidth() {
+      try {
+        var stored = window.localStorage.getItem("graiphic-sidebar-width");
+        if (!stored) {
+          return applySidebarWidth(300);
+        }
+        return applySidebarWidth(parseInt(stored, 10));
+      } catch (error) {
+        return applySidebarWidth(300);
+      }
+    }
+
+    function saveSidebarWidth(width) {
+      try {
+        window.localStorage.setItem("graiphic-sidebar-width", String(width));
+      } catch (error) {
+        return;
+      }
+    }
+
+    function docsifyRouteForPath(path) {
+      return "#" + normalizeDocPath(path);
+    }
+
+    function docDirectoryPrefix(path) {
+      return normalizeDocPath(path).replace(/README\.md$/i, "");
+    }
+
+    function isBranchOpen(path, currentFile) {
+      var normalizedPath = normalizeDocPath(path);
+      if (normalizedPath === currentFile) {
+        return true;
+      }
+      return currentFile.startsWith(docDirectoryPrefix(path));
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function resolveLocalDocLink(rawHref, currentFile) {
+      if (!rawHref) {
+        return null;
+      }
+
+      if (
+        rawHref.startsWith("#") ||
+        rawHref.startsWith("mailto:") ||
+        rawHref.startsWith("tel:") ||
+        /^(?:[a-z]+:)?\/\//i.test(rawHref)
+      ) {
+        return null;
+      }
+
+      var parts = rawHref.split("#", 2);
+      var pathPart = parts[0];
+      var anchorPart = parts.length > 1 ? parts[1] : "";
+
+      if (!pathPart) {
+        return null;
+      }
+
+      if (/\.(png|svg|jpe?g|gif|webp|avif)$/i.test(pathPart)) {
+        return null;
+      }
+
+      if (!/\.md$/i.test(pathPart)) {
+        if (/\/$/.test(pathPart)) {
+          pathPart += "README.md";
+        } else if (!/\.[a-z0-9]+$/i.test(pathPart)) {
+          pathPart += "/README.md";
+        } else {
+          return null;
+        }
+      }
+
+      var currentDir = currentFile.replace(/[^/]*$/, "");
+      var resolved = new URL(pathPart, "https://graiphic.local" + currentDir).pathname.replace(/\/+/g, "/");
+      var docsifyHref = "#" + resolved;
+      if (anchorPart) {
+        docsifyHref += "?id=" + encodeURIComponent(anchorPart);
+      }
+      return docsifyHref;
+    }
+
+    function resolveLocalAssetUrl(rawUrl, currentFile) {
+      if (!rawUrl) {
+        return null;
+      }
+
+      if (
+        rawUrl.startsWith("#") ||
+        rawUrl.startsWith("data:") ||
+        rawUrl.startsWith("blob:") ||
+        /^(?:[a-z]+:)?\/\//i.test(rawUrl)
+      ) {
+        return null;
+      }
+
+      var currentDir = currentFile.replace(/[^/]*$/, "");
+      var resolvedPath = new URL(rawUrl, "https://graiphic.local" + currentDir).pathname.replace(/\/+/g, "/");
+      return new URL(resolvedPath.replace(/^\//, ""), window.location.href.split("#")[0]).href;
+    }
+
+    function parseYouTubeVideo(rawUrl) {
+      if (!rawUrl || !/^(?:https?:)?\/\//i.test(rawUrl)) {
+        return null;
+      }
+
+      try {
+        var parsed = new URL(rawUrl, window.location.href);
+        var host = parsed.hostname.replace(/^www\./i, "").toLowerCase();
+        var segments = parsed.pathname.split("/").filter(Boolean);
+        var videoId = "";
+
+        if (host === "youtu.be") {
+          videoId = segments[0] || "";
+        } else if (host === "youtube.com" || host === "m.youtube.com" || host === "youtube-nocookie.com") {
+          if (segments[0] === "watch") {
+            videoId = parsed.searchParams.get("v") || "";
+          } else if (segments[0] === "embed" || segments[0] === "shorts" || segments[0] === "live") {
+            videoId = segments[1] || "";
+          }
+        }
+
+        if (!videoId) {
+          return null;
+        }
+
+        return {
+          videoId: videoId,
+          embedUrl: "https://www.youtube.com/embed/" + encodeURIComponent(videoId),
+          watchUrl: "https://www.youtube.com/watch?v=" + encodeURIComponent(videoId)
+        };
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function isStandaloneVideoParagraph(anchor) {
+      if (!anchor || !anchor.parentElement || anchor.parentElement.tagName !== "P") {
+        return false;
+      }
+
+      return Array.prototype.every.call(anchor.parentElement.childNodes, function (node) {
+        return node === anchor || (node.nodeType === Node.TEXT_NODE && !node.textContent.trim());
+      });
+    }
+
+    function buildYouTubeEmbed(videoInfo, label) {
+      var wrapper = document.createElement("div");
+      wrapper.className = "graiphic-video-embed";
+
+      var frame = document.createElement("div");
+      frame.className = "graiphic-video-frame";
+
+      var iframe = document.createElement("iframe");
+      iframe.src = videoInfo.embedUrl;
+      iframe.title = label || "Embedded YouTube video";
+      iframe.loading = "lazy";
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      frame.appendChild(iframe);
+
+      var caption = document.createElement("p");
+      caption.className = "graiphic-video-caption";
+
+      var link = document.createElement("a");
+      link.href = videoInfo.watchUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = label || "Watch on YouTube";
+      caption.appendChild(link);
+
+      wrapper.appendChild(frame);
+      wrapper.appendChild(caption);
+      return wrapper;
+    }
+
+    function enhanceRenderedYouTubeLinks(root) {
+      if (!root) {
+        return;
+      }
+
+      root.querySelectorAll("a[href]").forEach(function (anchor) {
+        if (anchor.closest(".graiphic-video-embed")) {
+          return;
+        }
+
+        var videoInfo = parseYouTubeVideo(anchor.getAttribute("href"));
+        if (!videoInfo) {
+          return;
+        }
+
+        anchor.setAttribute("href", videoInfo.watchUrl);
+        anchor.setAttribute("target", "_blank");
+        anchor.setAttribute("rel", "noopener noreferrer");
+
+        if (!isStandaloneVideoParagraph(anchor)) {
+          return;
+        }
+
+        var paragraph = anchor.parentElement;
+        var replacement = buildYouTubeEmbed(videoInfo, anchor.textContent.trim());
+        paragraph.replaceWith(replacement);
+      });
+    }
+
+    function getParameterImageKind(img) {
+      if (!img || !(img instanceof HTMLImageElement)) {
+        return null;
+      }
+
+      var iconCell = img.closest('td[width="64"]');
+      if (iconCell) {
+        return "icon";
+      }
+
+      var detailCell = img.closest('td[width="30%"], td[width="25%"], td[width="35%"]');
+      if (detailCell) {
+        return "detail";
+      }
+
+      return null;
+    }
+
+    function computeReadableImageWidth(img, kind) {
+      var naturalWidth = img.naturalWidth || parseInt(img.getAttribute("width"), 10) || img.width || 0;
+
+      if (!naturalWidth) {
+        return null;
+      }
+
+      if (kind === "icon") {
+        return Math.min(56, Math.max(42, Math.round(naturalWidth * 1.35)));
+      }
+
+      if (kind === "detail") {
+        return Math.min(220, naturalWidth);
+      }
+
+      return null;
+    }
+
+    function applyParameterImageSizing(img) {
+      var kind = getParameterImageKind(img);
+      if (!kind) {
+        return;
+      }
+
+      var targetWidth = computeReadableImageWidth(img, kind);
+      if (!targetWidth) {
+        return;
+      }
+
+      img.dataset.graiphicImageEnhanced = kind;
+      img.classList.add(kind === "icon" ? "graiphic-param-icon" : "graiphic-param-detail-image");
+      img.style.width = String(targetWidth) + "px";
+      img.style.height = "auto";
+      img.style.maxWidth = "100%";
+    }
+
+    function enhanceParameterImages(root) {
+      if (!root) {
+        return;
+      }
+
+      root.querySelectorAll("img").forEach(function (img) {
+        if (img.dataset.graiphicImageEnhanced) {
+          return;
+        }
+
+        var onReady = function () {
+          applyParameterImageSizing(img);
+        };
+
+        if (img.complete) {
+          onReady();
+          return;
+        }
+
+        img.addEventListener("load", onReady, { once: true });
+      });
+    }
+
+    function normalizeHeadingLabel(text) {
+      return (text || "")
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, " ");
+    }
+
+    function normalizeFormulaTokenText(text) {
+      return String(text || "")
+        .replace(/\u00a0/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function isBrokenFormulaParagraph(paragraph) {
+      if (!paragraph || paragraph.tagName !== "P" || paragraph.querySelector("img, table, iframe, video")) {
+        return false;
+      }
+
+      var text = normalizeFormulaTokenText(paragraph.textContent);
+      return text.length > 0 && text.length <= 24;
+    }
+
+    function isFormulaishToken(text) {
+      return (
+        /[\[\]\(\)=+\-*\/<>]/.test(text) ||
+        /^(?:or|where:?|VALID|SAME_UPPER|SAME_LOWER|Softmax|Log|floor|ceil|Min|Max|round_int|weights|labels|scores|loss|target|ignore_index|pad_shape|kernel_shape|kernel_spatial_shape|input_spatial_shape|output_spatial_shape|strides_spatial_shape|dilation|dilations|p|y|c|x|x_original|x_resized)$/i.test(text)
+      );
+    }
+
+    function normalizeFormulaLineSpacing(text) {
+      return String(text || "")
+        .replace(/\s+\]/g, "]")
+        .replace(/\[\s+/g, "[")
+        .replace(/\s+\)/g, ")")
+        .replace(/\(\s+/g, "(")
+        .replace(/\s+,/g, ",")
+        .replace(/\s+\./g, ".")
+        .replace(/\s+:/g, ":")
+        .replace(/\s{2,}/g, " ")
+        .trim();
+    }
+
+    function appendFormulaToken(line, token) {
+      if (!line) {
+        return token;
+      }
+
+      if (/^(?:=|\+|-|\*|\/|<=|>=|<|>)$/.test(token)) {
+        return line.replace(/\s+$/g, "") + " " + token + " ";
+      }
+
+      if (/^(?:\[|\(|\]\[)$/.test(token)) {
+        return line + token;
+      }
+
+      if (/^(?:\]|\)|,|:|;|\.|\.\.|\.\.\.)$/.test(token)) {
+        return line.replace(/\s+$/g, "") + token;
+      }
+
+      if (/\[$|\($|\]\[$/.test(line)) {
+        return line + token;
+      }
+
+      return line + " " + token;
+    }
+
+    function shouldStartNewFormulaLine(token, nextToken, currentLine) {
+      var trimmedLine = normalizeFormulaLineSpacing(currentLine);
+      if (!trimmedLine) {
+        return false;
+      }
+
+      if (token === "or" || token === "where:" || /^(?:VALID|SAME_UPPER|SAME_LOWER)$/i.test(token)) {
+        return true;
+      }
+
+      if (/^[A-Za-z_][A-Za-z0-9_]*$/.test(token) && nextToken === "=" && !/[\[\(]$/.test(trimmedLine)) {
+        return true;
+      }
+
+      return false;
+    }
+
+    function buildBrokenFormulaBlockText(paragraphs) {
+      var tokens = paragraphs
+        .map(function (paragraph) {
+          return normalizeFormulaTokenText(paragraph.textContent);
+        })
+        .filter(Boolean);
+
+      var lines = [];
+      var currentLine = "";
+
+      tokens.forEach(function (token, index) {
+        var nextToken = index + 1 < tokens.length ? tokens[index + 1] : "";
+
+        if (shouldStartNewFormulaLine(token, nextToken, currentLine)) {
+          lines.push(normalizeFormulaLineSpacing(currentLine));
+          currentLine = "";
+        }
+
+        currentLine = appendFormulaToken(currentLine, token);
+
+        var normalizedLine = normalizeFormulaLineSpacing(currentLine);
+        if (normalizedLine === "where:" || /^(?:VALID|SAME_UPPER|SAME_LOWER):$/i.test(normalizedLine)) {
+          lines.push(normalizedLine);
+          currentLine = "";
+        }
+      });
+
+      if (normalizeFormulaLineSpacing(currentLine)) {
+        lines.push(normalizeFormulaLineSpacing(currentLine));
+      }
+
+      return lines.filter(Boolean).join("\n");
+    }
+
+    function enhanceBrokenFormulaBlocks(root) {
+      if (!root) {
+        return;
+      }
+
+      var parents = [root].concat(Array.prototype.slice.call(root.querySelectorAll("*")));
+      parents.forEach(function (parent) {
+        var node = parent.firstElementChild;
+        while (node) {
+          if (!isBrokenFormulaParagraph(node)) {
+            node = node.nextElementSibling;
+            continue;
+          }
+
+          var run = [];
+          var cursor = node;
+          while (cursor && isBrokenFormulaParagraph(cursor)) {
+            run.push(cursor);
+            cursor = cursor.nextElementSibling;
+          }
+
+          var tokenCount = run.length;
+          var formulaishCount = run.filter(function (paragraph) {
+            return isFormulaishToken(normalizeFormulaTokenText(paragraph.textContent));
+          }).length;
+
+          if (tokenCount >= 6 && formulaishCount >= 3) {
+            var block = document.createElement("pre");
+            block.className = "graiphic-formula-block";
+            block.textContent = buildBrokenFormulaBlockText(run);
+            parent.insertBefore(block, run[0]);
+            run.forEach(function (paragraph) {
+              paragraph.remove();
+            });
+            node = block.nextElementSibling;
+            continue;
+          }
+
+          node = cursor;
+        }
+      });
+    }
+
+    function closestSectionHeading(root, element, selector) {
+      if (!root || !element) {
+        return null;
+      }
+
+      var match = null;
+      root.querySelectorAll(selector).forEach(function (heading) {
+        if (heading === element) {
+          return;
+        }
+
+        var relation = heading.compareDocumentPosition(element);
+        if (relation & Node.DOCUMENT_POSITION_FOLLOWING) {
+          match = heading;
+        }
+      });
+
+      return match;
+    }
+
+    function closestExampleSectionHeading(root, element) {
+      var sectionHeading = closestSectionHeading(root, element, "h2");
+      if (!sectionHeading) {
+        return null;
+      }
+
+      var label = normalizeHeadingLabel(sectionHeading.textContent);
+      return (label === "example" || label === "examples" || label === "exemple" || label === "exemples")
+        ? sectionHeading
+        : null;
+    }
+
+    function isExampleHeadingLabel(label) {
+      return label === "example" || label === "examples" || label === "exemple" || label === "exemples";
+    }
+
+    function isHeadingElement(node) {
+      return !!(node && node.nodeType === Node.ELEMENT_NODE && /^H[1-6]$/.test(node.tagName));
+    }
+
+    function headingLevel(node) {
+      return isHeadingElement(node) ? Number(node.tagName.slice(1)) : 0;
+    }
+
+    function normalizeLooseText(text) {
+      var value = String(text || "").replace(/\u00a0/g, " ");
+      if (typeof value.normalize === "function") {
+        value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      }
+      return value.toLowerCase().replace(/\s+/g, " ").trim();
+    }
+
+    function isExampleBoilerplateParagraph(node) {
+      if (!node || node.tagName !== "P" || node.querySelector("img, table, iframe, video")) {
+        return false;
+      }
+
+      var text = normalizeLooseText(node.textContent);
+      return (
+        /^all these exemple?s? are snippets png\b/.test(text) &&
+        text.indexOf("drop these snippet onto the block diagram") >= 0 &&
+        text.indexOf("depicted code added to your vi") >= 0
+      );
+    }
+
+    function hasMeaningfulExampleContent(node) {
+      if (!node) {
+        return false;
+      }
+
+      if (isHeadingElement(node)) {
+        return true;
+      }
+
+      if (node.matches("table, ul, ol, pre, blockquote, figure, hr")) {
+        return true;
+      }
+
+      if (node.matches("p, div")) {
+        if (node.querySelector("img, table, iframe, video, ul, ol, pre, blockquote, figure")) {
+          return true;
+        }
+        return normalizeLooseText(node.textContent).length > 0;
+      }
+
+      return normalizeLooseText(node.textContent).length > 0 || node.children.length > 0;
+    }
+
+    function pruneEmptyExampleSections(root) {
+      if (!root) {
+        return;
+      }
+
+      Array.prototype.slice.call(root.querySelectorAll("h1, h2, h3, h4, h5, h6")).forEach(function (heading) {
+        if (!root.contains(heading) || !isExampleHeadingLabel(normalizeHeadingLabel(heading.textContent))) {
+          return;
+        }
+
+        var level = headingLevel(heading);
+        var sectionNodes = [];
+        var sibling = heading.nextElementSibling;
+        while (sibling) {
+          if (isHeadingElement(sibling) && headingLevel(sibling) <= level) {
+            break;
+          }
+          sectionNodes.push(sibling);
+          sibling = sibling.nextElementSibling;
+        }
+
+        var meaningfulNodes = sectionNodes.filter(hasMeaningfulExampleContent);
+        if (!meaningfulNodes.length) {
+          heading.remove();
+          sectionNodes.forEach(function (node) {
+            node.remove();
+          });
+          return;
+        }
+
+        var remainingContent = meaningfulNodes.filter(function (node) {
+          return !isExampleBoilerplateParagraph(node);
+        });
+
+        if (!remainingContent.length) {
+          heading.remove();
+          sectionNodes.forEach(function (node) {
+            node.remove();
+          });
+        }
+      });
+    }
+
+    function currentRenderedDocPath() {
+      var hash = window.location.hash || "#/README.md";
+      var route = hash.charAt(0) === "#" ? hash.slice(1) : hash;
+      if (route.indexOf("?id=") === 0) {
+        route = decodeURIComponent(route.slice(4));
+      }
+      return normalizeDocPath(route || "/README.md");
+    }
+
+    function isToolkitIntroductionPath(path) {
+      var normalized = normalizeDocPath(path || "");
+      return (
+        normalized.indexOf("/introduction/") >= 0 ||
+        normalized.indexOf("/introduction-sota/") >= 0
+      );
+    }
+
+    function isExcludedStandaloneIllustrationContext(img) {
+      return !!(
+        img &&
+        img.closest(
+          ".graiphic-home-grid, .graiphic-home-card, .graiphic-home-card-media, .graiphic-home-hero, .go-pages-link, .graiphic-video-embed"
+        )
+      );
+    }
+
+    function isStandaloneIllustrationImage(img) {
+      if (!img || img.closest("table") || isExcludedStandaloneIllustrationContext(img)) {
+        return false;
+      }
+
+      var wrapper = img.parentElement;
+      if (!wrapper || (wrapper.tagName !== "P" && wrapper.tagName !== "DIV")) {
+        return false;
+      }
+
+      var meaningfulChildren = Array.prototype.filter.call(wrapper.childNodes, function (node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          return node.textContent.trim().length > 0;
+        }
+
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          return node.tagName !== "BR";
+        }
+
+        return false;
+      });
+
+      return meaningfulChildren.length === 1 && meaningfulChildren[0] === img;
+    }
+
+    function getStandaloneIllustrationMode(root, img) {
+      if (!isStandaloneIllustrationImage(img) || img.classList.contains("graiphic-param-icon") || img.classList.contains("graiphic-param-detail-image")) {
+        return null;
+      }
+
+      var nearestHeading = closestSectionHeading(root, img, "h1, h2, h3, h4");
+      if (!nearestHeading) {
+        return null;
+      }
+
+      if ((nearestHeading.tagName === "H2" || nearestHeading.tagName === "H3" || nearestHeading.tagName === "H4") && closestExampleSectionHeading(root, img)) {
+        return "example";
+      }
+
+      if (nearestHeading.tagName === "H1" && isToolkitIntroductionPath(currentRenderedDocPath())) {
+        return "introduction-logo";
+      }
+
+      if (currentRenderedDocPath().indexOf("/hardware-compatibility/") >= 0) {
+        return "hardware-compatibility";
+      }
+
+      return "standalone";
+    }
+
+    function computeStandaloneIllustrationWidth(img, mode) {
+      var naturalWidth = img.naturalWidth || parseInt(img.getAttribute("width"), 10) || img.width || 0;
+      var naturalHeight = img.naturalHeight || parseInt(img.getAttribute("height"), 10) || img.height || 0;
+      var ratio = naturalHeight ? naturalWidth / naturalHeight : 1;
+
+      if (!naturalWidth) {
+        return null;
+      }
+
+      if (mode === "example") {
+        if (naturalWidth >= 1200 || naturalHeight >= 360) {
+          return 640;
+        }
+
+        if (naturalWidth >= 800 || naturalHeight >= 240) {
+          return 560;
+        }
+
+        return Math.min(640, Math.max(360, naturalWidth));
+      }
+
+      if (mode === "hardware-compatibility") {
+        return Math.min(960, Math.max(820, naturalWidth || 0));
+      }
+
+      if (mode === "introduction-logo") {
+        if (ratio >= 1.8) {
+          return Math.min(240, Math.max(200, naturalWidth));
+        }
+
+        return Math.min(180, Math.max(160, naturalWidth));
+      }
+
+      if (naturalHeight <= 90 || ratio >= 3.6) {
+        return Math.min(360, Math.max(240, naturalWidth));
+      }
+
+      if (naturalWidth >= 1200 || naturalHeight >= 320) {
+        return 520;
+      }
+
+      if (naturalWidth >= 800 || naturalHeight >= 220 || ratio >= 2.2) {
+        return 460;
+      }
+
+      if (naturalWidth >= 420) {
+        return 380;
+      }
+
+      return Math.min(360, Math.max(240, naturalWidth));
+    }
+
+    function applyStandaloneIllustrationSizing(img, mode) {
+      var targetWidth = computeStandaloneIllustrationWidth(img, mode);
+      if (!targetWidth) {
+        return;
+      }
+
+      img.dataset.graiphicContentIllustrationEnhanced = mode;
+      img.classList.add("graiphic-content-illustration");
+      img.style.width = String(targetWidth) + "px";
+      img.style.height = "auto";
+      img.style.maxWidth = "100%";
+    }
+
+    function enhanceContentIllustrationImages(root) {
+      if (!root) {
+        return;
+      }
+
+      root.querySelectorAll("img").forEach(function (img) {
+        var mode = getStandaloneIllustrationMode(root, img);
+        if (!mode) {
+          return;
+        }
+
+        applyStandaloneIllustrationSizing(img, mode);
+
+        if (!img.dataset.graiphicContentIllustrationBound) {
+          img.dataset.graiphicContentIllustrationBound = "1";
+          img.addEventListener("load", function () {
+            applyStandaloneIllustrationSizing(img, mode);
+          });
+        }
+      });
+    }
+
+    function isHiddenPublishedDocPath(path) {
+      var normalized = normalizeDocPath(path || "");
+      return (
+        normalized === "/_resolved/README.md" ||
+        normalized === "/_unmigrated/README.md" ||
+        normalized.indexOf("/_resolved/") === 0 ||
+        normalized.indexOf("/_unmigrated/") === 0
+      );
+    }
+
+    function sanitizePublishedNavSections(sections) {
+      return (sections || [])
+        .map(function (section) {
+          if (!section) {
+            return null;
+          }
+
+          var children = (section.children || []).filter(function (child) {
+            return child && !isHiddenPublishedDocPath(child.path);
+          });
+
+          if (!children.length) {
+            return null;
+          }
+
+          return {
+            title: section.title,
+            children: children
+          };
+        })
+        .filter(Boolean);
+    }
+
+    function sanitizePublishedNavigation(navData) {
+      return {
+        sections: sanitizePublishedNavSections(navData && navData.sections),
+        searchPaths: Array.isArray(navData && navData.searchPaths)
+          ? navData.searchPaths.filter(function (path) { return !isHiddenPublishedDocPath(path); })
+          : "auto"
+      };
+    }
+
+    function sanitizePublishedSearchIndex(searchData) {
+      if (!searchData || !Array.isArray(searchData.items)) {
+        return { items: [] };
+      }
+
+      return {
+        items: searchData.items.filter(function (entry) {
+          return entry && !isHiddenPublishedDocPath(entry.path);
+        })
+      };
+    }
+
+    function ensureSearchUi() {
+      var sidebar = document.querySelector(".sidebar");
+      if (!sidebar) {
+        return null;
+      }
+
+      var search = sidebar.querySelector(".search");
+      if (!search) {
+        search = document.createElement("div");
+        search.className = "search";
+        search.innerHTML =
+          '<div class="input-wrap">' +
+            '<input type="search" value="" aria-label="Search text" placeholder="Search in the documentation" />' +
+            '<button class="clear-button" type="button" aria-label="Clear search">×</button>' +
+          '</div>' +
+          '<div class="results-panel"></div>';
+      }
+
+      var appName = sidebar.querySelector(".app-name");
+      if (appName) {
+        if (search.previousElementSibling !== null || sidebar.firstElementChild !== search || search.nextElementSibling !== appName) {
+          sidebar.insertBefore(search, appName);
+        }
+      } else if (sidebar.firstElementChild !== search) {
+        sidebar.insertBefore(search, sidebar.firstElementChild);
+      }
+
+      return search;
+    }
+
+    function placeSidebarSearch() {
+      var searchRoot = ensureSearchUi();
+      if (!searchRoot) {
+        return;
+      }
+
+      bindClientSearch(searchRoot);
+      renderClientSearchResults(window.__GRAIPHIC_SEARCH_QUERY__ || "");
+    }
+
+    function normalizeSearchText(text) {
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function tokenizeSearchQuery(query) {
+      return normalizeSearchText(query)
+        .split(/[\s\-_/]+/)
+        .filter(Boolean);
+    }
+
+    function escapeRegExp(text) {
+      return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function highlightSearchTerms(text, terms) {
+      var output = escapeHtml(text || "");
+      terms.forEach(function (term) {
+        if (!term) {
+          return;
+        }
+
+        output = output.replace(new RegExp("(" + escapeRegExp(term) + ")", "ig"), '<em class="search-keyword">$1</em>');
+      });
+      return output;
+    }
+
+    function buildSearchHaystack(entry) {
+      return normalizeSearchText([
+        entry.title || "",
+        entry.keywords || "",
+        entry.path || "",
+        entry.content || ""
+      ].join(" "));
+    }
+
+    function buildSearchExcerpt(entry, terms) {
+      var content = (entry.content || "").trim();
+      if (!content) {
+        return "";
+      }
+
+      var normalizedContent = normalizeSearchText(content);
+      var firstIndex = -1;
+
+      terms.forEach(function (term) {
+        if (!term) {
+          return;
+        }
+
+        var index = normalizedContent.indexOf(term);
+        if (index >= 0 && (firstIndex === -1 || index < firstIndex)) {
+          firstIndex = index;
+        }
+      });
+
+      if (firstIndex < 0) {
+        return content.slice(0, 180);
+      }
+
+      var start = Math.max(0, firstIndex - 60);
+      var end = Math.min(content.length, start + 180);
+      return (start > 0 ? "..." : "") + content.slice(start, end) + (end < content.length ? "..." : "");
+    }
+
+    function scoreSearchEntry(entry, normalizedQuery, terms) {
+      var title = normalizeSearchText(entry.title || "");
+      var keywords = normalizeSearchText(entry.keywords || "");
+      var path = normalizeSearchText(entry.path || "");
+      var compactHaystack;
+      var compactQuery = normalizedQuery.replace(/[^a-z0-9]/g, "");
+      var compactTitle = title.replace(/[^a-z0-9]/g, "");
+      var compactKeywords = keywords.replace(/[^a-z0-9]/g, "");
+      var compactPath = path.replace(/[^a-z0-9]/g, "");
+      var haystack = buildSearchHaystack(entry);
+
+      if (!terms.length) {
+        return 0;
+      }
+
+      var allTermsPresent = terms.every(function (term) {
+        return haystack.indexOf(term) >= 0;
+      });
+      compactHaystack = haystack.replace(/[^a-z0-9]/g, "");
+      var compactTermsPresent = terms.every(function (term) {
+        var compactTerm = String(term || "").replace(/[^a-z0-9]/g, "");
+        return compactTerm && compactHaystack.indexOf(compactTerm) >= 0;
+      });
+
+      if (
+        !allTermsPresent &&
+        !compactTermsPresent &&
+        !(normalizedQuery && haystack.indexOf(normalizedQuery) >= 0) &&
+        !(compactQuery && compactHaystack.indexOf(compactQuery) >= 0)
+      ) {
+        return 0;
+      }
+
+      var score = 0;
+
+      if (title === normalizedQuery) {
+        score += 220;
+      } else if (title.indexOf(normalizedQuery) === 0) {
+        score += 180;
+        score += Math.max(0, 30 - Math.max(0, title.length - normalizedQuery.length));
+      } else if (title.indexOf(normalizedQuery) >= 0) {
+        score += 140;
+      }
+
+      if (keywords.indexOf(normalizedQuery) >= 0) {
+        score += 90;
+      }
+
+      if (path.indexOf(normalizedQuery) >= 0) {
+        score += 70;
+      }
+
+      if (compactQuery && compactKeywords.indexOf(compactQuery) >= 0) {
+        score += 50;
+      }
+
+      if (compactQuery && compactPath.indexOf(compactQuery) >= 0) {
+        score += 40;
+      }
+
+      if (compactQuery && compactTitle.indexOf(compactQuery) >= 0) {
+        score += 20;
+      }
+
+      var pathDepth = (entry.path || "").split("/").filter(Boolean).length;
+      score += Math.max(0, 42 - pathDepth * 4);
+
+      terms.forEach(function (term) {
+        if (title.indexOf(term) >= 0) {
+          score += 35;
+        } else if (keywords.indexOf(term) >= 0) {
+          score += 22;
+        } else if (path.indexOf(term) >= 0) {
+          score += 18;
+        } else if (haystack.indexOf(term) >= 0) {
+          score += 8;
+        }
+      });
+
+      return score;
+    }
+
+    function fallbackSearchEntry(entry, normalizedQuery, terms) {
+      var haystack = buildSearchHaystack(entry);
+      var compactHaystack = haystack.replace(/[^a-z0-9]/g, "");
+      var compactQuery = normalizedQuery.replace(/[^a-z0-9]/g, "");
+      var title = normalizeSearchText(entry.title || "");
+      var compactTitle = title.replace(/[^a-z0-9]/g, "");
+
+      if (
+        normalizedQuery &&
+        (
+          title.indexOf(normalizedQuery) >= 0 ||
+          haystack.indexOf(normalizedQuery) >= 0 ||
+          (compactQuery && (compactTitle.indexOf(compactQuery) >= 0 || compactHaystack.indexOf(compactQuery) >= 0))
+        )
+      ) {
+        return true;
+      }
+
+      return terms.every(function (term) {
+        var compactTerm = String(term || "").replace(/[^a-z0-9]/g, "");
+        return haystack.indexOf(term) >= 0 || (compactTerm && compactHaystack.indexOf(compactTerm) >= 0);
+      });
+    }
+
+    function docsifyRouteForSearchResult(path) {
+      return docsifyRouteForPath(path || "/README.md");
+    }
+
+    function runClientSearch(query) {
+      var normalizedQuery = normalizeSearchText(query);
+      var terms = tokenizeSearchQuery(query);
+      var searchIndex = window.__GRAIPHIC_SEARCH_INDEX__ || [];
+      if (!normalizedQuery || !terms.length) {
+        return [];
+      }
+
+      var rankedResults = searchIndex
+        .map(function (entry) {
+          return {
+            entry: entry,
+            score: scoreSearchEntry(entry, normalizedQuery, terms)
+          };
+        })
+        .filter(function (result) {
+          return result.score > 0;
+        })
+        .sort(function (left, right) {
+          if (right.score !== left.score) {
+            return right.score - left.score;
+          }
+          var leftTitle = String(left.entry.title || "");
+          var rightTitle = String(right.entry.title || "");
+          if (leftTitle.length !== rightTitle.length) {
+            return leftTitle.length - rightTitle.length;
+          }
+          return leftTitle.localeCompare(rightTitle);
+        })
+        .slice(0, 12)
+        .map(function (result) {
+          return result.entry;
+        });
+
+      if (rankedResults.length) {
+        return rankedResults;
+      }
+
+      return searchIndex
+        .filter(function (entry) {
+          return fallbackSearchEntry(entry, normalizedQuery, terms);
+        })
+        .sort(function (left, right) {
+          var leftTitle = String(left.title || "");
+          var rightTitle = String(right.title || "");
+          if (leftTitle.length !== rightTitle.length) {
+            return leftTitle.length - rightTitle.length;
+          }
+          return leftTitle.localeCompare(rightTitle);
+        })
+        .slice(0, 12);
+    }
+
+    function renderClientSearchResults(query) {
+      var searchRoot = ensureSearchUi();
+      if (!searchRoot) {
+        return;
+      }
+
+      var resultsPanel = searchRoot.querySelector(".results-panel");
+      var clearButton = searchRoot.querySelector(".clear-button");
+      var input = searchRoot.querySelector('input[type="search"]');
+
+      window.__GRAIPHIC_SEARCH_QUERY__ = query || "";
+
+      if (input && input.value !== window.__GRAIPHIC_SEARCH_QUERY__) {
+        input.value = window.__GRAIPHIC_SEARCH_QUERY__;
+      }
+
+      if (!resultsPanel || !clearButton) {
+        return;
+      }
+
+      if (!query || !query.trim()) {
+        resultsPanel.classList.remove("show");
+        resultsPanel.innerHTML = "";
+        clearButton.classList.remove("show");
+        return;
+      }
+
+      clearButton.classList.add("show");
+
+      var terms = tokenizeSearchQuery(query);
+      var results = runClientSearch(query);
+
+      if (!results.length) {
+        resultsPanel.classList.add("show");
+        resultsPanel.innerHTML = '<p class="empty">No matching page found</p>';
+        return;
+      }
+
+      resultsPanel.classList.add("show");
+      resultsPanel.innerHTML = results.map(function (entry) {
+        return (
+          '<div class="matching-post">' +
+            '<a href="' + docsifyRouteForSearchResult(entry.path) + '">' +
+              '<h2>' + highlightSearchTerms(entry.title || "", terms) + '</h2>' +
+              '<p>' + highlightSearchTerms(buildSearchExcerpt(entry, terms), terms) + '</p>' +
+            '</a>' +
+          '</div>'
+        );
+      }).join("");
+    }
+
+    function buildFallbackSearchIndex(navData) {
+      var items = [];
+      var seen = {};
+
+      function addItem(title, path) {
+        var normalizedPath = normalizeDocPath(path || "/README.md");
+        if (seen[normalizedPath]) {
+          return;
+        }
+
+        seen[normalizedPath] = true;
+        items.push({
+          title: title || normalizedPath.replace(/^\//, ""),
+          path: normalizedPath,
+          keywords: normalizedPath.replace(/^\//, "").replace(/\/README\.md$/i, "").replace(/[\/_-]+/g, " "),
+          content: ""
+        });
+      }
+
+      function visitNodes(nodes) {
+        (nodes || []).forEach(function (node) {
+          if (!node) {
+            return;
+          }
+
+          if (node.path) {
+            addItem(node.title, node.path);
+          }
+
+          visitNodes(node.children);
+        });
+      }
+
+      addItem("Graiphic Toolkits Documentation", "/README.md");
+      (navData && navData.sections || []).forEach(function (section) {
+        visitNodes(section.children);
+      });
+
+      return items;
+    }
+
+    function bindClientSearch(searchRoot) {
+      if (!searchRoot || searchRoot.__graiphicSearchBound) {
+        return;
+      }
+
+      var input = searchRoot.querySelector('input[type="search"]');
+      var clearButton = searchRoot.querySelector(".clear-button");
+      var debounceHandle = null;
+
+      if (input) {
+        input.addEventListener("input", function (event) {
+          window.clearTimeout(debounceHandle);
+          debounceHandle = window.setTimeout(function () {
+            renderClientSearchResults(event.target.value);
+          }, 60);
+        });
+      }
+
+      if (clearButton) {
+        clearButton.addEventListener("click", function () {
+          if (input) {
+            input.value = "";
+            input.focus();
+          }
+          renderClientSearchResults("");
+        });
+      }
+
+      searchRoot.addEventListener("click", function (event) {
+        if (event.target.closest(".matching-post a")) {
+          return;
+        }
+
+        if (!event.target.closest(".input-wrap")) {
+          event.stopPropagation();
+        }
+      });
+
+      searchRoot.__graiphicSearchBound = true;
+    }
+
+    function renderNavigationNodes(nodes, currentFile, depth, parentPath) {
+      if (!nodes || !nodes.length) {
+        return "";
+      }
+
+      var listClass = depth === 0 ? "graiphic-nav-list" : "graiphic-nav-children";
+      var navState = window.__GRAIPHIC_NAV_STATE__ || { expandedPaths: {}, collapsedPaths: {}, articleGroupsExpanded: {} };
+      var pageLimit = 15;
+      var totalDirectPages = nodes.filter(function (node) {
+        var children = Array.isArray(node.children) ? node.children : [];
+        return !children.length && node.kind === "page";
+      }).length;
+      var articleGroupExpanded = parentPath ? !!navState.articleGroupsExpanded[parentPath] : false;
+      var shownDirectPages = 0;
+      var hiddenDirectPages = 0;
+      var visibleNodes = [];
+
+      nodes.forEach(function (node) {
+        var children = Array.isArray(node.children) ? node.children : [];
+        var isDirectPage = !children.length && node.kind === "page";
+        var active = normalizeDocPath(node.path) === currentFile;
+
+        if (
+          parentPath &&
+          totalDirectPages > pageLimit &&
+          isDirectPage &&
+          !articleGroupExpanded &&
+          shownDirectPages >= pageLimit &&
+          !active
+        ) {
+          hiddenDirectPages += 1;
+          return;
+        }
+
+        if (isDirectPage) {
+          shownDirectPages += 1;
+        }
+
+        visibleNodes.push(node);
+      });
+
+      return (
+        '<ul class="' + listClass + '">' +
+        visibleNodes.map(function (node) {
+          var children = Array.isArray(node.children) ? node.children : [];
+          var hasChildren = children.length > 0;
+          var isCategory = hasChildren || node.kind === "category";
+          var active = normalizeDocPath(node.path) === currentFile;
+          var normalizedNodePath = normalizeDocPath(node.path);
+          var activeTrail = isBranchOpen(node.path, currentFile);
+          var manuallyExpanded = !!navState.expandedPaths[normalizedNodePath];
+          var manuallyCollapsed = !!navState.collapsedPaths[normalizedNodePath];
+          var open = hasChildren && !manuallyCollapsed && (activeTrail || manuallyExpanded);
+          var padding = 10 + depth * 13;
+          var chevron = hasChildren ? (open ? "-" : "+") : "";
+          var cssClass = (isCategory ? "is-category" : "is-page") + (active ? " is-active" : "");
+          var itemHtml = "";
+
+          if (isCategory) {
+            itemHtml =
+              '<button class="graiphic-nav-toggle ' + cssClass + '" type="button" aria-expanded="' + (open ? "true" : "false") + '" data-nav-path="' + escapeHtml(normalizedNodePath) + '" style="padding-left:' + padding + 'px">' +
+                '<span class="graiphic-nav-chevron is-plusminus' + (open ? ' is-open' : '') + '">' + chevron + '</span>' +
+                '<span class="graiphic-nav-label">' + escapeHtml(node.title) + '</span>' +
+              "</button>";
+          } else {
+            itemHtml =
+              '<a class="graiphic-nav-link ' + cssClass + '" href="' + docsifyRouteForPath(node.path) + '" style="padding-left:' + padding + 'px">' +
+                '<span class="graiphic-nav-chevron is-empty"></span>' +
+                '<span class="graiphic-nav-label">' + escapeHtml(node.title) + '</span>' +
+              "</a>";
+          }
+
+          var childrenHtml = open ? renderNavigationNodes(children, currentFile, depth + 1, normalizedNodePath) : "";
+          return '<li class="graiphic-nav-item">' + itemHtml + childrenHtml + "</li>";
+        }).join("") +
+        (
+          parentPath && totalDirectPages > pageLimit
+            ? '<li class="graiphic-nav-item">' +
+                '<button class="graiphic-nav-more-button" type="button" data-group-path="' + escapeHtml(parentPath) + '" style="padding-left:' + (10 + depth * 13) + 'px">' +
+                  escapeHtml(articleGroupExpanded ? "Show Less Articles" : "Show All Articles (" + totalDirectPages + ")") +
+                "</button>" +
+              "</li>"
+            : ""
+        ) +
+        "</ul>"
+      );
+    }
+
+    function bindSidebarNavigation(vm, navRoot) {
+      if (!navRoot || navRoot.__graiphicBound) {
+        return;
+      }
+
+      navRoot.addEventListener("click", function (event) {
+        var articleToggle = event.target.closest(".graiphic-nav-more-button[data-group-path]");
+        if (articleToggle) {
+          event.preventDefault();
+          var articlePath = normalizeDocPath(articleToggle.getAttribute("data-group-path"));
+          var navState = window.__GRAIPHIC_NAV_STATE__ || (window.__GRAIPHIC_NAV_STATE__ = { expandedPaths: {}, collapsedPaths: {}, articleGroupsExpanded: {} });
+          navState.articleGroupsExpanded[articlePath] = !navState.articleGroupsExpanded[articlePath];
+          renderSidebarNavigation(vm);
+          return;
+        }
+
+        var toggle = event.target.closest(".graiphic-nav-toggle[data-nav-path]");
+        if (!toggle) {
+          return;
+        }
+
+        event.preventDefault();
+        var currentFile = currentFileFromRoute(vm);
+        var path = normalizeDocPath(toggle.getAttribute("data-nav-path"));
+
+        var navState = window.__GRAIPHIC_NAV_STATE__ || (window.__GRAIPHIC_NAV_STATE__ = { expandedPaths: {}, collapsedPaths: {}, articleGroupsExpanded: {} });
+        var activeTrail = isBranchOpen(path, currentFile);
+        var manuallyExpanded = !!navState.expandedPaths[path];
+        var manuallyCollapsed = !!navState.collapsedPaths[path];
+        var currentlyOpen = !manuallyCollapsed && (activeTrail || manuallyExpanded);
+
+        if (currentlyOpen) {
+          if (activeTrail) {
+            navState.collapsedPaths[path] = true;
+          } else {
+            delete navState.expandedPaths[path];
+          }
+        } else {
+          delete navState.collapsedPaths[path];
+          navState.expandedPaths[path] = true;
+        }
+
+        renderSidebarNavigation(vm);
+      });
+
+      navRoot.__graiphicBound = true;
+    }
+
+    function bindSidebarResize() {
+      var sidebar = document.querySelector(".sidebar");
+      if (!sidebar || sidebar.__graiphicResizeBound) {
+        return;
+      }
+
+      var handle = document.createElement("div");
+      handle.className = "sidebar-resize-handle";
+      handle.setAttribute("role", "separator");
+      handle.setAttribute("aria-orientation", "vertical");
+      handle.setAttribute("aria-label", "Resize sidebar");
+      sidebar.appendChild(handle);
+
+      var isDesktop = function () {
+        return window.matchMedia("(min-width: 769px)").matches;
+      };
+
+      var activePointerId = null;
+
+      var stopResize = function () {
+        activePointerId = null;
+        document.body.classList.remove("is-resizing-sidebar");
+      };
+
+      handle.addEventListener("pointerdown", function (event) {
+        if (!isDesktop() || event.button !== 0) {
+          return;
+        }
+
+        activePointerId = event.pointerId;
+        document.body.classList.add("is-resizing-sidebar");
+        handle.setPointerCapture(event.pointerId);
+        event.preventDefault();
+      });
+
+      handle.addEventListener("pointermove", function (event) {
+        if (activePointerId !== event.pointerId || !isDesktop()) {
+          return;
+        }
+
+        var width = applySidebarWidth(event.clientX);
+        saveSidebarWidth(width);
+      });
+
+      handle.addEventListener("pointerup", function (event) {
+        if (activePointerId !== event.pointerId) {
+          return;
+        }
+        stopResize();
+      });
+
+      handle.addEventListener("pointercancel", stopResize);
+      window.addEventListener("resize", function () {
+        if (!isDesktop()) {
+          document.documentElement.style.removeProperty("--sidebar-width");
+          return;
+        }
+        loadSidebarWidth();
+      });
+
+      sidebar.__graiphicResizeBound = true;
+    }
+
+    function renderSidebarNavigation(vm) {
+      var navData = window.__GRAIPHIC_NAV__;
+      if (!navData || !Array.isArray(navData.sections)) {
+        return;
+      }
+
+      var sidebar = document.querySelector(".sidebar");
+      if (!sidebar) {
+        return;
+      }
+
+      var navRoot = sidebar.querySelector(".sidebar-nav");
+      if (!navRoot) {
+        navRoot = document.createElement("nav");
+        navRoot.className = "sidebar-nav";
+        sidebar.appendChild(navRoot);
+      }
+
+      var currentFile = currentFileFromRoute(vm);
+      bindSidebarNavigation(vm, navRoot);
+      var html =
+        '<div class="graiphic-nav">' +
+        navData.sections.map(function (section) {
+          var children = Array.isArray(section.children) ? section.children : [];
+          return (
+            '<section class="graiphic-nav-section">' +
+              '<div class="graiphic-nav-section-title">' + escapeHtml(section.title) + "</div>" +
+              renderNavigationNodes(children, currentFile, 0, null) +
+            "</section>"
+          );
+        }).join("") +
+        "</div>";
+
+      navRoot.innerHTML = html;
+    }
+
+    function loadScript(src) {
+      return new Promise(function (resolve, reject) {
+        var script = document.createElement("script");
+        script.src = src;
+        script.onload = resolve;
+        script.onerror = reject;
+        document.body.appendChild(script);
+      });
+    }
+
+    function startDocsify(navData, searchData) {
+      window.__GRAIPHIC_NAV__ = sanitizePublishedNavigation(navData || { sections: [], searchPaths: "auto" });
+      window.__GRAIPHIC_KNOWN_DOC_PATHS__ = collectKnownDocPaths(window.__GRAIPHIC_NAV__);
+      window.__GRAIPHIC_SEARCH_INDEX__ = searchData && Array.isArray(searchData.items)
+        ? sanitizePublishedSearchIndex(searchData).items
+        : buildFallbackSearchIndex(window.__GRAIPHIC_NAV__);
+      window.__GRAIPHIC_SEARCH_QUERY__ = window.__GRAIPHIC_SEARCH_QUERY__ || "";
+      window.__GRAIPHIC_NAV_STATE__ = window.__GRAIPHIC_NAV_STATE__ || { expandedPaths: {}, collapsedPaths: {}, articleGroupsExpanded: {} };
+
+      window.$docsify = {
+        name: "Graiphic Documentation",
+        repo: "cocotdf/TestDocGraiphicV2",
+        homepage: "README.md",
+        loadSidebar: false,
+        loadNavbar: true,
+        notFoundPage: "_404.md",
+        subMaxLevel: 2,
+        auto2top: true,
+        maxLevel: 3,
+        relativePath: true,
+        alias: {
+          "/.*/_navbar.md": "/_navbar.md"
+        },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (markdown) {
+              var currentFile = currentFileFromRoute(vm);
+
+              return markdown.replace(
+                /(<img\b[^>]*\bsrc=["'])([^"']+)(["'][^>]*>)/gi,
+                function (match, prefix, rawSrc, suffix) {
+                  var rewrittenSrc = resolveLocalAssetUrl(rawSrc, currentFile);
+                  if (!rewrittenSrc) {
+                    return match;
+                  }
+                  return prefix + rewrittenSrc + suffix;
+                }
+              );
+            });
+
+            hook.mounted(function () {
+              loadSidebarWidth();
+              bindSidebarResize();
+              renderSidebarNavigation(vm);
+              placeSidebarSearch();
+            });
+
+            hook.doneEach(function () {
+              var currentFile = currentFileFromRoute(vm);
+              document.querySelectorAll(".markdown-section a[href], .cover-main a[href], .app-nav a[href]").forEach(function (anchor) {
+                var rawHref = anchor.getAttribute("href");
+                var rewrittenHref = resolveLocalDocLink(rawHref, currentFile);
+                if (rewrittenHref) {
+                  anchor.setAttribute("href", rewrittenHref);
+                  return;
+                }
+
+                var youtubeVideo = parseYouTubeVideo(rawHref);
+                if (youtubeVideo) {
+                  anchor.setAttribute("href", youtubeVideo.watchUrl);
+                  anchor.setAttribute("target", "_blank");
+                  anchor.setAttribute("rel", "noopener noreferrer");
+                  return;
+                }
+
+                if (/^https?:\/\//i.test(rawHref)) {
+                  anchor.setAttribute("target", "_blank");
+                  anchor.setAttribute("rel", "noopener noreferrer");
+                }
+              });
+
+                pruneEmptyExampleSections(document.querySelector(".markdown-section"));
+                enhanceRenderedYouTubeLinks(document.querySelector(".markdown-section"));
+                enhanceRenderedYouTubeLinks(document.querySelector(".cover-main"));
+                enhanceParameterImages(document.querySelector(".markdown-section"));
+                enhanceContentIllustrationImages(document.querySelector(".markdown-section"));
+                enhanceBrokenFormulaBlocks(document.querySelector(".markdown-section"));
+                renderSidebarNavigation(vm);
+                placeSidebarSearch();
+              });
+            }
+        ]
+      };
+
+      loadScript("https://cdn.jsdelivr.net/npm/docsify@4")
+        .catch(function (error) {
+          console.error("Failed to load Docsify assets", error);
+        });
+    }
+
+    Promise.all([
+      fetch("nav-tree.json").then(function (response) {
+        if (!response.ok) {
+          throw new Error("Failed to load navigation manifest");
+        }
+        return response.json();
+      }),
+      fetch("search-manifest.json")
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Failed to load search manifest");
+          }
+          return response.json();
+        })
+        .catch(function (error) {
+          console.warn("Search manifest unavailable, falling back to title-only search.", error);
+          return null;
+        })
+    ])
+      .then(function (results) {
+        startDocsify(results[0], results[1]);
+      })
+      .catch(function (error) {
+        console.warn("Navigation manifest unavailable, falling back to minimal navigation.", error);
+        startDocsify({ sections: [], searchPaths: "auto" }, { items: [] });
+      });
+  </script>
+</body>
+</html>
