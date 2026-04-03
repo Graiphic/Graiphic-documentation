@@ -1836,6 +1836,77 @@
       return normalizeDocPath(route || "/README.md");
     }
 
+    function injectHomeToolkitCards(root) {
+      if (!root || currentRenderedDocPath() !== "/README.md" || root.querySelector(".graiphic-home-toolkits")) {
+        return;
+      }
+
+      var hero = root.querySelector(".graiphic-home-hero");
+      var overviewHeading = Array.prototype.find.call(root.querySelectorAll("h2"), function (heading) {
+        return normalizeHeadingLabel(heading.textContent) === "documentation overview";
+      });
+
+      if (!hero || !overviewHeading || !overviewHeading.parentNode) {
+        return;
+      }
+
+      var cards = [
+        {
+          title: "SOTA",
+          copy: "Visual orchestration and graph execution for deployable AI systems.",
+          path: "/sota/README.md",
+          image: "./img/sota-png.png",
+          alt: "SOTA icon"
+        },
+        {
+          title: "Accelerator Toolkit",
+          copy: "ONNX Runtime acceleration for LabVIEW graphs and hardware-aware execution.",
+          path: "/accelerator/README.md",
+          image: "./img/accelerator.png",
+          alt: "Accelerator icon"
+        },
+        {
+          title: "Deep Learning Toolkit",
+          copy: "Design, train, and deploy neural architectures directly inside LabVIEW.",
+          path: "/deep-learning/README.md",
+          image: "./img/deeplearning.svg",
+          alt: "Deep Learning icon"
+        },
+        {
+          title: "Computer Vision Toolkit",
+          copy: "Build imaging pipelines, UI display flows, and vision model deployments.",
+          path: "/computer-vision/README.md",
+          image: "./img/computervision.svg",
+          alt: "Computer Vision icon"
+        },
+        {
+          title: "CUDA Toolkit",
+          copy: "Direct GPU execution, memory control, and CUDA-powered operators for LabVIEW.",
+          path: "/cuda/README.md",
+          image: "./img/cuda-module_1.png",
+          alt: "CUDA icon"
+        }
+      ];
+
+      var section = document.createElement("section");
+      section.className = "graiphic-home-toolkits";
+      section.innerHTML =
+        '<h2>Toolkits</h2>' +
+        '<div class="graiphic-home-grid">' +
+          cards.map(function (card) {
+            return (
+              '<a class="graiphic-home-card" href="' + docsifyRouteForPath(card.path) + '">' +
+                '<div class="graiphic-home-card-media"><img src="' + resolveLocalAssetUrl(card.image, "/README.md") + '" alt="' + escapeHtml(card.alt) + '" width="112" /></div>' +
+                '<span class="graiphic-home-card-title">' + escapeHtml(card.title) + '</span>' +
+                '<span class="graiphic-home-card-copy">' + escapeHtml(card.copy) + '</span>' +
+              '</a>'
+            );
+          }).join("") +
+        "</div>";
+
+      overviewHeading.parentNode.insertBefore(section, overviewHeading);
+    }
+
     function isToolkitIntroductionPath(path) {
       var normalized = normalizeDocPath(path || "");
       return (
@@ -2765,6 +2836,7 @@
                 }
               });
 
+                injectHomeToolkitCards(document.querySelector(".markdown-section"));
                 pruneEmptyExampleSections(document.querySelector(".markdown-section"));
                 enhanceRenderedYouTubeLinks(document.querySelector(".markdown-section"));
                 enhanceRenderedYouTubeLinks(document.querySelector(".cover-main"));
