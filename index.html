@@ -1837,9 +1837,14 @@
     }
 
     function injectHomeToolkitCards(root) {
-      if (!root || currentRenderedDocPath() !== "/README.md" || root.querySelector(".graiphic-home-toolkits")) {
+      if (!root || currentRenderedDocPath() !== "/README.md") {
         return;
       }
+
+      var existingSections = root.querySelectorAll(".graiphic-home-toolkits");
+      existingSections.forEach(function (section) {
+        section.remove();
+      });
 
       var hero = root.querySelector(".graiphic-home-hero");
       var overviewHeading = Array.prototype.find.call(root.querySelectorAll("h2"), function (heading) {
