@@ -1,5 +1,5 @@
 <div class="go-pages-link" data-render-target="github">
-  <a href="https://cocotdf.github.io/TestDocGraiphicV2/">
+  <a href="[https://cocotdf.github.io/TestDocGraiphicV2/](https://graiphic.github.io/Graiphic-documentation/)">
     <img src="./assets/open-github-pages-banner.svg" alt="Open the GitHub Pages version" />
   </a>
 </div>
@@ -21,35 +21,7 @@
   </div>
 </div>
 
-## Toolkits
 
-<div class="graiphic-home-grid">
-  <a class="graiphic-home-card" href="./sota/README.md">
-    <div class="graiphic-home-card-media"><img src="./img/sota-png.png" alt="SOTA icon" width="112" /></div>
-    <span class="graiphic-home-card-title">SOTA</span>
-    <span class="graiphic-home-card-copy">Visual orchestration and graph execution for deployable AI systems.</span>
-  </a>
-  <a class="graiphic-home-card" href="./accelerator/README.md">
-    <div class="graiphic-home-card-media"><img src="./img/accelerator.png" alt="Accelerator icon" width="112" /></div>
-    <span class="graiphic-home-card-title">Accelerator Toolkit</span>
-    <span class="graiphic-home-card-copy">ONNX Runtime acceleration for LabVIEW graphs and hardware-aware execution.</span>
-  </a>
-  <a class="graiphic-home-card" href="./deep-learning/README.md">
-    <div class="graiphic-home-card-media"><img src="./img/deeplearning.svg" alt="Deep Learning icon" width="112" /></div>
-    <span class="graiphic-home-card-title">Deep Learning Toolkit</span>
-    <span class="graiphic-home-card-copy">Design, train, and deploy neural architectures directly inside LabVIEW.</span>
-  </a>
-  <a class="graiphic-home-card" href="./computer-vision/README.md">
-    <div class="graiphic-home-card-media"><img src="./img/computervision.svg" alt="Computer Vision icon" width="112" /></div>
-    <span class="graiphic-home-card-title">Computer Vision Toolkit</span>
-    <span class="graiphic-home-card-copy">Build imaging pipelines, UI display flows, and vision model deployments.</span>
-  </a>
-  <a class="graiphic-home-card" href="./cuda/README.md">
-    <div class="graiphic-home-card-media"><img src="./img/cuda-module_1.png" alt="CUDA icon" width="112" /></div>
-    <span class="graiphic-home-card-title">CUDA Toolkit</span>
-    <span class="graiphic-home-card-copy">Direct GPU execution, memory control, and CUDA-powered operators for LabVIEW.</span>
-  </a>
-</div>
 
 ## Documentation Overview
 
