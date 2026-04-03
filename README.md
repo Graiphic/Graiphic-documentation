@@ -1,5 +1,5 @@
 <div class="go-pages-link" data-render-target="github">
-  <a href="[https://cocotdf.github.io/TestDocGraiphicV2/](https://graiphic.github.io/Graiphic-documentation/)">
+  <a href="[https://graiphic.github.io/Graiphic-documentation/](https://graiphic.github.io/Graiphic-documentation/)">
     <img src="./assets/open-github-pages-banner.svg" alt="Open the GitHub Pages version" />
   </a>
 </div>
