@@ -4,4 +4,4 @@
 - [Deep Learning](/deep-learning/README.md)
 - [Computer Vision](/computer-vision/README.md)
 - [CUDA](/cuda/README.md)
-- [GitHub](https://github.com/cocotdf/TestDocGraiphicV2)
+- [GitHub](https://github.com/Graiphic/Graiphic-documentation)

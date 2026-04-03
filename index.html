@@ -295,6 +295,10 @@
       display: none !important;
     }
 
+    .markdown-section [data-render-target="pages"] {
+      display: block !important;
+    }
+
     .graiphic-video-embed {
       width: 100%;
       max-width: 520px;
@@ -1210,7 +1214,7 @@
         candidate = candidate.slice(1);
       }
 
-      candidate = candidate.replace(/^\/?TestDocGraiphicV2(?=\/)/i, "");
+      candidate = candidate.replace(/^\/?Graiphic-documentation(?=\/)/i, "");
 
       var candidatePath = candidate.split("?")[0].split("#")[0];
       if (!candidatePath || candidatePath === "/") {
@@ -2701,7 +2705,7 @@
 
       window.$docsify = {
         name: "Graiphic Documentation",
-        repo: "cocotdf/TestDocGraiphicV2",
+        repo: "Graiphic/Graiphic-documentation",
         homepage: "README.md",
         loadSidebar: false,
         loadNavbar: true,
