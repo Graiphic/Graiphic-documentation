@@ -1929,6 +1929,10 @@
       );
     }
 
+    function normalizeStandaloneWrapperText(text) {
+      return (text || "").replace(/[\u200B-\u200D\u2060\uFEFF]/g, "").trim();
+    }
+
     function isStandaloneIllustrationImage(img) {
       if (!img || img.closest("table") || isExcludedStandaloneIllustrationContext(img)) {
         return false;
@@ -1941,7 +1945,7 @@
 
       var meaningfulChildren = Array.prototype.filter.call(wrapper.childNodes, function (node) {
         if (node.nodeType === Node.TEXT_NODE) {
-          return node.textContent.trim().length > 0;
+          return normalizeStandaloneWrapperText(node.textContent).length > 0;
         }
 
         if (node.nodeType === Node.ELEMENT_NODE) {
