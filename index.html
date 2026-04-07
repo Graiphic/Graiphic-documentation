@@ -1980,8 +1980,8 @@
     }
 
     function computeStandaloneIllustrationWidth(img, mode) {
-      var naturalWidth = img.naturalWidth || parseInt(img.getAttribute("width"), 10) || img.width || 0;
-      var naturalHeight = img.naturalHeight || parseInt(img.getAttribute("height"), 10) || img.height || 0;
+      var naturalWidth = img.naturalWidth || 0;
+      var naturalHeight = img.naturalHeight || 0;
       var ratio = naturalHeight ? naturalWidth / naturalHeight : 1;
 
       if (!naturalWidth) {
@@ -2057,11 +2057,22 @@
 
         applyStandaloneIllustrationSizing(img, mode);
 
+        var refreshSizing = function () {
+          if (img.naturalWidth && img.naturalHeight) {
+            applyStandaloneIllustrationSizing(img, mode);
+          }
+        };
+
         if (!img.dataset.graiphicContentIllustrationBound) {
           img.dataset.graiphicContentIllustrationBound = "1";
-          img.addEventListener("load", function () {
-            applyStandaloneIllustrationSizing(img, mode);
-          });
+          img.addEventListener("load", refreshSizing);
+        }
+
+        if (img.complete) {
+          refreshSizing();
+        } else if (typeof img.decode === "function" && !img.dataset.graiphicContentIllustrationDecodeBound) {
+          img.dataset.graiphicContentIllustrationDecodeBound = "1";
+          img.decode().then(refreshSizing).catch(function () {});
         }
       });
     }
