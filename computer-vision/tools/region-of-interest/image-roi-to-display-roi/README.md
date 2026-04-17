@@ -4,7 +4,7 @@
 
 <p>Convert Image ROIs to Display/Annotation ROIs.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_roi_to_display_roi.png" alt="Image_Roi_To_Display_Roi.Png" width="254" /></p>
+<p align="center"><img alt="Image ROI To Display ROI" src="assets/Image ROI To Display ROI.png" width="254"/></p>
 
 <h3>Input parameters</h3>
 

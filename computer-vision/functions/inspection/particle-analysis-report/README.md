@@ -4,7 +4,7 @@
 
 <p>Returns the number of particles detected in a binary image and an array of reports containing the most commonly used particle measurements. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/particle_analysis_report.png" alt="Particle_Analysis_Report.Png" width="336" /></p>
+<p align="center"><img alt="Particle Analysis Report" src="assets/Particle Analysis Report.png" width="336"/></p>
 
 <h3>Input parameters</h3>
 

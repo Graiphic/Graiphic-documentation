@@ -4,7 +4,7 @@
 
 <p>Quantized Gemm.</p>
 
-<p align="center"><img alt="node_q_gemm.png" src="assets/node_q_gemm.png" width="299"/></p>
+<p align="center"><img alt="QGemm" src="assets/QGemm.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

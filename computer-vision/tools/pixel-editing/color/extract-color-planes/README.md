@@ -4,7 +4,7 @@
 
 <p>Extracts the three planes (RGB, HSL, HSV, or HSI) from an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/extract_color_planes.png" alt="Extract_Color_Planes.Png" width="357" /></p>
+<p align="center"><img alt="Extract Color Planes" src="assets/Extract Color Planes.png" width="357"/></p>
 
 <h3>Input parameters</h3>
 

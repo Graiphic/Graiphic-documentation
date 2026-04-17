@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the Dense layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_dense_index.png" alt="Set_Weights_Dense_Index.Png" width="228" /></p>
+<p align="center"><img alt="Dense" src="assets/Dense.png" width="228"/></p>
 
 <h3>Input parameters</h3>
 

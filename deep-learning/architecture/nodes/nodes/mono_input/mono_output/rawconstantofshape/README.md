@@ -4,7 +4,7 @@
 
 <p>Generate a tensor with given value and shape.</p>
 
-<p align="center"><img alt="node_raw_constant_of_shape.png" src="assets/node_raw_constant_of_shape.png" width="299"/></p>
+<p align="center"><img alt="RawConstantOfShape" src="assets/RawConstantOfShape.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

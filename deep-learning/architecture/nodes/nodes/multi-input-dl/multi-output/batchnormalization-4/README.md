@@ -4,7 +4,7 @@
 
 <p>Carries out batch normalization as described in the paper <a href="https://arxiv.org/abs/1502.03167">https://arxiv.org/abs/1502.03167</a>.</p>
 
-<p align="center"><img alt="node_batch_norm.png" src="assets/node_batch_norm.png" width="311"/></p>
+<p align="center"><img alt="BatchNormalization" src="assets/BatchNormalization.png" width="311"/></p>
 
 <p>Depending on the mode it is being run, There are five required inputs ‘X’, ‘scale’, ‘B’, ‘input_mean’ and ‘input_var’. Note that ‘input_mean’ and ‘input_var’ are expected to be the estimated statistics in inference mode (training_mode=False, default), and the running statistics in training mode (training_mode=True). There are multiple cases for the number of outputs, which we list below:</p>
 

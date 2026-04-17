@@ -4,7 +4,7 @@
 
 <p>Matrix product that behaves like <a href="https://numpy.org/doc/stable/reference/generated/numpy.matmul.html">numpy.matmul</a>. The production MUST never overflow. The accumulation may overflow if and only if in 32 bits.</p>
 
-<p align="center"><img alt="node_mat_mul_integer.png" src="assets/node_mat_mul_integer.png" width="299"/></p>
+<p align="center"><img alt="MatMulInteger" src="assets/MatMulInteger.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

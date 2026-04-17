@@ -4,7 +4,7 @@
 
 <p>Reverse batch of sequences having different lengths specified by <code>sequence_lens</code>. For each slice i iterating on batch axis, the operator reverses the first sequence_lens elements on time axis, and copies elements whose index’s beyond sequence_lens to the output. So the output slice i contains reversed sequences on the first sequence_lens elements, then have original values copied for the other elements.</p>
 
-<p align="center"><img alt="node_reverse_sequence.png" src="assets/node_reverse_sequence.png" width="299"/></p>
+<p align="center"><img alt="ReverseSequence" src="assets/ReverseSequence.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

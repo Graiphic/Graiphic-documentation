@@ -4,7 +4,7 @@
 
 <p>Create a Session. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/acc_execution_open_file_default.png" alt="Acc_Execution_Open_File_Default.Png" width="285" /></p>
+<p align="center"><img alt="Default" src="assets/Default.png" width="285"/></p>
 
 <h3>Input parameters</h3>
 

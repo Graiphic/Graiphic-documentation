@@ -4,7 +4,7 @@
 
 <p>Play the Sound File Path. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/play-sound-from-a-file.png" alt="Play Sound From A File" width="270" /></p>
+<p align="center"><img alt="Play Sound From a File" src="assets/Play Sound From a File.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

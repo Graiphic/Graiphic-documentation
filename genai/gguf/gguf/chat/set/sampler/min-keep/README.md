@@ -4,7 +4,7 @@
 
 <p>Set min_keep to common_params stored in local. NB : 0 = disabled, otherwise samplers should return at least min_keep tokens Type : polymorphic.</p>
 
-<p align="center"><img src="assets/min-keep.png" alt="Min Keep" width="270" /></p>
+<p align="center"><img alt="min_keep" src="assets/min_keep.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

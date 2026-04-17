@@ -4,7 +4,7 @@
 
 <p>Softplus takes one input data (Tensor) and produces one output data (Tensor) where the softplus function, y = ln(exp(x) + 1), is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_softplus.png" alt="Node_Softplus.Png" width="299" /></p>
+<p align="center"><img alt="SoftPlus" src="assets/SoftPlus.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/simplify-text-message.png" alt="Simplify Text Message" width="270" /></p>
+<p align="center"><img alt="Simplify Text Message" src="assets/Simplify Text Message.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

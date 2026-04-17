@@ -4,7 +4,7 @@
 
 <p>Swish function takes one input data (Tensor) and produces one output data (Tensor) of the same shape, where Swish(x) = x * sigmoid(alpha * x).</p>
 
-<p align="center"><img src="assets/node_swish.png" alt="Node_Swish.Png" width="299" /></p>
+<p align="center"><img alt="Swish" src="assets/Swish.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

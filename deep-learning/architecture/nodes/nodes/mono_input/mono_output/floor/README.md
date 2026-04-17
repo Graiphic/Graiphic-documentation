@@ -4,7 +4,7 @@
 
 <p>Floor takes one input data (Tensor) and produces one output data (Tensor) where the floor is, y = floor(x), is applied to the tensor elementwise. If x is integral, +0, -0, NaN, or infinite, x itself is returned.</p>
 
-<p align="center"><img alt="node_floor.png" src="assets/node_floor.png" width="299"/></p>
+<p align="center"><img alt="Floor" src="assets/Floor.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

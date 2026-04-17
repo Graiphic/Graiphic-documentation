@@ -4,7 +4,7 @@
 
 <p>Translates an image based on a horizontal and vertical offset. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/shift.png" alt="Shift.Png" width="302" /></p>
+<p align="center"><img alt="Shift" src="assets/Shift.png" width="302"/></p>
 
 <h3>Input parameters</h3>
 

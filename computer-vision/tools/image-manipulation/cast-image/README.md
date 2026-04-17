@@ -4,7 +4,7 @@
 
 <p>Converts the current image type to the image type specified by “Target Type”. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/cast_image-1.png" alt="Cast_Image 1.Png" width="300" /></p>
+<p align="center"><img alt="Cast Image" src="assets/Cast Image.png" width="300"/></p>
 
 <h3>Input parameters</h3>
 

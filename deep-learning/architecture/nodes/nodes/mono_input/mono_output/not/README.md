@@ -4,7 +4,7 @@
 
 <p>Returns the negation of the input tensor element-wise.</p>
 
-<p align="center"><img alt="node_not.png" src="assets/node_not.png" width="299"/></p>
+<p align="center"><img alt="Not" src="assets/Not.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set n_keep to common_params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-keep.png" alt="N Keep" width="270" /></p>
+<p align="center"><img alt="n_keep" src="assets/n_keep.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

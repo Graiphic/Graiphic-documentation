@@ -4,7 +4,7 @@
 
 <p>Set nb_gpu_layers to common_params stored in local. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/nb-gpu-layers.png" alt="Nb GPU Layers" width="270" /></p>
+<p align="center"><img alt="nb_gpu_layers" src="assets/nb_gpu_layers.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

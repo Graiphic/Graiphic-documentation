@@ -4,7 +4,7 @@
 
 <p>Loss function that measures the softmax cross entropy between ‘scores’ and ‘labels’. This operator first computes a loss tensor whose shape is identical to the labels input.</p>
 
-<p align="center"><img alt="node_softmax_cross_entropy_loss.png" src="assets/node_softmax_cross_entropy_loss.png" width="311"/></p>
+<p align="center"><img alt="SoftmaxCrossEntropyLoss" src="assets/SoftmaxCrossEntropyLoss.png" width="311"/></p>
 
 <p>If the input is 2-D with shape (N, C), the loss tensor may be a N-element vector L = (l_1, l_2, …, l_N). If the input is N-D tensor with shape (N, C, D1, D2, …, Dk), the loss tensor L may have (N, D1, D2, …, Dk) as its shape and L[j_1][j_2]…[j_k] denotes a scalar element in L. After L is available, this operator can optionally do a reduction operator.</p>
 

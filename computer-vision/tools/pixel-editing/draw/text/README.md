@@ -4,7 +4,7 @@
 
 <p>Draw text in an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/draw_text.png" alt="Draw_Text.Png" width="262" /></p>
+<p align="center"><img alt="Text" src="assets/Text.png" width="262"/></p>
 
 <h3>Input parameters</h3>
 

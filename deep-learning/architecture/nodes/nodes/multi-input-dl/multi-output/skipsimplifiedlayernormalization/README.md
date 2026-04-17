@@ -4,7 +4,7 @@
 
 <p>Skip and Root Mean Square Layer Normalization.</p>
 
-<p align="center"><img alt="node_simplified_layer_norm.png" src="assets/node_simplified_layer_norm.png" width="311"/></p>
+<p align="center"><img alt="SkipSimplifiedLayerNormalization" src="assets/SkipSimplifiedLayerNormalization.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

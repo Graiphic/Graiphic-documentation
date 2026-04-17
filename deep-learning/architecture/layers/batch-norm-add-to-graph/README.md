@@ -4,7 +4,7 @@
 
 <p>Setup and add the batch normalization layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/batch_normalization_add_to_graph.png" alt="Batch_Normalization_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="BatchNormalization" src="assets/BatchNormalization.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

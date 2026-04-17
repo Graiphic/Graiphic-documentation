@@ -4,7 +4,7 @@
 
 <p>Gets the Deep Learning library version.</p>
 
-<p align="center"><img alt="get_dl_version" src="assets/get_dl_version.png" width="220"/></p>
+<p align="center"><img alt="Toolkit Version" src="assets/Toolkit Version.png" width="220"/></p>
 
 <h3>Output parameters</h3>
 

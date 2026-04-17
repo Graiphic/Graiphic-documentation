@@ -4,7 +4,7 @@
 
 <p>output, dropout_mask = Dropout(data + bias, ratio) + residual, Intended to specialize the dropout pattern commonly found in transformer models.</p>
 
-<p align="center"><img alt="node_bias_dropout.png" src="assets/node_bias_dropout.png" width="311"/></p>
+<p align="center"><img alt="BiasDropout" src="assets/BiasDropout.png" width="311"/></p>
 
 <table>
   <tbody>

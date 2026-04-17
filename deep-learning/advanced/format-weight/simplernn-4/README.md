@@ -4,7 +4,7 @@
 
 <p>Returns the SimpleRNN layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="simple_rnn_format.png" src="assets/simple_rnn_format.png" width="233"/></p>
+<p align="center"><img alt="SimpleRNN" src="assets/SimpleRNN.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

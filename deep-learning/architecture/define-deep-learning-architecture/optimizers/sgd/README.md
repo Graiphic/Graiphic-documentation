@@ -4,7 +4,7 @@
 
 <p>Gradient descent (with momentum) optimizer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="define_sgd.png" src="assets/define_sgd.png" width="246"/></p>
+<p align="center"><img alt="SGD" src="assets/SGD.png" width="246"/></p>
 
 <h3>Input parameters</h3>
 

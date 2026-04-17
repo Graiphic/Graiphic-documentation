@@ -8,7 +8,7 @@
 
 <p>when axis = -1: output[i, j, k, input[i, j, k]] = 1 for all i, j, k and 0 otherwise.</p>
 
-<p align="center"><img alt="node_one_hot.png" src="assets/node_one_hot.png" width="299"/></p>
+<p align="center"><img alt="OneHot" src="assets/OneHot.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

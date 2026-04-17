@@ -4,7 +4,7 @@
 
 <p>If conditional.</p>
 
-<p align="center"><img alt="node_if.png" src="assets/node_if.png" width="299"/></p>
+<p align="center"><img alt="If" src="assets/If.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

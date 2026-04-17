@@ -4,7 +4,7 @@
 
 <p>Close the session reference (Video/Camera). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/release_session.png" alt="Release_Session.Png" width="233" /></p>
+<p align="center"><img alt="Release Session" src="assets/Release Session.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

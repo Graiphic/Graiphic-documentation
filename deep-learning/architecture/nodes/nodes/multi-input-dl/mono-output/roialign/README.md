@@ -4,7 +4,7 @@
 
 <p>Region of Interest (RoI) align operation described in the <a href="https://arxiv.org/abs/1703.06870">Mask R-CNN paper</a>. RoiAlign consumes an input tensor X and region of interests (rois) to apply pooling across each RoI; it produces a 4-D tensor of shape (num_rois, C, output_height, output_width). RoiAlign is proposed to avoid the misalignment by removing quantizations while converting from original image into feature map and from feature map into RoI feature; in each ROI bin, the value of the sampled locations are computed directly through bilinear interpolation.</p>
 
-<p align="center"><img alt="node_roi_align.png" src="assets/node_roi_align.png" width="299"/></p>
+<p align="center"><img alt="RoiAlign" src="assets/RoiAlign.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

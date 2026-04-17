@@ -4,7 +4,7 @@
 
 <p>This transform extracts n-grams from the input sequence and save them as a vector.</p>
 
-<p align="center"><img alt="node_tfldf_vectorizer.png" src="assets/node_tfldf_vectorizer.png" width="299"/></p>
+<p align="center"><img alt="TfldfVectorizer" src="assets/TfldfVectorizer.png" width="299"/></p>
 
 <p>Input can be either a 1-D or 2-D tensor. For 1-D input, output is the n-gram representation of that input. For 2-D input, the output is also a 2-D tensor whose i-th row is the n-gram representation of the i-th input row. More specifically, if input shape is [C], the corresponding output shape would be [max(ngram_indexes) + 1]. If input shape is [N, C], this operator produces a [N, max(ngram_indexes) + 1]-tensor.</p>
 

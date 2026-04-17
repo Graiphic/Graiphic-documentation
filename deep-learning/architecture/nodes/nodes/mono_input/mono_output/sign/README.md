@@ -4,7 +4,7 @@
 
 <p>Calculate the sign of the given input tensor element-wise. If input &gt; 0, output 1. if input &lt; 0, output -1. if input == 0, output 0.</p>
 
-<p align="center"><img alt="node_sign.png" src="assets/node_sign.png" width="299"/></p>
+<p align="center"><img alt="Sign" src="assets/Sign.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

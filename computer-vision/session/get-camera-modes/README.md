@@ -4,7 +4,7 @@
 
 <p>Enumerates camera mode for the actual camera instance. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_camera_modes.png" alt="Get_Camera_Modes.Png" width="256" /></p>
+<p align="center"><img alt="Get Camera Modes" src="assets/Get Camera Modes.png" width="256"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Initializer that generates the identity matrix.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="Identity" src="assets/Identity.png" width="210"/></p>
 
 <p>Only usable for generating 2D matrices.</p>
 

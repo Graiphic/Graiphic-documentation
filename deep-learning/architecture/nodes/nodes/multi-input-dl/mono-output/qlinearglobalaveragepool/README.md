@@ -4,7 +4,7 @@
 
 <p>QLinearGlobalAveragePool consumes an input tensor X and applies Average pooling across the values in the same channel. This is equivalent to AveragePool with kernel size equal to the spatial dimension of input tensor. Input is of type uint8_t or int8_t.</p>
 
-<p align="center"><img alt="node_q_linear_global_average_pool.png" src="assets/node_q_linear_global_average_pool.png" width="299"/></p>
+<p align="center"><img alt="QLinearGlobalAveragePool" src="assets/QLinearGlobalAveragePool.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

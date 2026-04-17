@@ -4,7 +4,7 @@
 
 <p>Rotates an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/rotate.png" alt="Rotate.Png" width="274" /></p>
+<p align="center"><img alt="Rotate" src="assets/Rotate.png" width="274"/></p>
 
 <h3>Input parameters</h3>
 

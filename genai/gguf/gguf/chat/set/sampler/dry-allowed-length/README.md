@@ -4,7 +4,7 @@
 
 <p>Set dry_allowed_length to common_params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic.</p>
 
-<p align="center"><img src="assets/dry-allowed-length.png" alt="Dry Allowed Length" width="270" /></p>
+<p align="center"><img alt="dry_allowed_length" src="assets/dry_allowed_length.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

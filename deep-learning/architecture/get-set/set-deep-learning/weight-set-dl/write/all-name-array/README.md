@@ -4,7 +4,7 @@
 
 <p>Load weights in the model. The table of weights is authentic, it defines the names for which weights are loaded, the others will be initialized randomly. You can choose to display a log file in .txt or .csv format to resume the model architecture and the loading of weights.</p>
 
-<p align="center"><img alt="load_all_weights_by_idx" src="assets/load_all_weights_by_idx.PNG" width="220"/></p>
+<p align="center"><img alt="All (Name Array)" src="assets/All (Name Array).png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

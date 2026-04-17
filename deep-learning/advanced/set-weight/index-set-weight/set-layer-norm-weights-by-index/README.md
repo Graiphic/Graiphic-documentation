@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the LayerNormalization layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_layer_norm_index.png" alt="Set_Weights_Layer_Norm_Index.Png" width="228" /></p>
+<p align="center"><img alt="LayerNormalization" src="assets/LayerNormalization.png" width="228"/></p>
 
 <h3>Input parameters</h3>
 

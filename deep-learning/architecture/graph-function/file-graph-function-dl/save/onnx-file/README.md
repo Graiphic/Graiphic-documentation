@@ -4,7 +4,7 @@
 
 <p>This VI exports a model to a .onnx file. The generated file can be used to initialize an inference session. If training information is included during export, the file can also be used to initialize a training session.</p>
 
-<p align="center"><img alt="save_onnx_file" src="assets/save_onnx_file.png" width="220"/></p>
+<p align="center"><img alt="ONNX File" src="assets/ONNX File.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

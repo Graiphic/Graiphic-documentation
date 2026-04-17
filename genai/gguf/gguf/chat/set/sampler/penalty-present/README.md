@@ -4,7 +4,7 @@
 
 <p>Set penalty_present to common_params stored in local. NB : 0.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/penalty-present.png" alt="Penalty Present" width="270" /></p>
+<p align="center"><img alt="penalty_present" src="assets/penalty_present.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

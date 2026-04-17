@@ -4,7 +4,7 @@
 
 <p>Quantization of Multi-Head Self Attention.</p>
 
-<p align="center"><img alt="node_q_attention.png" src="assets/node_q_attention.png" width="311"/></p>
+<p align="center"><img alt="QAttention" src="assets/QAttention.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Close the VideoWriter reference. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/release_video_writer.png" alt="Release_Video_Writer.Png" width="261" /></p>
+<p align="center"><img alt="ReleaseVideoWriter" src="assets/ReleaseVideoWriter.png" width="261"/></p>
 
 <h3>Input parameters</h3>
 

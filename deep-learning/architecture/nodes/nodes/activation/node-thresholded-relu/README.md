@@ -4,7 +4,7 @@
 
 <p>ThresholdedRelu takes one input data (Tensor) and produces one output data (Tensor) where the rectified linear function, y = x for x &gt; alpha, y = 0 otherwise, is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_thresholded_relu.png" alt="Node_Thresholded_Relu.Png" width="299" /></p>
+<p align="center"><img alt="ThresholdedReLU" src="assets/ThresholdedReLU.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

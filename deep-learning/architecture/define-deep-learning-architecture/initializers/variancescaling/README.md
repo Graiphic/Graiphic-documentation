@@ -4,7 +4,7 @@
 
 <p>Initializer that adapts its scale to the shape of its input tensors. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="../../../../../_resolved/and/assets/cluster.png" alt="Cluster.Png" width="231" /></p>
+<p align="center"><img alt="VarianceScaling" src="assets/VarianceScaling.png" width="231"/></p>
 
 <p>With distribution = <em>“truncated_normal”</em> or <em>“untruncated_normal”</em>, samples are drawn from a truncated/untruncated normal distribution with a mean of zero and a standard deviation (after truncation, if used) <em><strong>stddev = sqrt(scale / n)</strong></em>, where <em>n</em> is:</p>
 

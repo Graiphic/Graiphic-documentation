@@ -4,7 +4,7 @@
 
 <p>Performs element-wise binary addition on 8 bit data types (with Numpy-style broadcasting support).<br/>C = (A_scale * (A – A_zero_point) + B_scale * (B – B_zero_point))/C_scale + C_zero_point</p>
 
-<p align="center"><img alt="node_q_linear_add.png" src="assets/node_q_linear_add.png" width="299"/></p>
+<p align="center"><img alt="QLinearAdd" src="assets/QLinearAdd.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

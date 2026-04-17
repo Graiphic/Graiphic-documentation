@@ -4,7 +4,7 @@
 
 <p>Multi-Head Self/Cross Attention. Bias from input projection is included. The key padding mask is optional. When its shape is (batch_size, kv_sequence_length), value 0 means padding or 1 otherwise. When key has right-side padding, its shape could be (batch_size): it is actual length of each key sequence excluding paddings.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="311"/></p>
+<p align="center"><img alt="MicrosoftMultiHeadAttention" src="assets/MicrosoftMultiHeadAttention.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

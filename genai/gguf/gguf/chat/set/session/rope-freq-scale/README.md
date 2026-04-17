@@ -4,7 +4,7 @@
 
 <p>Set rope_freq_scale to common_params stored in local. NB : RoPE frequency scaling factor Type : polymorphic.</p>
 
-<p align="center"><img src="assets/rope-freq-scale.png" alt="Rope Freq Scale" width="270" /></p>
+<p align="center"><img alt="rope_freq_scale" src="assets/rope_freq_scale.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

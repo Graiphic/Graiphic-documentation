@@ -4,7 +4,7 @@
 
 <p>Set n_sequences to common_params stored in local. NB : number of sequences to decode Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-sequences.png" alt="N Sequences" width="270" /></p>
+<p align="center"><img alt="n_sequences" src="assets/n_sequences.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

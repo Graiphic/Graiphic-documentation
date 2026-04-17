@@ -4,7 +4,7 @@
 
 <p>Returns the Dense layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="dense_format.png" src="assets/dense_format.png" width="233"/></p>
+<p align="center"><img alt="Dense" src="assets/Dense.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

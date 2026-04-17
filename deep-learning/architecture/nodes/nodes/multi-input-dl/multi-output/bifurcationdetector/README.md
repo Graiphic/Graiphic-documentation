@@ -4,7 +4,7 @@
 
 <p>Component for aggressive decoding. Find the bifurcation index of predicted tokens, between source tokens, starting from previous suffix match index, and predicted tokens. Concat predicted tokens, starting from bifurcation index, to the back of current tokens. This forms the output tokens. Detect suffix match index in source tokens, between source tokens and output tokens. Detection is based on finding the appearances of last n-gram in output tokens in source tokens. A match is considered found if source tokens contain a single matching n-gram. Return the index of the start of the n-gram in source tokens. No matching if found if src tokens contain multiple or zero matching n-grams. Return -1.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="311"/></p>
+<p align="center"><img alt="BifurcationDetector" src="assets/BifurcationDetector.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

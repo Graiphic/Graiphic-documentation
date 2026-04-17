@@ -4,7 +4,7 @@
 
 <p>Set xtc_probability to common_params stored in local. NB : 0.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/xtc-probability.png" alt="Xtc Probability" width="270" /></p>
+<p align="center"><img alt="xtc_probability" src="assets/xtc_probability.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

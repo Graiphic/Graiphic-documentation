@@ -4,7 +4,7 @@
 
 <p>Run TTS and save the result into .wav file. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/file.png" alt="File" width="270" /></p>
+<p align="center"><img alt="File" src="assets/File.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

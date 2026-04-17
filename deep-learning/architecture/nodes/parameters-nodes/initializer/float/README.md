@@ -4,7 +4,7 @@
 
 <p>Creates a graph initializer of type <code>float32</code>. The tensor values are defined directly in the parameters and stored as a fixed variable inside the graph.</p>
 
-<p align="center"><img alt="node_initializer_float.png" src="assets/node_initializer_float.png" width="263"/></p>
+<p align="center"><img alt="Float" src="assets/Float.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

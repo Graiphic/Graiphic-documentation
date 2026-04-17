@@ -4,7 +4,7 @@
 
 <p>Mish: A Self Regularized Non-Monotonic Neural Activation Function. Perform the linear unit element-wise on the input tensor X using formula : mish(x) = x * tanh(softplus(x)) = x * tanh(ln(1 + e^{x}))</p>
 
-<p align="center"><img alt="node_mish.png" src="assets/node_mish.png" width="299"/></p>
+<p align="center"><img alt="Mish" src="assets/Mish.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

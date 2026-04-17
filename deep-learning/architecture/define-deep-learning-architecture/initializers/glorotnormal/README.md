@@ -4,7 +4,7 @@
 
 <p>The Glorot normal initializer, also called Xavier normal initializer.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="GlorotNormal" src="assets/GlorotNormal.png" width="210"/></p>
 
 <p>The Glorot normal initializer, also called Xavier normal initializer. Draws samples from a truncated normal distribution centered on 0 with <strong><em>stddev = sqrt(2 / (fan_in + fan_out))</em></strong> where <em>fan_in</em> is the number of input units in the weight tensor and <em>fan_out</em> is the number of output units in the weight tensor.</p>
 

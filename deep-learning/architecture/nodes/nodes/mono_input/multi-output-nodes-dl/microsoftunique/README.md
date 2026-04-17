@@ -4,7 +4,7 @@
 
 <p>Finds all the unique values (deduped list) present in the given input tensor. This operator returns 3 outputs. The first output tensor ‘uniques’ contains all of the unique elements of the input, sorted in the same order that they occur in the input. The second output tensor ‘idx’ is the same size as the input and it contains the index of each value of the input in ‘uniques’. The third output tensor ‘counts’ contains the count of each element of ‘uniques’ in the input. Example: input_x = [2, 1, 1, 3, 4, 3] output_uniques = [2, 1, 3, 4] output_idx = [0, 1, 1, 2, 3, 2] output_counts = [1, 2, 2, 1].</p>
 
-<p align="center"><img alt="node_microsoft_unique.png" src="assets/node_microsoft_unique.png" width="311"/></p>
+<p align="center"><img alt="MicrosoftUnique" src="assets/MicrosoftUnique.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

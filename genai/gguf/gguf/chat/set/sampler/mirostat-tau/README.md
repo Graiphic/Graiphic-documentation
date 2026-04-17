@@ -4,7 +4,7 @@
 
 <p>Set mirostat_tau to common_params stored in local. NB : target entropy Type : polymorphic.</p>
 
-<p align="center"><img src="assets/mirostat-tau.png" alt="Mirostat Tau" width="270" /></p>
+<p align="center"><img alt="mirostat_tau" src="assets/mirostat_tau.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

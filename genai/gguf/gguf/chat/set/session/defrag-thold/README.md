@@ -4,7 +4,7 @@
 
 <p>Set defrag_thold to common_params stored in local. NB : KV cache defragmentation threshold Type : polymorphic.</p>
 
-<p align="center"><img src="assets/defrag-thold.png" alt="Defrag Thold" width="270" /></p>
+<p align="center"><img alt="defrag_thold" src="assets/defrag_thold.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

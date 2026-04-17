@@ -4,7 +4,7 @@
 
 <p>LeakyRelu takes input data (Tensor) and an argument alpha, and produces one output data (Tensor) where the function <code>f(x) = alpha * x for x &lt; 0</code>, <code>f(x) = x for x &gt;= 0</code>, is applied to the data tensor elementwise.</p>
 
-<p align="center"><img src="assets/param_node_leaky_relu.png" alt="Param_Node_Leaky_Relu.Png" width="299" /></p>
+<p align="center"><img alt="LeakyReLU" src="assets/LeakyReLU.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

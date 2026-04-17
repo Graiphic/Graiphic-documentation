@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the Dense layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="dense_format_by_index.PNG" src="assets/dense_format_by_index.PNG" width="261"/></p>
+<p align="center"><img alt="Dense" src="assets/Dense.png" width="261"/></p>
 
 <h3>Input parameters</h3>
 

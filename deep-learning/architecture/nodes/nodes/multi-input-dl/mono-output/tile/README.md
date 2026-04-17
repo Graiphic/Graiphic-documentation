@@ -4,7 +4,7 @@
 
 <p>Constructs a tensor by tiling a given tensor. This is the same as function <code>tile</code> in Numpy, but no broadcast.</p>
 
-<p align="center"><img alt="node_tile.png" src="assets/node_tile.png" width="299"/></p>
+<p align="center"><img alt="Tile" src="assets/Tile.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

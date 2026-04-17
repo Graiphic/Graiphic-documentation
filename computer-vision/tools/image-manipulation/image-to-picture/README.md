@@ -4,7 +4,7 @@
 
 <p>Transform an image into a LabVIEW picture. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_to_picture.png" alt="Image_To_Picture.Png" width="258" /></p>
+<p align="center"><img alt="Image To Picture" src="assets/Image To Picture.png" width="258"/></p>
 
 <h3>Input parameters</h3>
 

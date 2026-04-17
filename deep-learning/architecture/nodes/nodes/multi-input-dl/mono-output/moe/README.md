@@ -4,7 +4,7 @@
 
 <p>Mixture of experts. Examples: Switch transformer(<a href="https://arxiv.org/pdf/2101.03961.pdf">https://arxiv.org/pdf/2101.03961.pdf</a>) use top 1, GLaM(<a href="https://arxiv.org/abs/2112.06905">https://arxiv.org/abs/2112.06905</a>) activates top 2 FFN, Vision MOE(<a href="https://arxiv.org/pdf/2106.05974.pdf">https://arxiv.org/pdf/2106.05974.pdf</a>) usually uses top 32 experts and Mixtral(<a href="https://huggingface.co/blog/mixtral">https://huggingface.co/blog/mixtral</a>).</p>
 
-<p align="center"><img alt="node_moe.png" src="assets/node_moe.png" width="299"/></p>
+<p align="center"><img alt="MoE" src="assets/MoE.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

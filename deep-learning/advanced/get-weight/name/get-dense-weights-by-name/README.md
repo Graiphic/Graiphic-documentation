@@ -4,7 +4,7 @@
 
 <p>Gets the weights of the Dense layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_weights_by_name.png" alt="Get_Weights_By_Name.Png" width="240" /></p>
+<p align="center"><img alt="Dense" src="assets/Dense.png" width="240"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Returns the summary of the model. Possibility to retrieve a cluster or a text with the information and save it in a file. This information consists of the successors, predecessors, the output shape, the layer and its name.</p>
 
-<p align="center"><img alt="summary" src="assets/summary.png" width="220"/></p>
+<p align="center"><img alt="Summary" src="assets/Summary.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

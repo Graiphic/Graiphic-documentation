@@ -4,7 +4,7 @@
 
 <p>Reciprocal takes one input data (Tensor) and produces one output data (Tensor) where the reciprocal is, y = 1/x, is applied to the tensor elementwise.</p>
 
-<p align="center"><img alt="node_reciprocal.png" src="assets/node_reciprocal.png" width="299"/></p>
+<p align="center"><img alt="Reciprocal" src="assets/Reciprocal.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

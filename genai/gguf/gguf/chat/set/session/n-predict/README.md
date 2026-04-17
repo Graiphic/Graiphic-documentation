@@ -4,7 +4,7 @@
 
 <p>Set nb token to predict to common_params stored in local. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-predict.png" alt="N Predict" width="270" /></p>
+<p align="center"><img alt="n_predict" src="assets/n_predict.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

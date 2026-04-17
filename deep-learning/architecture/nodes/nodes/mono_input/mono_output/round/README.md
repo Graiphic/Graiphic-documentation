@@ -4,7 +4,7 @@
 
 <p>Round takes one input Tensor and rounds the values, element-wise, meaning it finds the nearest integer for each value. In case of halves, the rule is to round them to the nearest even integer. If input x is integral, +0, -0, NaN, or infinite, x itself is returned. The output tensor has the same shape and type as the input.</p>
 
-<p align="center"><img alt="node_round.png" src="assets/node_round.png" width="299"/></p>
+<p align="center"><img alt="Round" src="assets/Round.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

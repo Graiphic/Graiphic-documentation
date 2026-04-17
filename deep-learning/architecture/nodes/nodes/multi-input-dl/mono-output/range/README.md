@@ -4,7 +4,7 @@
 
 <p>Generate a tensor containing a sequence of numbers that begin at <code>start</code> and extends by increments of <code>delta</code> up to <code>limit</code> (exclusive).</p>
 
-<p align="center"><img alt="node_range.png" src="assets/node_range.png" width="299"/></p>
+<p align="center"><img alt="Range" src="assets/Range.png" width="299"/></p>
 
 <p>The number of elements in the output of range is computed as below :</p>
 

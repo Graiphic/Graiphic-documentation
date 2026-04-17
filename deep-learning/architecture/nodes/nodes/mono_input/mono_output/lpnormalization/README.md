@@ -4,7 +4,7 @@
 
 <p>Given a matrix, apply Lp-normalization along the provided axis.</p>
 
-<p align="center"><img alt="node_lp_norm.png" src="assets/node_lp_norm.png" width="299"/></p>
+<p align="center"><img alt="LpNormalization" src="assets/LpNormalization.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

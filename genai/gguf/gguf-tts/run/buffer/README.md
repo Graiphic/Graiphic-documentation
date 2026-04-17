@@ -4,7 +4,7 @@
 
 <p>Run TTS and add the result into buffer. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/buffer.png" alt="Buffer" width="270" /></p>
+<p align="center"><img alt="Buffer" src="assets/Buffer.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

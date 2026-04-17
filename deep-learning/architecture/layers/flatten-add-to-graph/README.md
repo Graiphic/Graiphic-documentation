@@ -4,7 +4,7 @@
 
 <p>Setup and add the flatten layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/flatten_add_to_graph.png" alt="Flatten_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="Flatten" src="assets/Flatten.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

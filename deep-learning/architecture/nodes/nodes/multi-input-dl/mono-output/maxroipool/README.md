@@ -4,7 +4,7 @@
 
 <p>ROI max pool consumes an input tensor X and region of interests (RoIs) to apply max pooling across each RoI, to produce output 4-D tensor of shape (num_rois, channels, pooled_shape[0], pooled_shape[1]).</p>
 
-<p align="center"><img alt="node_max_pool_with_mask.png" src="assets/node_max_pool_with_mask.png" width="299"/></p>
+<p align="center"><img alt="MaxRoiPool" src="assets/MaxRoiPool.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

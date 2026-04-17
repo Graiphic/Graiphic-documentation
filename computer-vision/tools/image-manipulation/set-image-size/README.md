@@ -4,7 +4,7 @@
 
 <p>Modifies the resolution of an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_image_size.png" alt="Set_Image_Size.Png" width="243" /></p>
+<p align="center"><img alt="Set Image Size" src="assets/Set Image Size.png" width="243"/></p>
 
 <h3>Input parameters</h3>
 

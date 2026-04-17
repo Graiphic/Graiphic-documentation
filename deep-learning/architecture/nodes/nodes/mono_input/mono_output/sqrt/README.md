@@ -4,7 +4,7 @@
 
 <p>Square root takes one input data (Tensor) and produces one output data (Tensor) where the square root is, y = x^0.5, is applied to the tensor elementwise. If x is negative, then it will return NaN.</p>
 
-<p align="center"><img alt="node_sqrt.png" src="assets/node_sqrt.png" width="299"/></p>
+<p align="center"><img alt="Sqrt" src="assets/Sqrt.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

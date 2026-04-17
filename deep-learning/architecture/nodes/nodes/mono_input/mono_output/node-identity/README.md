@@ -4,7 +4,7 @@
 
 <p>Identity operator.</p>
 
-<p align="center"><img src="assets/node_identity.png" alt="Node_Identity.Png" width="299" /></p>
+<p align="center"><img alt="Identity" src="assets/Identity.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

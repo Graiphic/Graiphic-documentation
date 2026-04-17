@@ -4,7 +4,7 @@
 
 <p>Converts a rectangle or rotated rectangle to an ROI Descriptor. The contour of the ROI Descriptor returned is always of the type rotated rectangle.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/rectangle_to_roi.png" alt="Rectangle_To_Roi.Png" width="297" /></p>
+<p align="center"><img alt="Rectangle To ROI" src="assets/Rectangle To ROI.png" width="297"/></p>
 
 <h3>Input parameters</h3>
 

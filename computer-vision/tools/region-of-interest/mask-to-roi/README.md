@@ -4,7 +4,7 @@
 
 <p>Transform a mask into a region of interest. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/mask_to_roi.png" alt="Mask_To_Roi.Png" width="317" /></p>
+<p align="center"><img alt="Mask To ROI" src="assets/Mask To ROI.png" width="317"/></p>
 
 <h3>Input parameters</h3>
 

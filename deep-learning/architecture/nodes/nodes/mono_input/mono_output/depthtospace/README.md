@@ -4,7 +4,7 @@
 
 <p>DepthToSpace rearranges (permutes) data from depth into blocks of spatial data.</p>
 
-<p align="center"><img alt="node_depth_to_space.png" src="assets/node_depth_to_space.png" width="299"/></p>
+<p align="center"><img alt="DepthToSpace" src="assets/DepthToSpace.png" width="299"/></p>
 
 <p>This is the reverse transformation of SpaceToDepth. More specifically, this op outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions. By default, <code>mode</code> = <code>DCR</code>. In the DCR mode, elements along the depth dimension from the input tensor are rearranged in the following order: depth, column, and then row. The output y is computed from the input x as below:</p>
 

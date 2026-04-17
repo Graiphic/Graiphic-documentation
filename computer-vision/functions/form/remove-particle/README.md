@@ -4,7 +4,7 @@
 
 <p>Eliminates or keeps particles resistant to a specified number of 3 x 3 erosions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/remove_particle.png" alt="Remove_Particle.Png" width="325" /></p>
+<p align="center"><img alt="Remove Particle" src="assets/Remove Particle.png" width="325"/></p>
 
 <h3>Input parameters</h3>
 

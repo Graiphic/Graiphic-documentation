@@ -4,7 +4,7 @@
 
 <p>Creates a graph initializer of type <code>int8</code>. The data is provided through the parameters and stored as a fixed initializer inside the graph.</p>
 
-<p align="center"><img alt="input_array_integer_16.png" src="assets/input_array_integer_16.png" width="263"/></p>
+<p align="center"><img alt="Int8" src="assets/Int8.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

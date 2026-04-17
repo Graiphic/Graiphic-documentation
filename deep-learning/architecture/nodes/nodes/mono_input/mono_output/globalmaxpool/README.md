@@ -4,7 +4,7 @@
 
 <p>GlobalMaxPool consumes an input tensor X and applies max pooling across the values in the same channel. This is equivalent to MaxPool with kernel size equal to the spatial dimension of input tensor.</p>
 
-<p align="center"><img alt="node_global_max_pool.png" src="assets/node_global_max_pool.png" width="299"/></p>
+<p align="center"><img alt="GlobalMaxPool" src="assets/GlobalMaxPool.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

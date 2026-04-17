@@ -4,7 +4,7 @@
 
 <p>Input is cost matrix where each value in input[r][c] is the cost for pass the point (r, c). From current point(r, c), points (r+1, c), (r+1, c+1) or (r, c+1) could be arrived in next move. Given such cost matrix, return dynamic time warping of shape [2, x], where the path made by all points (output[0][t], output[1][t])have the lowest cost among all paths from (0, 0) to (M-1, N-1).</p>
 
-<p align="center"><img alt="node_dynamic_time_warping.png" src="assets/node_dynamic_time_warping.png" width="299"/></p>
+<p align="center"><img alt="DynamicTimeWarping" src="assets/DynamicTimeWarping.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

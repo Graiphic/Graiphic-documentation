@@ -4,7 +4,7 @@
 
 <p>QLinearAveragePool consumes an input tensor X and applies average pooling across the tensor according to kernel sizes, stride sizes, and pad lengths. average pooling consisting of computing the average on all values of a subset of the input tensor according to the kernel size and downsampling the data into the output tensor Y for further processing.</p>
 
-<p align="center"><img alt="node_q_linear_average_pool.png" src="assets/node_q_linear_average_pool.png" width="299"/></p>
+<p align="center"><img alt="QLinearAveragePool" src="assets/QLinearAveragePool.png" width="299"/></p>
 
 <p>The output spatial shape will be following:</p>
 

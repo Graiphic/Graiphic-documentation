@@ -4,7 +4,7 @@
 
 <p>Adjusts the learning rate according to a predefined scheduling policy. Usually called after the optimizer step to modify the step size for future updates.</p>
 
-<p align="center"><img alt="academic_scheduler_step" src="assets/academic_scheduler_step.png" width="220"/></p>
+<p align="center"><img alt="Scheduler Step" src="assets/Scheduler Step.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

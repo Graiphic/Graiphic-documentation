@@ -4,7 +4,7 @@
 
 <p>Return elements, either from X or Y, depending on condition.</p>
 
-<p align="center"><img alt="node_q_linear_where.png" src="assets/node_q_linear_where.png" width="299"/></p>
+<p align="center"><img alt="QLinearWhere" src="assets/QLinearWhere.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

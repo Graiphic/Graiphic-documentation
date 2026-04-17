@@ -4,7 +4,7 @@
 
 <p>Slices an image into specified dimensions and optionally resizes tiles to the original image size. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/tiles.png" alt="Tiles.Png" width="304" /></p>
+<p align="center"><img alt="Tiles" src="assets/Tiles.png" width="304"/></p>
 
 <h3>Input parameters</h3>
 

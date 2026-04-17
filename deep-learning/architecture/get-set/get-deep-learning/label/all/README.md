@@ -4,7 +4,7 @@
 
 <p>Gets the index and name of all layers contained in the model.</p>
 
-<p align="center"><img alt="get_all_index" src="assets/get_all_index.PNG" width="220"/></p>
+<p align="center"><img alt="All" src="assets/All.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Generate the ONNX Graph then create a CUDA Session from it. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/acc_execution_open_graph_cuda.png" alt="Acc_Execution_Open_Graph_Cuda.Png" width="299" /></p>
+<p align="center"><img alt="CUDA" src="assets/CUDA.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

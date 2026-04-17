@@ -4,7 +4,7 @@
 
 <p>Calculates a perspective transform from four pairs of the corresponding points. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/perspective_transform.png" alt="Perspective_Transform.Png" width="341" /></p>
+<p align="center"><img alt="Perspective Transform" src="assets/Perspective Transform.png" width="341"/></p>
 
 <h3>Input parameters</h3>
 

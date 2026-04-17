@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the SimpleRNN layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="simple_rnn_format_by_name.PNG" src="assets/simple_rnn_format_by_name.PNG" width="286"/></p>
+<p align="center"><img alt="SimpleRNN" src="assets/SimpleRNN.png" width="286"/></p>
 
 <h3>Input parameters</h3>
 

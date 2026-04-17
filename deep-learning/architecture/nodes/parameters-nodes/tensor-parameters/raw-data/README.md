@@ -4,7 +4,7 @@
 
 <p>Creates a constant node in the graph that outputs a tensor filled with a single repeated value. The scalar value is defined by <code>raw_data</code>, the output dimensions by <code>shape</code>, and the element type by <code>dtype</code>.</p>
 
-<p align="center"><img alt="node_initializer_raw.png" src="assets/node_initializer_raw.png" width="263"/></p>
+<p align="center"><img alt="Raw Data" src="assets/Raw Data.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

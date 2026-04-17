@@ -4,7 +4,7 @@
 
 <p>Run the model with the raw input data from the CPU, the output buffer is allocated automatically. The raw data are passed outside the cluster, since very large clusters may reduce performance.</p>
 
-<p align="center"><img alt="inference_forward_cpu_2" src="assets/inference_forward_cpu.png" width="220"/></p>
+<p align="center"><img alt="CPU (Data outside cluster)" src="assets/CPU (Data outside cluster).png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

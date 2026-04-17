@@ -4,7 +4,7 @@
 
 <p>Converts Src pixel values to the Dst image according to this formula ((a(*Src)(x,y)+ß)).​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/exposure.png" alt="Exposure.Png" width="234" /></p>
+<p align="center"><img alt="Exposure" src="assets/Exposure.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Skip and Layer Normalization Fusion.</p>
 
-<p align="center"><img alt="node_skip_layer_norm.png" src="assets/node_skip_layer_norm.png" width="311"/></p>
+<p align="center"><img alt="SkipLayerNormalization" src="assets/SkipLayerNormalization.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

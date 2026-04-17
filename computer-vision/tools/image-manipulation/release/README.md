@@ -4,7 +4,7 @@
 
 <p>Close image reference. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/release.png" alt="Release.Png" width="227" /></p>
+<p align="center"><img alt="Release" src="assets/Release.png" width="227"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Adjust the hue in the image.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/hue.png" alt="Hue.Png" width="234" /></p>
+<p align="center"><img alt="Hue" src="assets/Hue.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

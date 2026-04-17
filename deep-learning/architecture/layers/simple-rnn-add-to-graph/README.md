@@ -4,7 +4,7 @@
 
 <p>Setup and add the simple rnn layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/simple_rnn_add_to_graph.png" alt="Simple_Rnn_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="SimpleRNN" src="assets/SimpleRNN.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

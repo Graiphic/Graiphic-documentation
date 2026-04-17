@@ -4,7 +4,7 @@
 
 <p>Calculates the histogram from an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/histograph.png" alt="Histograph.Png" width="334" /></p>
+<p align="center"><img alt="Histograph" src="assets/Histograph.png" width="334"/></p>
 
 <h3>Input parameters</h3>
 

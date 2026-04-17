@@ -4,7 +4,7 @@
 
 <p>This VI transforms a .onnx file into a TensorFlow model using the standard SavedModel directory structure. This format is compatible with TensorFlow Serving and allows easy integration into TensorFlow-based pipelines.</p>
 
-<p align="center"><img alt="convert_onnx_to_tf" src="assets/convert_onnx_to_tf.png" width="220"/></p>
+<p align="center"><img alt="ONNX To TF SavedModel" src="assets/ONNX To TF SavedModel.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

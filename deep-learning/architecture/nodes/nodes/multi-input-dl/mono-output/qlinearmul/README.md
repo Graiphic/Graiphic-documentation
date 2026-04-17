@@ -4,7 +4,7 @@
 
 <p>Performs element-wise binary multiplication on 8 bit data types (with Numpy-style broadcasting support).<br/>C = ((A – A_zero_point) * (B – B_zero_point)) * (A_scale * B_scale)/C_scale + C_zero_point</p>
 
-<p align="center"><img alt="node_mul_integer.png" src="assets/node_mul_integer.png" width="299"/></p>
+<p align="center"><img alt="QLinearMul" src="assets/QLinearMul.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

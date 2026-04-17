@@ -4,7 +4,7 @@
 
 <p>Sets a property in the session. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_session_param.png" alt="Set_Session_Param.Png" width="271" /></p>
+<p align="center"><img alt="Set Session Parameters" src="assets/Set Session Parameters.png" width="271"/></p>
 
 <h3>Input parameters</h3>
 

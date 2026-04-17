@@ -4,7 +4,7 @@
 
 <p>Calculates the arccosine (inverse of cosine) of the given input tensor, element-wise.</p>
 
-<p align="center"><img alt="node_acos.png" src="assets/node_acos.png" width="299"/></p>
+<p align="center"><img alt="Acos" src="assets/Acos.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

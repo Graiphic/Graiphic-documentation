@@ -4,7 +4,7 @@
 
 <p>Computes the error function of the given input tensor element-wise.</p>
 
-<p align="center"><img alt="node_erf.png" src="assets/node_erf.png" width="299"/></p>
+<p align="center"><img alt="Erf" src="assets/Erf.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

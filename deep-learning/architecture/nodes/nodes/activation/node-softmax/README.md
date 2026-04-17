@@ -4,7 +4,7 @@
 
 <p>The operator computes the normalized exponential values for the given input : Softmax(input, axis) = Exp(input) / ReduceSum(Exp(input), axis=axis, keepdims=1)<br/>The “axis” attribute indicates the dimension along which Softmax will be performed. The output tensor has the same shape and contains the Softmax values of the corresponding input.</p>
 
-<p align="center"><img src="assets/param_node_softmax.png" alt="Param_Node_Softmax.Png" width="299" /></p>
+<p align="center"><img alt="SoftMax" src="assets/SoftMax.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

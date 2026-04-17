@@ -4,7 +4,7 @@
 
 <p>GlobalLpPool consumes an input tensor X and applies lp pool pooling across the values in the same channel. This is equivalent to LpPool with kernel size equal to the spatial dimension of input tensor.</p>
 
-<p align="center"><img alt="node_global_average_pool.png" src="assets/node_global_average_pool.png" width="299"/></p>
+<p align="center"><img alt="GlobalLpPool" src="assets/GlobalLpPool.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

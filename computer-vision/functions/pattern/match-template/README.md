@@ -4,7 +4,7 @@
 
 <p>Search Image Template in Image Src and add bounding box to Image Dst where it is located. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/match_template.png" alt="Match_Template.Png" width="286" /></p>
+<p align="center"><img alt="Match Template" src="assets/Match Template.png" width="286"/></p>
 
 <h3>Input parameters</h3>
 

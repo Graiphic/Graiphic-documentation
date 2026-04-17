@@ -4,7 +4,7 @@
 
 <p>Continuously Differentiable Exponential Linear Units: Perform the linear unit element-wise on the input tensor X using formula : max(0,x) + min(0,alpha*(exp(x/alpha)–1))</p>
 
-<p align="center"><img alt="node_celu.png" src="assets/node_celu.png" width="299"/></p>
+<p align="center"><img alt="Celu" src="assets/Celu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

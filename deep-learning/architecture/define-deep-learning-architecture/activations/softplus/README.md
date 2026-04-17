@@ -4,7 +4,7 @@
 
 <p>Define the softplus layer according to its parameters. Type : <em><strong>polymorphic</strong></em>.</p>
 
-<p align="center"><img src="assets/define_activation.png" alt="Define_Activation.Png" width="238" /></p>
+<p align="center"><img alt="SoftPlus" src="assets/SoftPlus.png" width="238"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>This is the packed version of Attention.</p>
 
-<p align="center"><img alt="node_packed_attention.png" src="assets/node_packed_attention.png" width="299"/></p>
+<p align="center"><img alt="PackedAttention" src="assets/PackedAttention.png" width="299"/></p>
 
 <p>Sequences in one batch usually don’t have same length and they are padded to have same length, e.g., below is a batch with 3 sequences and tokens* are padded. Sequence_0: 0, 1*, 2*, 3* Sequence_1: 4, 5, 6*, 7* Sequence_2: 8, 9, 10, 11</p>
 

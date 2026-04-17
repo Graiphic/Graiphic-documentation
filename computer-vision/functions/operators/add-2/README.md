@@ -4,7 +4,7 @@
 
 <p>Adds two images or an image and a constant. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/add.png" alt="Add.Png" width="245" /></p>
+<p align="center"><img alt="Add" src="assets/Add.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Extracts the contours (detects edges) in gray-level values. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/edge_detection_image.png" alt="Edge_Detection_Image.Png" width="320" /></p>
+<p align="center"><img alt="Edge Detection" src="assets/Edge Detection.png" width="320"/></p>
 
 <h3>Input parameters</h3>
 

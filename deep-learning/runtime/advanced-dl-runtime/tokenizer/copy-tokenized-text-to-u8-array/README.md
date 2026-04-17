@@ -4,7 +4,7 @@
 
 <p>Copy Tokenized Data stored in local to an U8 LabVIEW Array.</p>
 
-<p align="center"><img alt="tokenizer_copy_tokenized_text_to_u8_array.png" src="assets/tokenizer_copy_tokenized_text_to_u8_array.png" width="234"/></p>
+<p align="center"><img alt="Copy Tokenized Text to U8 Array" src="assets/Copy Tokenized Text to U8 Array.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

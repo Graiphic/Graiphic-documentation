@@ -4,7 +4,7 @@
 
 <p>Transpose the input tensor similar to numpy.transpose. For example, when perm=(1, 0, 2), given an input tensor of shape (1, 2, 3), the output shape will be (2, 1, 3).</p>
 
-<p align="center"><img alt="node_transpose.png" src="assets/node_transpose.png" width="311"/></p>
+<p align="center"><img alt="Transpose" src="assets/Transpose.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

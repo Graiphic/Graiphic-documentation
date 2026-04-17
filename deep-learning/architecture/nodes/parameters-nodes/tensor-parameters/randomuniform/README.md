@@ -4,7 +4,7 @@
 
 <p>Generate a tensor with random values drawn from a uniform distribution. The shape of the tensor is specified by the <code>shape</code> argument and the range by <code>low</code> and <code>high</code>. The data type is specified by the ‘dtype’ argument. The ‘dtype’ argument must be one of the data types specified in the ‘DataType’ enum field in the TensorProto message.</p>
 
-<p align="center"><img alt="node_random_normal.png" src="assets/node_random_normal.png" width="299"/></p>
+<p align="center"><img alt="RandomUniform" src="assets/RandomUniform.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

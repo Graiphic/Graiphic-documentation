@@ -4,7 +4,7 @@
 
 <p>Setup and add the multiply layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/multiply_add_to_graph.png" alt="Multiply_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="Multiply" src="assets/Multiply.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

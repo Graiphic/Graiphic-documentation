@@ -4,7 +4,7 @@
 
 <p>Filter out boxes that have high intersection-over-union (IOU) overlap with previously selected boxes. Bounding boxes with score less than score_threshold are removed. Bounding box format is indicated by attribute center_point_box. Note that this algorithm is agnostic to where the origin is in the coordinate system and more generally is invariant to orthogonal transformations and translations of the coordinate system; thus translating or reflections of the coordinate system result in the same boxes being selected by the algorithm. The selected_indices output is a set of integers indexing into the input collection of bounding boxes representing the selected boxes. The bounding box coordinates corresponding to the selected indices can then be obtained using the Gather or GatherND operation.</p>
 
-<p align="center"><img alt="node_non_max_suppression.png" src="assets/node_non_max_suppression.png" width="338"/></p>
+<p align="center"><img alt="NonMaxSuppression" src="assets/NonMaxSuppression.png" width="338"/></p>
 
 <h3>Input parameters</h3>
 

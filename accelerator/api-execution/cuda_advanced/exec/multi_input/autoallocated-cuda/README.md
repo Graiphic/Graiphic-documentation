@@ -4,7 +4,7 @@
 
 <p>Execute the model using CPU input data with automatically allocated CUDA output buffers. Type : <em><strong>polymorphic</strong><strong>.<br/></strong></em><strong>Warning : The output buffers are automatically allocated on the GPU and must be explicitly released by the user. </strong></p>
 
-<p align="center"><img src="assets/acc_execution_cuda-advanced_multi_autoallocated.png" alt="Acc_Execution_Cuda Advanced_Multi_Autoallocated.Png" width="263" /></p>
+<p align="center"><img alt="Autoallocated CUDA" src="assets/Autoallocated CUDA.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

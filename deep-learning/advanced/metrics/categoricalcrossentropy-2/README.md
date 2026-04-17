@@ -4,7 +4,7 @@
 
 <p>Computes the crossentropy metric between the labels and predictions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="categorical_crossentropy.png" src="assets/categorical_crossentropy.png" width="460"/></p>
+<p align="center"><img alt="CategoricalCrossentropy" src="assets/CategoricalCrossentropy.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

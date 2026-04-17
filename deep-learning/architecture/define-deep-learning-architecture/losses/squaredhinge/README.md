@@ -4,7 +4,7 @@
 
 <p>Computes the squared hinge loss between y_true and y_pred.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="230"/></p>
+<p align="center"><img alt="Squared Hinge" src="assets/Squared Hinge.png" width="230"/></p>
 
 <table>
   <tbody>

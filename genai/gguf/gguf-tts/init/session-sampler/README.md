@@ -4,7 +4,7 @@
 
 <p>Initialize a session and its sampler Type : polymorphic.</p>
 
-<p align="center"><img src="assets/session-sampler.png" alt="Session &amp; Sampler" width="270" /></p>
+<p align="center"><img alt="Session &amp; Sampler" src="assets/Session &amp; Sampler.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

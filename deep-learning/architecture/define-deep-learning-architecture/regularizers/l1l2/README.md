@@ -4,7 +4,7 @@
 
 <p>Define L1L2 regularizer. This mode combines both <strong>L1 and L2</strong> penalties, allowing a trade-off between <strong>sparsity</strong> and <strong>weight decay</strong>. It is useful when you want to benefit from both effects in a single model. When selected explicitly, <strong>both <code>l1</code> and <code>l2</code> coefficients are user-defined</strong>. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="242"/></p>
+<p align="center"><img alt="L1L2" src="assets/L1L2.png" width="242"/></p>
 
 <table>
   <tbody>

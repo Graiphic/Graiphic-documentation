@@ -4,7 +4,7 @@
 
 <p>Computes the sum of the low-precision input tensor’s element along the provided axes. The resulting tensor has the same rank as the input if keepdims equal 1. If keepdims equal 0, then the resulting tensor have the reduced dimension pruned. The above behavior is similar to numpy, with the exception that numpy default keepdims to False instead of True.</p>
 
-<p align="center"><img alt="node_reduce_sum_integer.png" src="assets/node_reduce_sum_integer.png" width="299"/></p>
+<p align="center"><img alt="ReduceSumInteger" src="assets/ReduceSumInteger.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

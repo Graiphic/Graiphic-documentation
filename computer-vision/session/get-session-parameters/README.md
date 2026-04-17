@@ -4,7 +4,7 @@
 
 <p>Retrieve a parameter from the session reference (Camera/Video). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_session_param.png" alt="Get_Session_Param.Png" width="258" /></p>
+<p align="center"><img alt="Get Session Parameters" src="assets/Get Session Parameters.png" width="258"/></p>
 
 <h3>Input parameters</h3>
 

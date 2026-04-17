@@ -4,7 +4,7 @@
 
 <p>Selu takes one input data (Tensor) and produces one output data (Tensor) where the scaled exponential linear unit function, <code>y = gamma * (alpha * e^x - alpha) for x &lt;= 0</code>, <code>y = gamma * x for x &gt; 0</code>, is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_selu.png" alt="Node_Selu.Png" width="299" /></p>
+<p align="center"><img alt="SELU" src="assets/SELU.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

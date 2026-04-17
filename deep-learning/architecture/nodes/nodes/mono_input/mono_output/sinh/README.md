@@ -4,7 +4,7 @@
 
 <p>Calculates the hyperbolic sine of the given input tensor element-wise.</p>
 
-<p align="center"><img alt="node_sinh.png" src="assets/node_sinh.png" width="299"/></p>
+<p align="center"><img alt="Sinh" src="assets/Sinh.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

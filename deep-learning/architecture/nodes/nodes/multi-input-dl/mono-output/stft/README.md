@@ -4,7 +4,7 @@
 
 <p>Computes the Short-time Fourier Transform of the signal.</p>
 
-<p align="center"><img alt="node_stft.png" src="assets/node_stft.png" width="299"/></p>
+<p align="center"><img alt="STFT" src="assets/STFT.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

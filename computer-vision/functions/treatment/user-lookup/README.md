@@ -4,7 +4,7 @@
 
 <p>Performs a user-specified lookup-table transformation by remapping the pixel values in an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/user_lookup.png" alt="User_Lookup.Png" width="252" /></p>
+<p align="center"><img alt="User Lookup" src="assets/User Lookup.png" width="252"/></p>
 
 <h3>Input parameters</h3>
 

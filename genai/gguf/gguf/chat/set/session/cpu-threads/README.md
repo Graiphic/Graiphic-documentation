@@ -4,7 +4,7 @@
 
 <p>Set n_cpu_threads to common_params stored in local. NB : &lt;= 0 automatic definition Type : polymorphic.</p>
 
-<p align="center"><img src="assets/cpu-threads.png" alt="CPU Threads" width="270" /></p>
+<p align="center"><img alt="cpu_threads" src="assets/cpu_threads.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Changes the intensity values in a line of pixels of an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_pixel_line.png" alt="Set_Pixel_Line.Png" width="269" /></p>
+<p align="center"><img alt="Set Pixel Line" src="assets/Set Pixel Line.png" width="269"/></p>
 
 <h3>Input parameters</h3>
 

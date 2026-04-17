@@ -4,7 +4,7 @@
 
 <p>Return the size of the text in pixel. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_text_size.png" alt="Get_Text_Size.Png" width="264" /></p>
+<p align="center"><img alt="Get Text Size" src="assets/Get Text Size.png" width="264"/></p>
 
 <h3>Input parameters</h3>
 

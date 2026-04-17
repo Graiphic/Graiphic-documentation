@@ -4,7 +4,7 @@
 
 <p>Calculates the hyperbolic cosine of the given input tensor element-wise.</p>
 
-<p align="center"><img alt="node_cosh.png" src="assets/node_cosh.png" width="299"/></p>
+<p align="center"><img alt="Cosh" src="assets/Cosh.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Computes the poisson metric between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="poisson.png" src="assets/poisson.png" width="460"/></p>
+<p align="center"><img alt="Poisson" src="assets/Poisson.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

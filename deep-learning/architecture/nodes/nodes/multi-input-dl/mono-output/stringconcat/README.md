@@ -4,7 +4,7 @@
 
 <p>StringConcat concatenates string tensors elementwise (with NumPy-style broadcasting support).</p>
 
-<p align="center"><img alt="node_string_concat.png" src="assets/node_string_concat.png" width="299"/></p>
+<p align="center"><img alt="StringConcat" src="assets/StringConcat.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Setup and add softsign layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/softsign_add_to_graph.png" alt="Softsign_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="SoftSign" src="assets/SoftSign.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

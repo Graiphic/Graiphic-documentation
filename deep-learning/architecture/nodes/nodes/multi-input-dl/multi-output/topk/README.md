@@ -4,7 +4,7 @@
 
 <p>Retrieve the top-K largest or smallest elements along a specified axis.</p>
 
-<p align="center"><img alt="node_top_k.png" src="assets/node_top_k.png" width="303"/></p>
+<p align="center"><img alt="TopK" src="assets/TopK.png" width="303"/></p>
 
 <p>Given an input tensor of shape [a_0, a_1, …, a_{n-1}] and integer argument k, return two outputs:</p>
 

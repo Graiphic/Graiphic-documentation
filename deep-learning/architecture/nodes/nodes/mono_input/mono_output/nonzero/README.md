@@ -4,7 +4,7 @@
 
 <p>Returns the indices of the elements that are non-zero (in row-major order – by dimension). NonZero behaves similar to numpy.nonzero: <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.nonzero.html">https://docs.scipy.org/doc/numpy/reference/generated/numpy.nonzero.html</a>, but for scalar input, NonZero produces output shape (0, N) instead of (1, N), which is different from Numpy’s behavior.</p>
 
-<p align="center"><img alt="node_non_zero.png" src="assets/node_non_zero.png" width="299"/></p>
+<p align="center"><img alt="NonZero" src="assets/NonZero.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

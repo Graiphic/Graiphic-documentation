@@ -4,7 +4,7 @@
 
 <p>Synchronize the Inference Session weights with those of the Training Session. Typically used in reinforcement learning algorithms where the inference model is updated periodically from the training model to stabilize learning or enable delayed policy evaluation.</p>
 
-<p align="center"><img src="assets/function_academic_update_weights.png" alt="function_academic_update_weights" width="260" /></p>
+<p align="center"><img alt="Update Weights" src="assets/Update Weights.png" width="260"/></p>
 
 <h3>Input parameters</h3>
 

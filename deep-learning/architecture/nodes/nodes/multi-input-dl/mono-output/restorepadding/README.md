@@ -4,7 +4,7 @@
 
 <p>Restore paddings and fill padding with zeros. The input has padding with shape (total_tokens, hidden_size) and token_offset with shape (batch_size, sequence_length). The output has shape (batch_size, sequence_length, hidden_size).</p>
 
-<p align="center"><img alt="node_restore_padding.png" src="assets/node_restore_padding.png" width="299"/></p>
+<p align="center"><img alt="RestorePadding" src="assets/RestorePadding.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

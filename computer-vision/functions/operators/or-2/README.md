@@ -4,7 +4,7 @@
 
 <p>Performs an OR or NOR operation on two images or an image and a constant. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/or.png" alt="Or.Png" width="245" /></p>
+<p align="center"><img alt="Or" src="assets/Or.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

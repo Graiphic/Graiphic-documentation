@@ -4,7 +4,7 @@
 
 <p>Set n_prev to common_params stored in local. NB : number of previous tokens to remember Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-prev.png" alt="N Prev" width="270" /></p>
+<p align="center"><img alt="n_prev" src="assets/n_prev.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

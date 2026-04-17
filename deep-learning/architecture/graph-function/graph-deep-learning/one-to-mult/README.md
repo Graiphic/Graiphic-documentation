@@ -4,7 +4,7 @@
 
 <p>Allows you to retrieve the different merged graphs. For example you can use it to add a new layer to a branch.</p>
 
-<p align="center"><img alt="one_to_mult" src="assets/one_to_mult.PNG" width="220"/></p>
+<p align="center"><img alt="One To Mult" src="assets/One To Mult.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set xtc_threshold to common_params stored in local. NB : &gt; 0.5 disables XTC Type : polymorphic.</p>
 
-<p align="center"><img src="assets/xtc-threshold.png" alt="Xtc Threshold" width="270" /></p>
+<p align="center"><img alt="xtc_threshold" src="assets/xtc_threshold.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

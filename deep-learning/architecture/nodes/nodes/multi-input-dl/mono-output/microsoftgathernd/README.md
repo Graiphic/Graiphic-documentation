@@ -4,7 +4,7 @@
 
 <p>Given <code>data</code> tensor of rank r &gt;= 1, and <code>indices</code> tensor of rank q &gt;= 1, gather slices of <code>data</code> into an output tensor of rank q – 1 + r – indices[-1]. Example 1: data = [[0,1],[2,3]] indices = [[0,0],[1,1]] output = [0,3] Example 2: data = [[0,1],[2,3]] indices = [[1],[0]] output = [[2,3],[0,1]] Example 3: data = [[[0,1],[2,3]],[[4,5],[6,7]]] indices = [[0,1],[1,0]] output = [[2,3],[4,5]] Example 4: data = [[[0,1],[2,3]],[[4,5],[6,7]]] indices = [[[0,1]],[[1,0]]] output = [[[2,3]],[[4,5]]]</p>
 
-<p align="center"><img alt="node_gather.png" src="assets/node_gather.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftGatherND" src="assets/MicrosoftGatherND.png" width="299"/></p>
 
 <h3></h3>
 

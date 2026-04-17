@@ -4,7 +4,7 @@
 
 <p>Initializer that generates a truncated normal distribution. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="../../../../../_resolved/and/assets/cluster.png" alt="Cluster.Png" width="231" /></p>
+<p align="center"><img alt="TruncatedNormal" src="assets/TruncatedNormal.png" width="231"/></p>
 
 <p>The values generated are similar to values from a RandomNormal initializer except that values more than two standard deviations from the mean are discarded and re-drawn.</p>
 

@@ -4,7 +4,7 @@
 
 <p>Adds the weight of the Embedding layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="embedding_format_by_index.PNG" src="assets/embedding_format_by_index.PNG" width="258"/></p>
+<p align="center"><img alt="Embedding" src="assets/Embedding.png" width="258"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>QLinearSoftmax computes the normalized exponential values for the given input: Softmax(input, axis) = Exp(input) / ReduceSum(Exp(input), axis=axis, keepdims=1) The input does not need to explicitly be a 2D vector. The “axis” attribute indicates the dimension along which QLinearSoftmax will be performed for onnx v.13+. or the dimension coerced to NxD Matrix for onnx v.12-. The output tensor has the same shape.</p>
 
-<p align="center"><img alt="node_q_linear_softmax.png" src="assets/node_q_linear_softmax.png" width="299"/></p>
+<p align="center"><img alt="QLinearSoftmax" src="assets/QLinearSoftmax.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

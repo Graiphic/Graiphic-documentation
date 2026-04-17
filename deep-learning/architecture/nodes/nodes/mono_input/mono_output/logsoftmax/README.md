@@ -5,7 +5,7 @@
 <p>The operator computes the log of softmax values for the given input : LogSoftmax(input, axis) = Log(Softmax(input, axis=axis))<br/>
 The “axis” attribute indicates the dimension along which LogSoftmax will be performed. The output tensor has the same shape and contains the LogSoftmax values of the corresponding input.</p>
 
-<p align="center"><img alt="node_log_softmax.png" src="assets/node_log_softmax.png" width="299"/></p>
+<p align="center"><img alt="LogSoftmax" src="assets/LogSoftmax.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

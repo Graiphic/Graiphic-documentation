@@ -4,7 +4,7 @@
 
 <p>Transform 3D U8 Array into Color Image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/u8c3_array_to_color_image.png" alt="U8C3_Array_To_Color_Image.Png" width="264" /></p>
+<p align="center"><img alt="U8 Array To Color Image" src="assets/U8 Array To Color Image.png" width="264"/></p>
 
 <h3>Input parameters</h3>
 

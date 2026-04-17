@@ -4,7 +4,7 @@
 
 <p>Matrix product that behaves like <a href="https://numpy.org/doc/stable/reference/generated/numpy.matmul.html">numpy.matmul</a>.</p>
 
-<p align="center"><img alt="node_mat_mul.png" src="assets/node_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="MatMul" src="assets/MatMul.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

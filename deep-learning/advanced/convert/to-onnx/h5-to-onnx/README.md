@@ -4,7 +4,7 @@
 
 <p>This VI uses the keras2onnx Python utility to perform the conversion. It allows seamless transition from TensorFlow to ONNX format for interoperability and deployment. Optionally, the converted model can be opened in Netron for visualization.</p>
 
-<p align="center"><img alt="convert_h5_to_onnx" src="assets/convert_h5_to_onnx.png" width="220"/></p>
+<p align="center"><img alt="H5 To ONNX" src="assets/H5 To ONNX.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

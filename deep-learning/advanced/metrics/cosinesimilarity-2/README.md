@@ -4,7 +4,7 @@
 
 <p>Computes the cosine similarity between the labels and predictions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="cosine_similarity.png" src="assets/cosine_similarity.png" width="460"/></p>
+<p align="center"><img alt="CosineSimilarity" src="assets/CosineSimilarity.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

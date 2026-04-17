@@ -4,7 +4,7 @@
 
 <p>Concatenate a sequence of tensors into a single tensor. All input tensors must have the same shape, except for the dimension size of the axis to concatenate on. By default ‘new_axis’ is 0, the behavior is similar to numpy.concatenate. When ‘new_axis’ is 1, the behavior is similar to numpy.stack.</p>
 
-<p align="center"><img alt="node_concat_from_sequence.png" src="assets/node_concat_from_sequence.png" width="323"/></p>
+<p align="center"><img alt="ConcatFromSequence" src="assets/ConcatFromSequence.png" width="323"/></p>
 
 <h3>Input parameters</h3>
 

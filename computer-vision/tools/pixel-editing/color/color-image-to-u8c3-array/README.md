@@ -4,7 +4,7 @@
 
 <p>Extracts the pixels from a color image or from part of a color image into a U8 3D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/color_image_to_u8c3_array.png" alt="Color_Image_To_U8C3_Array.Png" width="264" /></p>
+<p align="center"><img alt="Color Image To U8C3 Array" src="assets/Color Image To U8C3 Array.png" width="264"/></p>
 
 <h3>Input parameters</h3>
 

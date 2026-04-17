@@ -4,7 +4,7 @@
 
 <p>Calculates the softsign (x/(1+|x|)) of the given input tensor element-wise.</p>
 
-<p align="center"><img src="assets/node_softsign.png" alt="Node_Softsign.Png" width="299" /></p>
+<p align="center"><img alt="SoftSign" src="assets/SoftSign.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

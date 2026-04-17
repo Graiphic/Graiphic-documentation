@@ -4,7 +4,7 @@
 
 <p>Takes a tensor as input and outputs a int64 scalar that equals to the total number of elements of the input tensor.</p>
 
-<p align="center"><img alt="node_size.png" src="assets/node_size.png" width="299"/></p>
+<p align="center"><img alt="Size" src="assets/Size.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

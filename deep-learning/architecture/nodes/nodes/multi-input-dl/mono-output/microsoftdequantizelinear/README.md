@@ -4,7 +4,7 @@
 
 <p>The linear dequantization operator. It consumes a quantized data, a scale, a zero point and computes the full precision data. The dequantization formula is y = (x – x_zero_point) * x_scale. Scale and zero point must have same shape. They must be either scalar (per tensor) or 1-D tensor (per ‘axis’).</p>
 
-<p align="center"><img alt="node_dequantize_linear.png" src="assets/node_dequantize_linear.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftDequantizeLinear" src="assets/MicrosoftDequantizeLinear.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

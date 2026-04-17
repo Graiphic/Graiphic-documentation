@@ -4,7 +4,7 @@
 
 <p>Create a copy of Image Src into Image Dst. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/copy.png" alt="Copy.Png" width="258" /></p>
+<p align="center"><img alt="Copy" src="assets/Copy.png" width="258"/></p>
 
 <h3>Input parameters</h3>
 

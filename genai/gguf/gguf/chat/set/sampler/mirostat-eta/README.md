@@ -4,7 +4,7 @@
 
 <p>Set mirostat_tau to common_params stored in local. NB : learning rate Type : polymorphic.</p>
 
-<p align="center"><img src="assets/mirostat-eta.png" alt="Mirostat Eta" width="270" /></p>
+<p align="center"><img alt="mirostat_eta" src="assets/mirostat_eta.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>A MeanVarianceNormalization Function: Perform mean variance normalization on the input tensor X using formula: <code>(X-EX)/sqrt(E(X-EX)^2)</code></p>
 
-<p align="center"><img alt="node_mean_variance_norm.png" src="assets/node_mean_variance_norm.png" width="299"/></p>
+<p align="center"><img alt="MeanVarianceNormalization" src="assets/MeanVarianceNormalization.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

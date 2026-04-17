@@ -4,7 +4,7 @@
 
 <p>Gaussian Error Linear Unit. A high-performing neural network activation function.The GELU nonlinearity is the expected transformation of a stochastic regularizer which randomly applies the identity or zero map to a neuron’s input. The GELU nonlinearity weights inputs by their magnitude, rather than gates inputs by their sign as in ReLUs.</p>
 
-<p align="center"><img alt="node_microsoft_gelu.png" src="assets/node_microsoft_gelu.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftGelu" src="assets/MicrosoftGelu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

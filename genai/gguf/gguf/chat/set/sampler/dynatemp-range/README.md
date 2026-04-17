@@ -4,7 +4,7 @@
 
 <p>Set dynatemp_range to common_params stored in local. NB : 0.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/dynatemp-range.png" alt="Dynatemp Range" width="270" /></p>
+<p align="center"><img alt="dynatemp_range" src="assets/dynatemp_range.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

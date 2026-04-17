@@ -4,7 +4,7 @@
 
 <p>ScatterND takes three inputs <code>data</code> tensor of rank r &gt;= 1, <code>indices</code> tensor of rank q &gt;= 1, and <code>updates</code> tensor of rank q + r – indices.shape[-1] – 1. The output of the operation is produced by creating a copy of the input <code>data</code>, and then updating its value to values specified by <code>updates</code> at specific index positions specified by <code>indices</code>. Its output shape is the same as the shape of <code>data</code>.</p>
 
-<p align="center"><img alt="node_scatter_elements.png" src="assets/node_scatter_elements.png" width="299"/></p>
+<p align="center"><img alt="ScatterND" src="assets/ScatterND.png" width="299"/></p>
 
 <p><code>indices</code> is an integer tensor. Let k denote indices.shape[-1], the last dimension in the shape of <code>indices</code>. <code>indices</code> is treated as a (q-1)-dimensional tensor of k-tuples, where each k-tuple is a partial-index into <code>data</code>. Hence, k can be a value at most the rank of <code>data</code>. When k equals rank(data), each update entry specifies an update to a single element of the tensor. When k is less than rank(data) each update entry specifies an update to a slice of the tensor. Index values are allowed to be negative, as per the usual convention for counting backwards from the end, but are expected in the valid range.</p>
 

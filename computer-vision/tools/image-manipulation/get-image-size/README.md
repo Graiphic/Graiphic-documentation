@@ -4,7 +4,7 @@
 
 <p>Retrieve the image size (width and height). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_image_size.png" alt="Get_Image_Size.Png" width="258" /></p>
+<p align="center"><img alt="Get Image Size" src="assets/Get Image Size.png" width="258"/></p>
 
 <h3>Input parameters</h3>
 

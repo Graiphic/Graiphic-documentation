@@ -4,7 +4,7 @@
 
 <p>Read the last frame. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/read_frame.png" alt="Read_Frame.Png" width="252" /></p>
+<p align="center"><img alt="Read Frame" src="assets/Read Frame.png" width="252"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Find the unique elements of a tensor. When an optional attribute ‘axis’ is provided, unique subtensors sliced along the ‘axis’ are returned. Otherwise the input tensor is flattened and unique values of the flattened tensor are returned.</p>
 
-<p align="center"><img alt="node_unique.png" src="assets/node_unique.png" width="311"/></p>
+<p align="center"><img alt="Unique" src="assets/Unique.png" width="311"/></p>
 
 <p>This operator returns the unique values or sliced unique subtensors of the input tensor and three optional outputs. The first output tensor ‘Y’ contains all unique values or subtensors of the input. The second optional output tensor ‘indices’ contains indices of ‘Y’ elements’ first occurrence in ‘X’. The third optional output tensor ‘inverse_indices’ contains, for elements of ‘X’, its corresponding indices in ‘Y’. The fourth optional output tensor ‘counts’ contains the count of each element of ‘Y’ in the input.</p>
 

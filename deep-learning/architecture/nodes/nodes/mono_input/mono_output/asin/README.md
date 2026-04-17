@@ -4,7 +4,7 @@
 
 <p>Calculates the arcsine (inverse of sine) of the given input tensor, element-wise.</p>
 
-<p align="center"><img alt="node_asin.png" src="assets/node_asin.png" width="299"/></p>
+<p align="center"><img alt="Asin" src="assets/Asin.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

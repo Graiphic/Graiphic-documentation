@@ -4,7 +4,7 @@
 
 <p>HardSwish takes one input data (Tensor) and produces one output data (Tensor) where the HardSwish function, y = x * max(0, min(1, alpha * x + beta)) = x * HardSigmoid&lt;alpha, beta&gt;(x), where alpha = 1/6 and beta = 0.5, is applied to the tensor elementwise.</p>
 
-<p align="center"><img alt="node_hard_swish.png" src="assets/node_hard_swish.png" width="299"/></p>
+<p align="center"><img alt="HardSwish" src="assets/HardSwish.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

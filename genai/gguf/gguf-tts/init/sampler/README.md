@@ -4,7 +4,7 @@
 
 <p>Initialize TTS sampler Type : polymorphic.</p>
 
-<p align="center"><img src="assets/sampler.png" alt="Sampler" width="270" /></p>
+<p align="center"><img alt="Sampler" src="assets/Sampler.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

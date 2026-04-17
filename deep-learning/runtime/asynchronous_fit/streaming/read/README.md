@@ -4,7 +4,7 @@
 
 <p>Retrieves the most recent training outputs produced during asynchronous streaming fit. Unlike FIFO mode, this VI does not buffer multiple records, it always returns the latest available values.</p>
 
-<p align="center"><img alt="asynchronous_fit_streaming_read" src="assets/asynchronous_fit_streaming_read.png" width="220"/></p>
+<p align="center"><img alt="Read" src="assets/Read.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

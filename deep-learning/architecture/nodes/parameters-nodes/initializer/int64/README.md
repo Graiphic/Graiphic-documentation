@@ -4,7 +4,7 @@
 
 <p>Creates a graph initializer of type <code>int64</code>. The tensor values are specified in the parameters and embedded as a fixed variable in the graph.</p>
 
-<p align="center"><img alt="node_initializer_int64.png" src="assets/node_initializer_int64.png" width="263"/></p>
+<p align="center"><img alt="Int64" src="assets/Int64.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Calculates the hyperbolic tangent of the given input tensor element-wise.</p>
 
-<p align="center"><img src="assets/node_tan_h.png" alt="Node_Tan_H.Png" width="299" /></p>
+<p align="center"><img alt="TanH" src="assets/TanH.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

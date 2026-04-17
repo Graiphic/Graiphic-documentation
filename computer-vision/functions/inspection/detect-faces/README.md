@@ -4,7 +4,7 @@
 
 <p>Apply a haarscascades to detect faces then add rectangle around theses faces. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/detect_faces.png" alt="Detect_Faces.Png" width="354" /></p>
+<p align="center"><img alt="Detect Faces" src="assets/Detect Faces.png" width="354"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>output, dropout_bitmask = Dropout(data + bias, ratio) + residual, Intended to specialize the dropout pattern commonly found in transformer models.</p>
 
-<p align="center"><img alt="node_bitmask_bias_dropout.png" src="assets/node_bitmask_bias_dropout.png" width="311"/></p>
+<p align="center"><img alt="BitmaskBiasDropout" src="assets/BitmaskBiasDropout.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the RNN layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_simple_rnn_index.png" alt="Set_Weights_Simple_Rnn_Index.Png" width="279" /></p>
+<p align="center"><img alt="RNN(SimpleRNN)" src="assets/RNN(SimpleRNN).png" width="279"/></p>
 
 <h3>Input parameters</h3>
 

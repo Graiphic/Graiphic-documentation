@@ -4,7 +4,7 @@
 
 <p>Close Session.</p>
 
-<p align="center"><img src="assets/acc_execution_close.png" alt="acc_execution_close" width="228" /></p>
+<p align="center"><img alt="Close" src="assets/Close.png" width="228"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>The Glorot uniform initializer, also called Xavier uniform initializer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="GlorotUniform" src="assets/GlorotUniform.png" width="210"/></p>
 
 <p>Draws samples from a uniform distribution within <em>[-limit, limit]</em>, where <em><strong>limit = sqrt(6 / (fan_in + fan_out))</strong></em> (<em>fan_in</em> is the number of input units in the weight tensor and <em>fan_out</em> is the number of output units).</p>
 

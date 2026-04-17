@@ -4,7 +4,7 @@
 
 <p>Set penalty_freq to common_params stored in local. NB : 0.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/penalty-freq.png" alt="Penalty Freq" width="270" /></p>
+<p align="center"><img alt="penalty_freq" src="assets/penalty_freq.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

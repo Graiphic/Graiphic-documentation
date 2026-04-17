@@ -4,7 +4,7 @@
 
 <p>Set min_p to common_params stored in local. NB : 0.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/min-p.png" alt="Min P" width="270" /></p>
+<p align="center"><img alt="min_p" src="assets/min_p.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

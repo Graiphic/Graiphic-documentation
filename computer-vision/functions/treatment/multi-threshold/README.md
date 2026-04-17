@@ -4,7 +4,7 @@
 
 <p>Performs thresholds of multiple intensity ranges to an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/multi_threshold.png" alt="Multi_Threshold.Png" width="234" /></p>
+<p align="center"><img alt="Multi Threshold" src="assets/Multi Threshold.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

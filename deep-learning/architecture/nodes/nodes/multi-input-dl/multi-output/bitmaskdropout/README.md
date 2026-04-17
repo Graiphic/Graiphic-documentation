@@ -12,7 +12,7 @@
 
 <p>This op functions in much the same was as <a href="../dropout/README.md">Dropout</a> do, except that the mask is output as a bit-packed uint32 tensor, instead of a boolean tensor.</p>
 
-<p align="center"><img alt="node_bitmask_dropout.png" src="assets/node_bitmask_dropout.png" width="311"/></p>
+<p align="center"><img alt="BitmaskDropout" src="assets/BitmaskDropout.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

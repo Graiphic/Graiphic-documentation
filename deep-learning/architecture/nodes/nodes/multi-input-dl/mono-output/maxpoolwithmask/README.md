@@ -4,7 +4,7 @@
 
 <p>MaxPoolWithMask works like a standard <a href="../../../mono_input/multi-output-nodes-dl/maxpool/README.md">MaxPool</a>, but additionally returns a mask indicating where each maximum value was found within the pooling region.</p>
 
-<p align="center"><img alt="node_max_pool_with_mask.png" src="assets/node_max_pool_with_mask.png" width="299"/></p>
+<p align="center"><img alt="MaxpoolWithMask" src="assets/MaxpoolWithMask.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

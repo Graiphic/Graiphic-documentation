@@ -4,7 +4,7 @@
 
 <p>This VI transforms a .keras model file (in the new Keras v3 format) into a standard .onnx file using a Python conversion tool. It enables deployment of Keras models across ONNX-compatible environments. Optionally, the resulting file can be opened in Netron.</p>
 
-<p align="center"><img alt="convert_keras_to_onnx" src="assets/convert_keras_to_onnx.png" width="220"/></p>
+<p align="center"><img alt="Keras To ONNX" src="assets/Keras To ONNX.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Copies the image to the operating system clipboard. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_to_clipboard.png" alt="Image_To_Clipboard.Png" width="234" /></p>
+<p align="center"><img alt="Image To Clipboard" src="assets/Image To Clipboard.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Initialize a session and its buffer Type : polymorphic.</p>
 
-<p align="center"><img src="assets/close.png" alt="Close" width="270" /></p>
+<p align="center"><img alt="Close" src="assets/Close.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Element-wise sum of each of the input tensors (with Numpy-style broadcasting support). All inputs and outputs must have the same data type. This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_sum.png" src="assets/node_sum.png" width="299"/></p>
+<p align="center"><img alt="Sum" src="assets/Sum.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

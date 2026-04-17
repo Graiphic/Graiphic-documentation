@@ -4,7 +4,7 @@
 
 <p>Runs a full training step on the model with raw input data from the CPU. This includes the forward and backward pass, followed by the optimizer update and gradient reset (only if the weights are updated). The learning rate is provided as a parameter at each call, and the output buffer is allocated automatically.</p>
 
-<p align="center"><img alt="training_full_train_step_cpu" src="assets/training_full_train_step_cpu.png" width="220"/></p>
+<p align="center"><img alt="CPU (set learning rate)" src="assets/CPU (set learning rate).png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Performs primary morphological transformations. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/morphology.png" alt="Morphology.Png" width="306" /></p>
+<p align="center"><img alt="Morphology" src="assets/Morphology.png" width="306"/></p>
 
 <h3>Input parameters</h3>
 

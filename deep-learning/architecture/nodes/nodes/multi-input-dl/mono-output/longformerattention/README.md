@@ -4,7 +4,7 @@
 
 <p>Longformer Self Attention with a local context and a global context. Tokens attend locally: Each token attends to its W previous tokens and W succeeding tokens with W being the window length. A selected few tokens attend globally to all other tokens.</p>
 
-<p align="center"><img alt="node_longformer_attention.png" src="assets/node_longformer_attention.png" width="299"/></p>
+<p align="center"><img alt="LongformerAttention" src="assets/LongformerAttention.png" width="299"/></p>
 
 <p>The attention mask is of shape (batch_size, sequence_length), where sequence_length is a multiple of 2W after padding. Mask value &lt; 0 (like -10000.0) means the token is masked, 0 otherwise.<br/>Global attention flags have value 1 for the tokens attend globally and 0 otherwise.</p>
 

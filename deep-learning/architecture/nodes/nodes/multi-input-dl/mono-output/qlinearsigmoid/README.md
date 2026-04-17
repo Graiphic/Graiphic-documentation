@@ -4,7 +4,7 @@
 
 <p>QLinearSigmoid takes quantized input data (Tensor), and quantize parameter for output, and produces one output data (Tensor) where the function <code>f(x) = quantize(Sigmoid(dequantize(x)))</code>, is applied to the data tensor elementwise. Wwhere the function <code>Sigmoid(x) = 1 / (1 + exp(-x))</code></p>
 
-<p align="center"><img alt="node_q_linear_sigmoid.png" src="assets/node_q_linear_sigmoid.png" width="299"/></p>
+<p align="center"><img alt="QLinearSigmoid" src="assets/QLinearSigmoid.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set typ_p to common_params stored in local. NB : typical_p, 1.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/typ-p.png" alt="Typ P" width="270" /></p>
+<p align="center"><img alt="typ_p" src="assets/typ_p.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

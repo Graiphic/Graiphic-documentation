@@ -4,7 +4,7 @@
 
 <p>Performs an element-wise binary modulo operation. </p>
 
-<p align="center"><img alt="node_mod.png" src="assets/node_mod.png" width="299"/></p>
+<p align="center"><img alt="Mod" src="assets/Mod.png" width="299"/></p>
 
 <p>The semantics and supported data types depend on the value of the <code>fmod</code> attribute which must be <code>0</code> (default), or <code>1</code>.</p>
 

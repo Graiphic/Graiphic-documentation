@@ -4,7 +4,7 @@
 
 <p>Generate a tensor of samples from a multinomial distribution according to the probabilities of each of the possible outcomes.</p>
 
-<p align="center"><img alt="node_multinomial.png" src="assets/node_multinomial.png" width="299"/></p>
+<p align="center"><img alt="Multinomial" src="assets/Multinomial.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

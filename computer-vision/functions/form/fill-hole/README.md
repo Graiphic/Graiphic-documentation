@@ -4,7 +4,7 @@
 
 <p>Fills the holes found in a particle. The holes are filled with a pixel value of 1. The source image must be an 8-bit binary image. The holes found in contact with the image border are never filled because it is impossible to determine whether these holes are part of a particle. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/fill_hole.png" alt="Fill_Hole.Png" width="282" /></p>
+<p align="center"><img alt="Fill Hole" src="assets/Fill Hole.png" width="282"/></p>
 
 <h3>Input parameters</h3>
 

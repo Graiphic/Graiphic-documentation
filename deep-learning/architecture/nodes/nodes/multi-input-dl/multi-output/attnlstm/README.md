@@ -4,7 +4,7 @@
 
 <p>Computes an one-layer RNN where its RNN Cell is an AttentionWrapper wrapped a LSTM Cell. The RNN layer contains following basic component: LSTM Cell, Bahdanau Attention Mechanism, AttentionWrapp.</p>
 
-<p align="center"><img alt="node_attn_lstm.png" src="assets/node_attn_lstm.png" width="311"/></p>
+<p align="center"><img alt="AttnLSTM" src="assets/AttnLSTM.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

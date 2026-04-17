@@ -4,7 +4,7 @@
 
 <p>Check if your computer is GPU ready. First check if CUDA is installed, if yes display device informations according to deviceID and check if CuDNN is also installed. If both are installed, it’s GPU ready.</p>
 
-<p align="center"><img alt="get_gpu_information" src="assets/get_gpu_information.png" width="220"/></p>
+<p align="center"><img alt="GPU" src="assets/GPU.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

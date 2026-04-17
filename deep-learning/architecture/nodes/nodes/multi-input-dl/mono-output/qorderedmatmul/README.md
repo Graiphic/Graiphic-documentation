@@ -4,7 +4,7 @@
 
 <p>Quantize (Int8) MatMul with order. Implement Y = alpha * A * B + bias + beta * C. Matrix A, B, C, Y are all int8 matrix. Two type of order combination supported: *) When order_B is ORDER_COL, order_A must be ORDER_ROW. bias is vector of {#cols of Y} of float32, C should be batch 1/batch_A. B could be of batch 1 or batch_A. Note B is reorder to ORDER_COL, or Transposed. Not Transposed first and then Reordered here. *) When order_B is specify ORDER_COL4_4R2_8C or ORDER_COL32_2R_4R4, orderA must be ORDER_COL32. MatMul will be implemented using alpha(A * B) + beta * C =&gt; Y. bias is not supported here. B in fact is transposed first then reordered into ORDER_COL4_4R2_8C or ORDER_COL32_2R_4R4 here. order_Y and order_C will be same as order_A. Support per column quantized weight, ie, scale_B is 1-D vector of size [#cols of matrix B].</p>
 
-<p align="center"><img alt="node_q_ordered_mat_mul.png" src="assets/node_q_ordered_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="QOrderedMatMul" src="assets/QOrderedMatMul.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

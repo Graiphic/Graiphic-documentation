@@ -4,7 +4,7 @@
 
 <p>Compress transformer input by removing paddings. It assumes padding is on the right side of sequence. The input has padding with shape (batch_size, sequence_length, hidden_size). This will generate two outputs: output has shape (total_tokens, hidden_size); token_offset with shape (batch_size, sequence_length). token_offset has offsets of all non-padding tokens first, then offset of all padding tokens. It is a list of batch_size * sequence_length elements, which is reshaped to 2D for convenience of shape inference.</p>
 
-<p align="center"><img alt="node_remove_padding.png" src="assets/node_remove_padding.png" width="311"/></p>
+<p align="center"><img alt="RemovePadding" src="assets/RemovePadding.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>The Segmentation Mask function merges a base image with multiple color masks using a given opacity factor for every mask, producing a partially masked image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/segmentation_masks.png" alt="Segmentation_Masks.Png" width="247" /></p>
+<p align="center"><img alt="Segmentation Masks" src="assets/Segmentation Masks.png" width="247"/></p>
 
 <h3>Input parameters</h3>
 

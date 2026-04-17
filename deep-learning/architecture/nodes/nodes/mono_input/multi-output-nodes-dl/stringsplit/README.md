@@ -4,7 +4,7 @@
 
 <p>StringSplit splits a string tensor’s elements into substrings based on a delimiter attribute and a maxsplit attribute.</p>
 
-<p align="center"><img alt="node_string_split.png" src="assets/node_string_split.png" width="311"/></p>
+<p align="center"><img alt="StringSplit" src="assets/StringSplit.png" width="311"/></p>
 
 <p>The first output of this operator is a tensor of strings representing the substrings from splitting each input string on the <code>delimiter</code> substring. This tensor has one additional rank compared to the input tensor in order to store the substrings for each input element (where the input tensor is not empty). Note that, in order to ensure the same number of elements are present in the final dimension, this tensor will pad empty strings as illustrated in the examples below. Consecutive delimiters are not grouped together and are deemed to delimit empty strings, except if the <code>delimiter</code> is unspecified or is the empty string (“”). In the case where the <code>delimiter</code> is unspecified or the empty string, consecutive whitespace characters are regarded as a single separator and leading or trailing whitespace is removed in the output.</p>
 

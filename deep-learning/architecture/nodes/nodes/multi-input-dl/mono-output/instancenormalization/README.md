@@ -4,7 +4,7 @@
 
 <p>Carries out instance normalization as described in the paper <a href="https://arxiv.org/abs/1607.08022">https://arxiv.org/abs/1607.08022</a>.</p>
 
-<p align="center"><img alt="node_instance_norm.png" src="assets/node_instance_norm.png" width="299"/></p>
+<p align="center"><img alt="InstanceNormalization" src="assets/InstanceNormalization.png" width="299"/></p>
 
 <p>y = scale * (x – mean) / sqrt(variance + epsilon) + B, where mean and variance are computed per instance per channel.</p>
 

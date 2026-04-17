@@ -4,7 +4,7 @@
 
 <p>Read the asked weights present in the CheckpointState stored in local then update the inference weights. A TrainingSession with this CheckpointState must be in memory for this function to work.</p>
 
-<p align="center"><img src="assets/function_academic_read_soft_update_weights.png" alt="function_academic_read_soft_update_weights" width="260" /></p>
+<p align="center"><img alt="Read and Soft Update Weights" src="assets/Read and Soft Update Weights.png" width="260"/></p>
 
 <h3>Input parameters</h3>
 

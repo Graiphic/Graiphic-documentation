@@ -4,7 +4,7 @@
 
 <p>Split a tensor into a sequence of tensors, along the specified ‘axis’. Lengths of the parts can be specified using the optional argument ‘split’. If the argument <code>split' is not specified, a default scalar value of 1 is used as the value of </code>split’. ‘split’ must contain only positive numbers. ‘split’ is either a scalar (tensor of empty shape), or a 1-D tensor. If ‘split’ is a scalar, then ‘input’ will be split into chunks all of size ‘split’ if possible. The last chunk alone may be smaller than ‘split’ if the ‘input’ size along the given axis ‘axis’ is not divisible by ‘split’. If ‘split’ is a 1-dimensional tensor, the input tensor is split into ‘size(split)’ chunks, with lengths of the parts on ‘axis’ specified in ‘split’. In this scenario, the sum of entries in ‘split’ must be equal to the dimension size of input tensor on ‘axis’.</p>
 
-<p align="center"><img alt="node_split_to_sequence.png" src="assets/node_split_to_sequence.png" width="344"/></p>
+<p align="center"><img alt="SplitToSequence" src="assets/SplitToSequence.png" width="344"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Elu takes one input data (Tensor) and produces one output data (Tensor) where the function <code>f(x) = alpha * (exp(x) - 1.) for x &lt; 0</code>, <code>f(x) = x for x &gt;= 0</code>., is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/param_node_elu.png" alt="Param_Node_Elu.Png" width="299" /></p>
+<p align="center"><img alt="ELU" src="assets/ELU.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

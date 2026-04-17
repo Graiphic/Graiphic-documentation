@@ -4,7 +4,7 @@
 
 <p>Reads a pixel value from an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_pixel_value.png" alt="Get_Pixel_Value.Png" width="267" /></p>
+<p align="center"><img alt="Get Pixel Value" src="assets/Get Pixel Value.png" width="267"/></p>
 
 <h3>Input parameters</h3>
 

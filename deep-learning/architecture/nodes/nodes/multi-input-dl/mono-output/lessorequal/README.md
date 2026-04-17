@@ -4,7 +4,7 @@
 
 <p>Returns the tensor resulted from performing the <code>less_equal</code> logical operation elementwise on the input tensors <code>A</code> and <code>B</code> (with Numpy-style broadcasting support). This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_less_or_equal.png" src="assets/node_less_or_equal.png" width="299"/></p>
+<p align="center"><img alt="LessOrEqual" src="assets/LessOrEqual.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

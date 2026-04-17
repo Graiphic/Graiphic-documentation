@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the Bidirectional layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="bidirectional_format_by_index.PNG" src="assets/bidirectional_format_by_index.PNG" width="275"/></p>
+<p align="center"><img alt="Bidirectional" src="assets/Bidirectional.png" width="275"/></p>
 
 <h3>Input parameters</h3>
 

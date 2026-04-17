@@ -4,7 +4,7 @@
 
 <p>Define L1 regularizer. L1 regularization applies a penalty proportional to the <strong>absolute value</strong> of the weights. This encourages <strong>sparse models</strong> by driving some weights to zero, which can be useful for feature selection or reducing model complexity. When selected explicitly, the <strong><code>l1</code> coefficient is user-defined</strong>, while <code>l2</code> is ignored. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="221"/></p>
+<p align="center"><img alt="L1" src="assets/L1.png" width="221"/></p>
 
 <h3>Input parameters</h3>
 

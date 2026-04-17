@@ -4,7 +4,7 @@
 
 <p>Lp pooling consisting of computing the Lp norm on all values of a subset of the input tensor according to the kernel size and downsampling the data into the output tensor Y for further processing.</p>
 
-<p align="center"><img alt="node_lp_pool.png" src="assets/node_lp_pool.png" width="299"/></p>
+<p align="center"><img alt="LpPool" src="assets/LpPool.png" width="299"/></p>
 
 <p>LpPool consumes an input tensor X and applies Lp pooling across the tensor according to kernel sizes, stride sizes, and pad lengths. The output spatial shape will be following :</p>
 

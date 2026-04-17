@@ -4,7 +4,7 @@
 
 <p>Pow takes input data (Tensor) and exponent Tensor, and produces one output data (Tensor) where the function <code>f(x) = x^exponent</code>, is applied to the data tensor elementwise. This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_pow.png" src="assets/node_pow.png" width="299"/></p>
+<p align="center"><img alt="Pow" src="assets/Pow.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

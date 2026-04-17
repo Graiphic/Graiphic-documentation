@@ -4,7 +4,7 @@
 
 <p>RegexFullMatch performs a full regex match on each element of the input tensor. If an element fully matches the regex pattern specified as an attribute, the corresponding element in the output is True and it is False otherwise. <a href="https://github.com/google/re2/wiki/Syntax">RE2</a> regex syntax is used.</p>
 
-<p align="center"><img alt="node_regex_full_match.png" src="assets/node_regex_full_match.png" width="299"/></p>
+<p align="center"><img alt="RegexFullMatch" src="assets/RegexFullMatch.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

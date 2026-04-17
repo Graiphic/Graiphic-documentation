@@ -4,7 +4,7 @@
 
 <p>Initialize a session. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/session.png" alt="Session" width="270" /></p>
+<p align="center"><img alt="Session" src="assets/Session.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

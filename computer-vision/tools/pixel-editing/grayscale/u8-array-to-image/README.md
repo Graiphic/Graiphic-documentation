@@ -4,7 +4,7 @@
 
 <p>Creates an image from a 2D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/u8_array_to_image.png" alt="U8_Array_To_Image.Png" width="259" /></p>
+<p align="center"><img alt="U8 Array To Image" src="assets/U8 Array To Image.png" width="259"/></p>
 
 <h3>Input parameters</h3>
 

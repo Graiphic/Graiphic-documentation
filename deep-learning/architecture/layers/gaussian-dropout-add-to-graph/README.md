@@ -4,7 +4,7 @@
 
 <p>Setup and add the gaussian dropout layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/gaussian_dropout_add_to_graph.png" alt="Gaussian_Dropout_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="GaussianDropout" src="assets/GaussianDropout.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

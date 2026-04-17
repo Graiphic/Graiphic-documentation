@@ -4,7 +4,7 @@
 
 <p>Set yarn_ext_factor to common_params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic.</p>
 
-<p align="center"><img src="assets/yarn-ext-factor.png" alt="Yarn Ext Factor" width="270" /></p>
+<p align="center"><img alt="yarn_ext_factor" src="assets/yarn_ext_factor.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

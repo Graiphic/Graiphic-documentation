@@ -4,7 +4,7 @@
 
 <p>Returns the GRU layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="gru_format.png" src="assets/gru_format.png" width="233"/></p>
+<p align="center"><img alt="GRU" src="assets/GRU.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

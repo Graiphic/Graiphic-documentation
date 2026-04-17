@@ -4,7 +4,7 @@
 
 <p>Quantifies the contents of an image or the regions within an image. The region definition is performed with a labeled image mask. Each region of the mask has a single unique value. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/quantify.png" alt="Quantify.Png" width="269" /></p>
+<p align="center"><img alt="Quantify" src="assets/Quantify.png" width="269"/></p>
 
 <h3>Input parameters</h3>
 

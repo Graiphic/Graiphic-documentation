@@ -4,7 +4,7 @@
 
 <p>Set n_print to common_params stored in local. NB : YaRN original context length Type : polymorphic.</p>
 
-<p align="center"><img src="assets/yarn-orig-ctx.png" alt="Yarn Orig CTX" width="270" /></p>
+<p align="center"><img alt="yarn_orig_ctx" src="assets/yarn_orig_ctx.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

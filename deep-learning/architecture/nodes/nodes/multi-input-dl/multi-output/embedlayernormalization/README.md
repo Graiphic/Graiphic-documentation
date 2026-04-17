@@ -4,7 +4,7 @@
 
 <p>EmbedLayerNormalization is the fusion of embedding layer in BERT model, with optional mask processing. The embedding layer takes input_ids (word IDs) and segment_ids (sentence IDs) to look up word_embedding, position_embedding, and segment_emedding; the embeddings are added then applied layer normalization using gamma and beta tensors. The last input mask is optional. If mask is provided, mask index (that is position of first 0 in mask, or number of words) will be calculated.</p>
 
-<p align="center"><img alt="node_embed_layer_norm.png" src="assets/node_embed_layer_norm.png" width="311"/></p>
+<p align="center"><img alt="EmbedLayerNormalization" src="assets/EmbedLayerNormalization.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

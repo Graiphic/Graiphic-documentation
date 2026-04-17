@@ -4,7 +4,7 @@
 
 <p>Calculates the profile of the pixels along the boundary of an ROI descriptor. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/roi_profile.png" alt="Roi_Profile.Png" width="304" /></p>
+<p align="center"><img alt="ROI Profile" src="assets/ROI Profile.png" width="304"/></p>
 
 <h3>Input parameters</h3>
 

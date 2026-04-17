@@ -4,7 +4,7 @@
 
 <p>Calculates the arctangent (inverse of tangent) of the given input tensor, element-wise.</p>
 
-<p align="center"><img alt="node_atan.png" src="assets/node_atan.png" width="299"/></p>
+<p align="center"><img alt="Atan" src="assets/Atan.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

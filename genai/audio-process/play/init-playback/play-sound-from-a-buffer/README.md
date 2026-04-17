@@ -4,7 +4,7 @@
 
 <p>Play a Sound Buffer. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/play-sound-from-a-buffer.png" alt="Play Sound From A Buffer" width="270" /></p>
+<p align="center"><img alt="Play Sound From a Buffer" src="assets/Play Sound From a Buffer.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Duplicate of FusedMatMul. Going forward FusedMatMul should be used. This OP will be supported for backward compatibility. Matrix product that behaves like numpy.matmul: <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.matmul.html">https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.matmul.html</a></p>
 
-<p align="center"><img alt="node_transpose_mat_mul.png" src="assets/node_transpose_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="TransposeMatMul" src="assets/TransposeMatMul.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

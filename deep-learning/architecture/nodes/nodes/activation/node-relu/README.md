@@ -4,7 +4,7 @@
 
 <p>Relu takes one input data (Tensor) and produces one output data (Tensor) where the rectified linear function, y = max(0, x), is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_relu.png" alt="Node_Relu.Png" width="299" /></p>
+<p align="center"><img alt="ReLU" src="assets/ReLU.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

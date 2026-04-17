@@ -4,7 +4,7 @@
 
 <p>Constructs a convolution matrix by converting a string. This string can represent either integers or floating-point values. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/build_kernel.png" alt="Build_Kernel.Png" width="238" /></p>
+<p align="center"><img alt="Build Kernel" src="assets/Build Kernel.png" width="238"/></p>
 
 <h3>Input parameters</h3>
 

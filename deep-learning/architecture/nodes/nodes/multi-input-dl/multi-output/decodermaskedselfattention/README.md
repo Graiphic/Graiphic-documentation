@@ -4,7 +4,7 @@
 
 <p>Self attention that supports input sequence length of 1. The weights for input projection of Q, K and V are merged. The data is stacked on the second dimension. Its shape is (input_hidden_size, hidden_size + hidden_size + v_hidden_size). Here hidden_size is the hidden dimension of Q and K, and v_hidden_size is that of V. The mask_index is optional. If it is provided, only raw attention mask with shape (batch_size, total_sequence_length) is supported currently. Both past and present state need to be provided. The qkv_hidden_sizes is required only when K and V have different hidden sizes. The total_sequence_length is past_sequence_length + kv_sequence_length. Here kv_sequence_length is the length of K or V. Currently, only self attention is supported which means that kv_sequence_length equals to sequence_length (sequence length of Q).</p>
 
-<p align="center"><img alt="node_decoder_masked_self_attention.png" src="assets/node_decoder_masked_self_attention.png" width="311"/></p>
+<p align="center"><img alt="DecoderMaskedSelfAttention" src="assets/DecoderMaskedSelfAttention.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

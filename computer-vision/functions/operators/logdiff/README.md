@@ -4,7 +4,7 @@
 
 <p>Keeps bits found in Image Src A that are absent from Image Src B. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/log_diff.png" alt="Log_Diff.Png" width="245" /></p>
+<p align="center"><img alt="LogDiff" src="assets/LogDiff.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

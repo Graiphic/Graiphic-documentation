@@ -4,7 +4,7 @@
 
 <p>He normal initializer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="HeNormal" src="assets/HeNormal.png" width="210"/></p>
 
 <p>It draws samples from a truncated normal distribution centered on 0 with <strong><em>stddev = sqrt(2 / fan_in)</em></strong> where <em>fan_in</em> is the number of input units in the weight tensor.</p>
 

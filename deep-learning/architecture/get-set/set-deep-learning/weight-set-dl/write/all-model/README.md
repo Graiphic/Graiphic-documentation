@@ -4,7 +4,7 @@
 
 <p>Load the weights of a model. By default, all layer weights will be loaded but if you set “RANDOM” to a specific index in “init_weight_array”, the selected layer will be randomly initialized.</p>
 
-<p align="center"><img alt="load_all_weight_model" src="assets/load_all_weight_model.PNG" width="220"/></p>
+<p align="center"><img alt="All (Model)" src="assets/All (Model).png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

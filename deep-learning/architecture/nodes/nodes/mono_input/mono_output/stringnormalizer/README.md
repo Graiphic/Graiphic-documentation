@@ -4,7 +4,7 @@
 
 <p>StringNormalization performs string operations for basic cleaning. This operator has only one input (denoted by X) and only one output (denoted by Y). This operator first examines the elements in the X, and removes elements specified in “stopwords” attribute. After removing stop words, the intermediate result can be further lowercased, uppercased, or just returned depending the “case_change_action” attribute. This operator only accepts [C]- and [1, C]-tensor. If all elements in X are dropped, the output will be the empty value of string tensor with shape [1] if input shape is [C] and shape [1, 1] if input shape is [1, C].</p>
 
-<p align="center"><img alt="node_string_normalizer.png" src="assets/node_string_normalizer.png" width="299"/></p>
+<p align="center"><img alt="StringNormalizer" src="assets/StringNormalizer.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

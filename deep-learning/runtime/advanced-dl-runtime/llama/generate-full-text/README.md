@@ -4,7 +4,7 @@
 
 <p>Runs text generation with the Llama model from a preprocessed sequence of tokens. The model processes the full sequence and returns the generated response as a single string (no token-by-token streaming).</p>
 
-<p align="center"><img alt="output_object.png" src="assets/output_object.png" width="316"/></p>
+<p align="center"><img alt="Generate Full Text" src="assets/Generate Full Text.png" width="316"/></p>
 
 <h3>Input parameters</h3>
 

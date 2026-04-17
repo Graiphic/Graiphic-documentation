@@ -4,7 +4,7 @@
 
 <p>Changes a line of pixels from a color image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_color_pixel_line.png" alt="Set_Color_Pixel_Line.Png" width="269" /></p>
+<p align="center"><img alt="Set Color Pixel Line" src="assets/Set Color Pixel Line.png" width="269"/></p>
 
 <h3>Input parameters</h3>
 

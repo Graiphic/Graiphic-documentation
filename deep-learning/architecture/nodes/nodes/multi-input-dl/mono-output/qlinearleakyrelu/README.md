@@ -4,7 +4,7 @@
 
 <p>QLinearLeakyRelu takes quantized input data (Tensor), an argument alpha, and quantize parameter for output, and produces one output data (Tensor) where the function <code>f(x) = quantize(alpha * dequantize(x)) for dequantize(x) &lt; 0</code>, <code>f(x) = quantize(dequantize(x)) for dequantize(x) &gt;= 0</code>, is applied to the data tensor elementwise.</p>
 
-<p align="center"><img alt="node_q_linear_leaky_relu.png" src="assets/node_q_linear_leaky_relu.png" width="299"/></p>
+<p align="center"><img alt="QLinearLeakyRelu" src="assets/QLinearLeakyRelu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set n_chunks to common_params stored in local. NB : max number of chunks to process (-1 = unlimited) Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-chunks.png" alt="N Chunks" width="270" /></p>
+<p align="center"><img alt="n_chunks" src="assets/n_chunks.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

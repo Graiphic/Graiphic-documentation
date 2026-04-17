@@ -4,7 +4,7 @@
 
 <p>Produces a slice of the input tensor along multiple axes. Similar to numpy : <a href="https://numpy.org/doc/stable/user/basics.indexing.html?highlight=slice#slicing-and-striding">https://numpy.org/doc/stable/user/basics.indexing.html?highlight=slice#slicing-and-striding</a></p>
 
-<p align="center"><img alt="node_slice.png" src="assets/node_slice.png" width="299"/></p>
+<p align="center"><img alt="Slice" src="assets/Slice.png" width="299"/></p>
 
 <p>Slice uses the <code>starts</code>, <code>ends</code>, <code>axes</code> and <code>steps</code> inputs to select a sub-tensor of its input <code>data</code> tensor.</p>
 

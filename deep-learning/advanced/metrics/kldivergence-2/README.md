@@ -4,7 +4,7 @@
 
 <p>Computes Kullback-Leibler divergence metric between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="kl_divergence.png" src="assets/kl_divergence.png" width="460"/></p>
+<p align="center"><img alt="KLDivergence" src="assets/KLDivergence.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

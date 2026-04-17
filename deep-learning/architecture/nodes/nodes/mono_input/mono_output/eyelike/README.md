@@ -4,7 +4,7 @@
 
 <p>Generate a 2D tensor (matrix) with ones on the diagonal and zeros everywhere else. Only 2D tensors are supported, i.e. input T1 must be of rank 2. The shape of the output tensor is the same as the input tensor. The data type can be specified by the ‘dtype’ argument. If ‘dtype’ is not specified, then the type of input tensor is used. By default, the main diagonal is populated with ones, but attribute ‘k’ can be used to populate upper or lower diagonals. The ‘dtype’ argument must be one of the data types specified in the ‘DataType’ enum field in the TensorProto message and be valid as an output type.</p>
 
-<p align="center"><img alt="node_eye_like.png" src="assets/node_eye_like.png" width="299"/></p>
+<p align="center"><img alt="EyeLike" src="assets/EyeLike.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

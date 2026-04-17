@@ -4,7 +4,7 @@
 
 <p>Draws binary random numbers (0 or 1) from a Bernoulli distribution. The input tensor should be a tensor containing probabilities p (a value in the range [0,1]) to be used for drawing the binary random number, where an output of 1 is produced with probability p and an output of 0 is produced with probability (1-p).</p>
 
-<p align="center"><img alt="node_bernouilli.png" src="assets/node_bernouilli.png" width="299"/></p>
+<p align="center"><img alt="Bernouilli" src="assets/Bernouilli.png" width="299"/></p>
 
 <p>This operator is non-deterministic and may not produce the same values in different implementations (even if a seed is specified).</p>
 

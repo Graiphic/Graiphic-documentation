@@ -4,7 +4,7 @@
 
 <p>MatMulNBits performs a matrix multiplication where the right-hand-side matrix (weights) is quantized to N bits.</p>
 
-<p align="center"><img alt="node_mat_mul.png" src="assets/node_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="MatMulNBits" src="assets/MatMulNBits.png" width="299"/></p>
 
 <p>It is a fusion of two operations :</p>
 

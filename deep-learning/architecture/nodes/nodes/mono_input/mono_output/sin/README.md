@@ -4,7 +4,7 @@
 
 <p>Calculates the sine of the given input tensor, element-wise.</p>
 
-<p align="center"><img alt="node_sin.png" src="assets/node_sin.png" width="299"/></p>
+<p align="center"><img alt="Sin" src="assets/Sin.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

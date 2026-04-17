@@ -4,7 +4,7 @@
 
 <p>Computes the mean absolute percentage error between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="mean_abs_percentage_error.png" src="assets/mean_abs_percentage_error.png" width="460"/></p>
+<p align="center"><img alt="MeanAbsolutePercentageError" src="assets/MeanAbsolutePercentageError.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

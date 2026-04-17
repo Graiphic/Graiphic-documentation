@@ -4,7 +4,7 @@
 
 <p>Extracts the intensity values of a line of pixels. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_pixel_line.png" alt="Get_Pixel_Line.Png" width="293" /></p>
+<p align="center"><img alt="Get Pixel Line" src="assets/Get Pixel Line.png" width="293"/></p>
 
 <h3>Input parameters</h3>
 

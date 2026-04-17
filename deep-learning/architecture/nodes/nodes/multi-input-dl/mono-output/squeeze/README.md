@@ -4,7 +4,7 @@
 
 <p>Remove single-dimensional entries from the shape of a tensor. Takes an input <code>axes</code> with a list of axes to squeeze. If <code>axes</code> is not provided, all the single dimensions will be removed from the shape. If an axis is selected with shape entry not equal to one, an error is raised.</p>
 
-<p align="center"><img alt="node_squeeze.png" src="assets/node_squeeze.png" width="302"/></p>
+<p align="center"><img alt="Squeeze" src="assets/Squeeze.png" width="302"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Compute binned relative position bias for T5 model. ref: <a href="https://arxiv.org/abs/1803.02155v2">https://arxiv.org/abs/1803.02155v2</a></p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="RelativePositionBias" src="assets/RelativePositionBias.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

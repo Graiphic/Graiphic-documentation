@@ -4,7 +4,7 @@
 
 <p>Set dry_base to common_params stored in local. NB : 0.0 = disabled multiplier * base ^ (length of sequence before token - allowed length) Type : polymorphic.</p>
 
-<p align="center"><img src="assets/dry-base.png" alt="Dry Base" width="270" /></p>
+<p align="center"><img alt="dry_base" src="assets/dry_base.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

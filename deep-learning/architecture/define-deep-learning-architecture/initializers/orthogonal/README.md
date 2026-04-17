@@ -4,7 +4,7 @@
 
 <p>Initializer that generates an orthogonal matrix. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="Orthogonal" src="assets/Orthogonal.png" width="210"/></p>
 
 <p>Initializer that generates an orthogonal matrix. If the shape of the tensor to initialize is two-dimensional, it is initialized with an orthogonal matrix obtained from the QR decomposition of a matrix of random numbers drawn from a normal distribution. If the matrix has fewer rows than columns then the output will have orthogonal rows. Otherwise, the output will have orthogonal columns.</p>
 

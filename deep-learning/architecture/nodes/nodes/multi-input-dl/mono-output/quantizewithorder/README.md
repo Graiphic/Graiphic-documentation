@@ -4,7 +4,7 @@
 
 <p>Quantize input matrix to specific layout used in cublaslt.</p>
 
-<p align="center"><img alt="node_quantize_with_order.png" src="assets/node_quantize_with_order.png" width="299"/></p>
+<p align="center"><img alt="QuantizeWithOrder" src="assets/QuantizeWithOrder.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

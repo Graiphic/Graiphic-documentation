@@ -4,7 +4,7 @@
 
 <p>Returns the number of particles detected in a binary image and a 2D array of requested measurements about the particle. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/particle_analysis.png" alt="Particle_Analysis.Png" width="363" /></p>
+<p align="center"><img alt="Particle Analysis" src="assets/Particle Analysis.png" width="363"/></p>
 
 <h3>Input parameters</h3>
 

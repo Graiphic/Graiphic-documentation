@@ -4,7 +4,7 @@
 
 <p>Computes the max of the input tensor’s elements along the provided axes. The resulting tensor has the same rank as the input if <code>keepdims</code> equals 1. If <code>keepdims</code> equals 0, then the resulting tensor has the reduced dimension pruned. Input tensors of rank zero are valid. Reduction over an empty set of values yields minus infinity (if supported by the datatype) or the minimum value of the data type otherwise. If the input data type is Boolean, the comparison should consider <code>False &lt; True</code>. The above behavior is similar to numpy, with the exception that numpy defaults <code>keepdims</code> to <code>False</code> instead of <code>True</code>.</p>
 
-<p align="center"><img alt="node_reduce_max.png" src="assets/node_reduce_max.png" width="299"/></p>
+<p align="center"><img alt="ReduceMax" src="assets/ReduceMax.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

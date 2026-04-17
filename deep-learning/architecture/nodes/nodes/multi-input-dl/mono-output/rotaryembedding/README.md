@@ -4,7 +4,7 @@
 
 <p>RotaryEmbedding is the implementation of rotary positional embeddings (RoPE). The positions are represented as rotation matrices that are multiplied to query and key before the inner product of query and key is taken.</p>
 
-<p align="center"><img alt="node_rotary_embedding.png" src="assets/node_rotary_embedding.png" width="299"/></p>
+<p align="center"><img alt="RotaryEmbedding" src="assets/RotaryEmbedding.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

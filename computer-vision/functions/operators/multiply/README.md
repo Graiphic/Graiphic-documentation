@@ -4,7 +4,7 @@
 
 <p>Multiplies two images or an image and a constant. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/multiply.png" alt="Multiply.Png" width="245" /></p>
+<p align="center"><img alt="Multiply" src="assets/Multiply.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

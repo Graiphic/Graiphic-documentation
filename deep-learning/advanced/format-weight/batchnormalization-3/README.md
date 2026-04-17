@@ -4,7 +4,7 @@
 
 <p>Returns the BatchNormalization layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="batch_norm_format.png" src="assets/batch_norm_format.png" width="233"/></p>
+<p align="center"><img alt="BatchNormalization" src="assets/BatchNormalization.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

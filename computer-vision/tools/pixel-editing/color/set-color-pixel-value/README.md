@@ -4,7 +4,7 @@
 
 <p>Changes a pixel value in a color image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_color_pixel_value.png" alt="Set_Color_Pixel_Value.Png" width="237" /></p>
+<p align="center"><img alt="Set Color Pixel Value" src="assets/Set Color Pixel Value.png" width="237"/></p>
 
 <h3>Input parameters</h3>
 

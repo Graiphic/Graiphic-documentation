@@ -4,7 +4,7 @@
 
 <p>Uses a specialized edge detection method to accurately estimate the location of edges even under conditions of poor signal-to-noise ratios. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/canny_edge_detection.png" alt="Canny_Edge_Detection.Png" width="274" /></p>
+<p align="center"><img alt="Canny Edge Detection" src="assets/Canny Edge Detection.png" width="274"/></p>
 
 <h3>Input parameters</h3>
 

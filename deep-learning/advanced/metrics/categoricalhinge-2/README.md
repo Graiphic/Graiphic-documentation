@@ -4,7 +4,7 @@
 
 <p>Computes the categorical hinge metric between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="categorical_hinge.png" src="assets/categorical_hinge.png" width="460"/></p>
+<p align="center"><img alt="CategoricalHinge" src="assets/CategoricalHinge.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

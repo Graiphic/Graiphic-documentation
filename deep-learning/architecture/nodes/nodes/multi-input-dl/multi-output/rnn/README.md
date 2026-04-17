@@ -4,7 +4,7 @@
 
 <p>Computes an one-layer simple RNN.</p>
 
-<p align="center"><img alt="node_dropout.png" src="assets/node_dropout.png" width="311"/></p>
+<p align="center"><img alt="RNN" src="assets/RNN.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Greedy Sampling for text generation.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="311"/></p>
+<p align="center"><img alt="Sampling" src="assets/Sampling.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

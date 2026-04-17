@@ -4,7 +4,7 @@
 
 <p>Insert single-dimensional entries to the shape of an input tensor (<code>data</code>). Takes one required input <code>axes</code> – which contains a list of dimension indices and this operator will insert a dimension of value <code>1</code> into the corresponding index of the output tensor (<code>expanded</code>).</p>
 
-<p align="center"><img alt="node_unsqueeze.png" src="assets/node_unsqueeze.png" width="305"/></p>
+<p align="center"><img alt="Unsqueeze" src="assets/Unsqueeze.png" width="305"/></p>
 
 <p>For example, given an input tensor (<code>data</code>) of shape [3, 4, 5], then Unsqueeze(data, axes=[0, 4]) outputs a tensor (<code>expanded</code>) containing same data as <code>data</code> but with shape [1, 3, 4, 5, 1].</p>
 

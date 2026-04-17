@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the Bidirectional layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_bidirectional_name.png" alt="Set_Weights_Bidirectional_Name.Png" width="261" /></p>
+<p align="center"><img alt="Bidirectional" src="assets/Bidirectional.png" width="261"/></p>
 
 <h3>Input parameters</h3>
 

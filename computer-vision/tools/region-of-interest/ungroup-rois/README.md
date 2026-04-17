@@ -4,7 +4,7 @@
 
 <p>Separates an ROI descriptor describing many contours into an array of ROI descriptors. Each of the ROI descriptors returned contains a single contour. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/ungroup_roi.png" alt="Ungroup_Roi.Png" width="289" /></p>
+<p align="center"><img alt="Ungroup ROIs" src="assets/Ungroup ROIs.png" width="289"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Generate a tensor with random values drawn from a uniform distribution. The shape of the output tensor is copied from the shape of the input tensor, and the parameters of the uniform distribution are specified by <code>low</code> and <code>high</code>. The data type is specified by the ‘dtype’ argument, or copied from the input tensor if not provided. The ‘dtype’ argument must be one of the data types specified in the ‘DataType’ enum field in the TensorProto message and be valid as an output type.</p>
 
-<p align="center"><img alt="node_random_normal_like.png" src="assets/node_random_normal_like.png" width="299"/></p>
+<p align="center"><img alt="RandomUniformLike" src="assets/RandomUniformLike.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

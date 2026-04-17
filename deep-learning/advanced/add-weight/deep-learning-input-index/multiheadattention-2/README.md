@@ -4,7 +4,7 @@
 
 <p>Gets the weights of the MultiHeadAttention layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="get_weights_by_index.PNG" src="assets/get_weights_by_index.PNG" width="240"/></p>
+<p align="center"><img alt="MultiHeadAttention" src="assets/MultiHeadAttention.png" width="240"/></p>
 
 <h3>Input parameters</h3>
 

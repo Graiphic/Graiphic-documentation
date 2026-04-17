@@ -4,7 +4,7 @@
 
 <p>Create video session reference from the path file. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/open_video.png" alt="Open_Video.Png" width="232" /></p>
+<p align="center"><img alt="Open Video" src="assets/Open Video.png" width="232"/></p>
 
 <h3>Input parameters</h3>
 

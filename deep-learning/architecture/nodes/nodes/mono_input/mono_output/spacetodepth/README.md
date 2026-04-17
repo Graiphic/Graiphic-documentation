@@ -4,7 +4,7 @@
 
 <p>SpaceToDepth rearranges blocks of spatial data into depth. More specifically, this op outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.</p>
 
-<p align="center"><img alt="node_space_to_depth.png" src="assets/node_space_to_depth.png" width="299"/></p>
+<p align="center"><img alt="SpaceToDepth" src="assets/SpaceToDepth.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

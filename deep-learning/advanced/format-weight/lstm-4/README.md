@@ -4,7 +4,7 @@
 
 <p>Returns the LSTM layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="lstm_format.png" src="assets/lstm_format.png" width="233"/></p>
+<p align="center"><img alt="LSTM" src="assets/LSTM.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

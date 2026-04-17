@@ -4,7 +4,7 @@
 
 <p>Filters an image using a linear filter. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/convolute.png" alt="Convolute.Png" width="306" /></p>
+<p align="center"><img alt="Convolute" src="assets/Convolute.png" width="306"/></p>
 
 <h3>Input parameters</h3>
 

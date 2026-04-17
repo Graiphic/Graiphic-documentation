@@ -4,7 +4,7 @@
 
 <p>Set top_k to common_params stored in local. NB : &lt;= 0 to use vocab size Type : polymorphic.</p>
 
-<p align="center"><img src="assets/top-k.png" alt="Top K" width="270" /></p>
+<p align="center"><img alt="top_k" src="assets/top_k.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

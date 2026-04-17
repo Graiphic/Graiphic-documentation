@@ -4,7 +4,7 @@
 
 <p>Blurs an image using a Gaussian filter. The function convolves the source image with the specified Gaussian kernel. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/gaussian_blur.png" alt="Gaussian_Blur.Png" width="311" /></p>
+<p align="center"><img alt="Gaussian Blur" src="assets/Gaussian Blur.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Creates a color image from a 2D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/u32_array_to_image.png" alt="U32_Array_To_Image.Png" width="242" /></p>
+<p align="center"><img alt="U32 Array To Color Image" src="assets/U32 Array To Color Image.png" width="242"/></p>
 
 <h3>Input parameters</h3>
 

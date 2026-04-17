@@ -4,7 +4,7 @@
 
 <p>Setup and add the split layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/split_add_to_graph.png" alt="Split_Add_To_Graph.Png" width="274" /></p>
+<p align="center"><img alt="Split" src="assets/Split.png" width="274"/></p>
 
 <h3>Input parameters</h3>
 

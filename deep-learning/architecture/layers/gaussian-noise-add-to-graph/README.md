@@ -4,7 +4,7 @@
 
 <p>Setup and add the gaussian noise layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/gaussian_noise_add_to_graph.png" alt="Gaussian_Noise_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="GaussianNoise" src="assets/GaussianNoise.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Opens camera reference according to index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/open_camera.png" alt="Open_Camera.Png" width="225" /></p>
+<p align="center"><img alt="Open Camera" src="assets/Open Camera.png" width="225"/></p>
 
 <h3>Input parameters</h3>
 

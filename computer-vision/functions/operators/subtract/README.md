@@ -4,7 +4,7 @@
 
 <p>Subtracts one image from another or a constant from an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/subtract.png" alt="Subtract.Png" width="245" /></p>
+<p align="center"><img alt="Subtract" src="assets/Subtract.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

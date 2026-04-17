@@ -4,7 +4,7 @@
 
 <p>ScatterElements takes three inputs <code>data</code>, <code>updates</code>, and <code>indices</code> of the same rank r &gt;= 1 and an optional attribute axis that identifies an axis of <code>data</code> (by default, the outer-most axis, that is axis 0). The output of the operation is produced by creating a copy of the input <code>data</code>, and then updating its value to values specified by <code>updates</code> at specific index positions specified by <code>indices</code>. Its output shape is the same as the shape of <code>data</code>.</p>
 
-<p align="center"><img alt="node_scatter_elements.png" src="assets/node_scatter_elements.png" width="299"/></p>
+<p align="center"><img alt="ScatterElements" src="assets/ScatterElements.png" width="299"/></p>
 
 <p>For each entry in <code>updates</code>, the target index in <code>data</code> is obtained by combining the corresponding entry in <code>indices</code> with the index of the entry itself: the index-value for dimension = axis is obtained from the value of the corresponding entry in <code>indices</code> and the index-value for dimension != axis is obtained from the index of the entry itself.</p>
 

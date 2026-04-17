@@ -4,7 +4,7 @@
 
 <p>Extracts the pixels from an image, into a U8 2D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_to_u8_array.png" alt="Image_To_U8_Array.Png" width="245" /></p>
+<p align="center"><img alt="Image To U8 Array" src="assets/Image To U8 Array.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set top_p to common_params stored in local. NB : 1.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/top-p.png" alt="Top P" width="270" /></p>
+<p align="center"><img alt="top_p" src="assets/top_p.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

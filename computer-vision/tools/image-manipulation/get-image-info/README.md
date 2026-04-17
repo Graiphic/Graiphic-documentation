@@ -4,7 +4,7 @@
 
 <p>Retrieve image information (name, size, and type). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_image_info.png" alt="Get_Image_Info.Png" width="238" /></p>
+<p align="center"><img alt="Get Image Info" src="assets/Get Image Info.png" width="238"/></p>
 
 <h3>Input parameters</h3>
 

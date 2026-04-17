@@ -4,7 +4,7 @@
 
 <p>Generic Looping construct.</p>
 
-<p align="center"><img alt="input_array_object_3.png" src="assets/input_array_object_3.png" width="387"/></p>
+<p align="center"><img alt="Loop" src="assets/Loop.png" width="387"/></p>
 
 <p>This loop has multiple termination conditions :</p>
 

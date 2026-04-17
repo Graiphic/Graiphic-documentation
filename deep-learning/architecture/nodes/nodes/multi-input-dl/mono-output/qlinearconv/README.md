@@ -4,7 +4,7 @@
 
 <p>The convolution operator consumes a quantized input tensor, its scale and zero point, a quantized filter, its scale and zero point, and output’s scale and zero point, and computes the quantized output. Each scale and zero-point pair must have same shape. It means they must be either scalars (per tensor) or 1-D tensors (per output channel). Each input or output and its related zero point must have same type. When bias is present it must be quantized using scale = input scale * weight scale and zero point as 0.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="QLinearConv" src="assets/QLinearConv.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

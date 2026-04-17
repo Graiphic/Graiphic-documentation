@@ -4,7 +4,7 @@
 
 <p>Merges two images by dividing horizontally according to a coefficient, creating a new image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/split_image.png" alt="Split_Image.Png" width="262" /></p>
+<p align="center"><img alt="Split" src="assets/Split.png" width="262"/></p>
 
 <h3>Input parameters</h3>
 

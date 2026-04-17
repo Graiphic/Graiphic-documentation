@@ -4,7 +4,7 @@
 
 <p>Thresholds an image into a binary image based on the specified local adaptive thresholding method. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/local_threshold.png" alt="Local_Threshold.Png" width="323" /></p>
+<p align="center"><img alt="Local Threshold" src="assets/Local Threshold.png" width="323"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Concatenate a list of tensors into a single tensor. All input tensors must have the same shape, except for the dimension size of the axis to concatenate on.</p>
 
-<p align="center"><img alt="input_array_object_3.png" src="assets/input_array_object_3.png" width="323"/></p>
+<p align="center"><img alt="Concat" src="assets/Concat.png" width="323"/></p>
 
 <h3>Input parameters</h3>
 

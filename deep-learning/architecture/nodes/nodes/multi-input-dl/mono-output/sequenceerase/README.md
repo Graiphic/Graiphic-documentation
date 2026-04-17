@@ -4,7 +4,7 @@
 
 <p>Outputs a tensor sequence that removes the tensor at ‘position’ from ‘input_sequence’. Accepted range for ‘position’ is in <code>[-n, n - 1]</code>, where <code>n</code> is the number of tensors in ‘input_sequence’. Negative value means counting positions from the back. ‘position’ is optional, by default it erases the last tensor from ‘input_sequence’.</p>
 
-<p align="center"><img alt="node_sequence_erase.png" src="assets/node_sequence_erase.png" width="344"/></p>
+<p align="center"><img alt="SequenceErase" src="assets/SequenceErase.png" width="344"/></p>
 
 <h3>Input parameters</h3>
 

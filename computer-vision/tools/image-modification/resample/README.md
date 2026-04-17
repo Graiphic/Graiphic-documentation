@@ -4,7 +4,7 @@
 
 <p>Resamples an image to a user-defined size. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/resample.png" alt="Resample.Png" width="291" /></p>
+<p align="center"><img alt="Resample" src="assets/Resample.png" width="291"/></p>
 
 <h3>Input parameters</h3>
 

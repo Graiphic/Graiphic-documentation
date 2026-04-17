@@ -4,7 +4,7 @@
 
 <p>Construct an empty tensor sequence, with given data type.</p>
 
-<p align="center"><img alt="node_sequence_empty.png" src="assets/node_sequence_empty.png" width="299"/></p>
+<p align="center"><img alt="SequenceEmpty" src="assets/SequenceEmpty.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

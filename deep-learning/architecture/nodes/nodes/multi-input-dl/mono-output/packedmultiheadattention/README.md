@@ -4,7 +4,7 @@
 
 <p>This is the packed version of MultiHeadAttention.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="PackedMultiHeadAttention" src="assets/PackedMultiHeadAttention.png" width="299"/></p>
 
 <p>Sequences in one batch usually don’t have same length and they are padded to have same length, e.g., below is a batch with 3 sequences and * is padding token. Sequence_0: 0, 1*, 2*, 3* Sequence_1: 4, 5, 6*, 7* Sequence_2: 8, 9, 10, 11</p>
 

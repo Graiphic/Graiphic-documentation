@@ -4,7 +4,7 @@
 
 <p>Updates the model’s weights using the current gradients and the chosen optimization algorithm.</p>
 
-<p align="center"><img alt="academic_optimizer_step" src="assets/academic_optimizer_step.png" width="220"/></p>
+<p align="center"><img alt="Optimizer Step" src="assets/Optimizer Step.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

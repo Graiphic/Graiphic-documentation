@@ -4,7 +4,7 @@
 
 <p>DynamicQuantizeLSTM is an ONNX operator that runs an LSTM (Long Short-Term Memory) while applying dynamic quantization to the weights and activations during inference.</p>
 
-<p align="center"><img alt="node_dinamic_quantize_lstm.png" src="assets/node_dinamic_quantize_lstm.png" width="311"/></p>
+<p align="center"><img alt="DynamicQuantizeLSTM" src="assets/DynamicQuantizeLSTM.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

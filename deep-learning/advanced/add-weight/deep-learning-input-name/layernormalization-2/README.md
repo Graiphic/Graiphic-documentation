@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the LayerNormalization layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="layer_norm_format_by_name.PNG" src="assets/layer_norm_format_by_name.PNG" width="253"/></p>
+<p align="center"><img alt="LayerNormalization" src="assets/LayerNormalization.png" width="253"/></p>
 
 <h3>Input parameters</h3>
 

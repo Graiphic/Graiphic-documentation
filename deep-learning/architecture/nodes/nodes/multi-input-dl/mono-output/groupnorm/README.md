@@ -4,7 +4,7 @@
 
 <p>Applies Group Normalization over a mini-batch of inputs as described in the paper Group Normalization (<a href="https://arxiv.org/abs/1803.08494">https://arxiv.org/abs/1803.08494</a>).</p>
 
-<p align="center"><img alt="node_group_norm.png" src="assets/node_group_norm.png" width="299"/></p>
+<p align="center"><img alt="GroupNorm" src="assets/GroupNorm.png" width="299"/></p>
 
 <p>This operator transforms input according to : y = gamma * (x – mean) / sqrt(variance + epsilon) + beta</p>
 

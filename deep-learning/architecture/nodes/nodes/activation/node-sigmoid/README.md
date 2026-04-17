@@ -4,7 +4,7 @@
 
 <p>Sigmoid takes one input data (Tensor) and produces one output data (Tensor) where the sigmoid function, y = 1 / (1 + exp(-x)), is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_sigmoid.png" alt="Node_Sigmoid.Png" width="299" /></p>
+<p align="center"><img alt="Sigmoid" src="assets/Sigmoid.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

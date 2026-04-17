@@ -4,7 +4,7 @@
 
 <p>Setup and add the additive attention layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/additive_attention_add_to_graph.png" alt="Additive_Attention_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="AdditiveAttention" src="assets/AdditiveAttention.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

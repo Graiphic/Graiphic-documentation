@@ -4,7 +4,7 @@
 
 <p>Inverse is used to invert a matrix. In other words, it takes a square matrix (same number of rows and columns) and calculates its inverse matrix.</p>
 
-<p align="center"><img alt="node_inverse.png" src="assets/node_inverse.png" width="299"/></p>
+<p align="center"><img alt="Inverse" src="assets/Inverse.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

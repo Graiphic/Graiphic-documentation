@@ -4,7 +4,7 @@
 
 <p>Set grp_attn_w to common_params stored in local. NB : group-attention width Type : polymorphic.</p>
 
-<p align="center"><img src="assets/grp-attn-w.png" alt="Grp Attn W" width="270" /></p>
+<p align="center"><img alt="grp_attn_w" src="assets/grp_attn_w.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

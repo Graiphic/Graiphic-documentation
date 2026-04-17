@@ -4,7 +4,7 @@
 
 <p>Calculates the profile of a line of pixels. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/line_profile.png" alt="Line_Profile.Png" width="313" /></p>
+<p align="center"><img alt="Line Profile" src="assets/Line Profile.png" width="313"/></p>
 
 <h3>Input parameters</h3>
 

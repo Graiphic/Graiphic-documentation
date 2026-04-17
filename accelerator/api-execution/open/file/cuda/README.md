@@ -4,7 +4,7 @@
 
 <p>Create Cuda Session with its Session Options on the stored local Env. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/acc_execution_open_file_cuda.png" alt="Acc_Execution_Open_File_Cuda.Png" width="306" /></p>
+<p align="center"><img alt="CUDA" src="assets/CUDA.png" width="306"/></p>
 
 <h3>Input parameters</h3>
 

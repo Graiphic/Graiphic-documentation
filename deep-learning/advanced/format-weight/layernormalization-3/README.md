@@ -4,7 +4,7 @@
 
 <p>Returns the LayerNormalization layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="layer_norm_format.png" src="assets/layer_norm_format.png" width="233"/></p>
+<p align="center"><img alt="LayerNormalization" src="assets/LayerNormalization.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Fills the matrix dst with normally distributed random numbers with the specified mean vector and the standard deviation matrix. The generated random numbers are clipped to fit the value range of the output array data type.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/noise.png" alt="Noise.Png" width="234" /></p>
+<p align="center"><img alt="Noise" src="assets/Noise.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

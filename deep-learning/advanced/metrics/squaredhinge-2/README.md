@@ -4,7 +4,7 @@
 
 <p>Computes the squared hinge metric between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="squared_hinge.png" src="assets/squared_hinge.png" width="460"/></p>
+<p align="center"><img alt="SquaredHinge" src="assets/SquaredHinge.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

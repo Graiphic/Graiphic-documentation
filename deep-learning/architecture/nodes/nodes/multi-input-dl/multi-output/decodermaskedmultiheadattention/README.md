@@ -4,7 +4,7 @@
 
 <p>Multihead attention that supports input sequence length of 1. Similar to DecoderMaskedSelfAttention but this op excludes QKV MatMul and Bias. This op supports both Self and Cross Attention.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="311"/></p>
+<p align="center"><img alt="DecoderMaskedMultiHeadAttention" src="assets/DecoderMaskedMultiHeadAttention.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

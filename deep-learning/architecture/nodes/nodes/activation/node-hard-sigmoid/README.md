@@ -4,7 +4,7 @@
 
 <p>HardSigmoid takes one input data (Tensor) and produces one output data (Tensor) where the HardSigmoid function, y = max(0, min(1, alpha * x + beta)), is applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_hard_sigmoid.png" alt="Node_Hard_Sigmoid.Png" width="299" /></p>
+<p align="center"><img alt="HardSigmoid" src="assets/HardSigmoid.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Generate a MelWeightMatrix that can be used to re-weight a Tensor containing a linearly sampled frequency spectra (from DFT or STFT) into num_mel_bins frequency information based on the [lower_edge_hertz, upper_edge_hertz] range on the mel scale.</p>
 
-<p align="center"><img alt="node_mel_weight_matrix.png" src="assets/node_mel_weight_matrix.png" width="299"/></p>
+<p align="center"><img alt="MelWeightMatrix" src="assets/MelWeightMatrix.png" width="299"/></p>
 
 <p>This function defines the mel scale in terms of a frequency in hertz according to the following formula : mel(f) = 2595 * log10(1 + f/700)<br/>In the returned matrix, all the triangles (filterbanks) have a peak value of 1.0.</p>
 

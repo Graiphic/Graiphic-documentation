@@ -4,7 +4,7 @@
 
 <p>Computes the cross-entropy loss between true labels and predicted labels.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="230"/></p>
+<p align="center"><img alt="Binary Crossentropy" src="assets/Binary Crossentropy.png" width="230"/></p>
 
 <table>
   <tbody>

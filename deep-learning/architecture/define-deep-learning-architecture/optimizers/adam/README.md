@@ -4,7 +4,7 @@
 
 <p>Optimizer that implements the Adam algorithm. Adam optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="define_adam.png" src="assets/define_adam.png" width="239"/></p>
+<p align="center"><img alt="Adam" src="assets/Adam.png" width="239"/></p>
 
 <h3>Input parameters</h3>
 

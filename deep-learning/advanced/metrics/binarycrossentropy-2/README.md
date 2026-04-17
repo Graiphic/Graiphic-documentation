@@ -4,7 +4,7 @@
 
 <p>Computes the crossentropy metric between the labels and predictions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="binary_crossentropy.png" src="assets/binary_crossentropy.png" width="460"/></p>
+<p align="center"><img alt="BinaryCrossentropy" src="assets/BinaryCrossentropy.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

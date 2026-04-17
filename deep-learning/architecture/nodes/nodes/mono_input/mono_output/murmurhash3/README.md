@@ -4,7 +4,7 @@
 
 <p>The underlying implementation is MurmurHash3_x86_32 generating low latency 32bits hash suitable for implementing lookup tables, Bloom filters, count min sketch or feature hashing.</p>
 
-<p align="center"><img alt="node_murmur_hash3.png" src="assets/node_murmur_hash3.png" width="299"/></p>
+<p align="center"><img alt="MurmurHash3" src="assets/MurmurHash3.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

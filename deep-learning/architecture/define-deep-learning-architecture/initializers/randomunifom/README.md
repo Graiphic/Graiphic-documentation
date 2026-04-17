@@ -4,7 +4,7 @@
 
 <p>Random uniform initializer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="../../../../../_resolved/and/assets/cluster.png" alt="Cluster.Png" width="231" /></p>
+<p align="center"><img alt="RandomUniform" src="assets/RandomUniform.png" width="231"/></p>
 
 <p>Draws samples from a uniform distribution for given parameters.</p>
 

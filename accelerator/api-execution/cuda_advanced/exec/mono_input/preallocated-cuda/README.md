@@ -4,7 +4,7 @@
 
 <p>Execute the model using CUDA mono input and mono output pointer. Type : <em><strong>polymorphic</strong><strong>.<br/></strong></em><strong>Warning : This function can only be executed with CUDA or TensorRT.<br/>Both input and output buffer must be pre-allocated on the GPU and managed by the user (no automatic allocation or release).</strong></p>
 
-<p align="center"><img src="assets/acc_execution_cuda-advanced_mono_preallocated.png" alt="Acc_Execution_Cuda Advanced_Mono_Preallocated.Png" width="263" /></p>
+<p align="center"><img alt="Preallocated CUDA" src="assets/Preallocated CUDA.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Setup and add elu layer into the model during the definition graph step. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/thresholded_relu_add_to_graph.png" alt="Thresholded_Relu_Add_To_Graph.Png" width="265" /></p>
+<p align="center"><img alt="ELU" src="assets/ELU.png" width="265"/></p>
 
 <h3>Input parameters</h3>
 

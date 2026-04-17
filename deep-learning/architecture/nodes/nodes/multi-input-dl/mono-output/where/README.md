@@ -4,7 +4,7 @@
 
 <p>Return elements, either from X or Y, depending on condition. Where behaves like <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.where.html">numpy.where</a> with three parameters. This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_where.png" src="assets/node_where.png" width="299"/></p>
+<p align="center"><img alt="Where" src="assets/Where.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

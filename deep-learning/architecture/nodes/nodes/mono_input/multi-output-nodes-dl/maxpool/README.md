@@ -4,7 +4,7 @@
 
 <p>MaxPool consumes an input tensor X and applies max pooling across the tensor according to kernel sizes, stride sizes, and pad lengths. max pooling consisting of computing the max on all values of a subset of the input tensor according to the kernel size and downsampling the data into the output tensor Y for further processing.</p>
 
-<p align="center"><img alt="node_max_pool.png" src="assets/node_max_pool.png" width="311"/></p>
+<p align="center"><img alt="MaxPool" src="assets/MaxPool.png" width="311"/></p>
 
 <p>The output spatial shape is calculated differently depending on whether explicit padding is used, where pads is employed, or auto padding is used, where auto_pad is utilized. With explicit padding (<a href="https://pytorch.org/docs/stable/generated/torch.nn.MaxPool2d.html?highlight=maxpool#torch.nn.MaxPool2d">https://pytorch.org/docs/stable/generated/torch.nn.MaxPool2d.html?highlight=maxpool#torch.nn.MaxPool2d</a>):</p>
 

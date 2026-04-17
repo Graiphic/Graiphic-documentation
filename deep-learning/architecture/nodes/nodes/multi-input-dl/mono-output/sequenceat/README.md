@@ -4,7 +4,7 @@
 
 <p>Outputs a tensor copy from the tensor at ‘position’ in ‘input_sequence’. Accepted range for ‘position’ is in <code>[-n, n - 1]</code>, where <code>n</code> is the number of tensors in ‘input_sequence’. Negative value means counting positions from the back.</p>
 
-<p align="center"><img alt="node_sequence_at.png" src="assets/node_sequence_at.png" width="299"/></p>
+<p align="center"><img alt="SequenceAt" src="assets/SequenceAt.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

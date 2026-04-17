@@ -4,7 +4,7 @@
 
 <p>Initializer that generates tensors with constant values.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="Constant" src="assets/Constant.png" width="210"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Neg takes one input data (Tensor) and produces one output data (Tensor) where each element flipped sign, y = -x, is applied to the tensor elementwise.</p>
 
-<p align="center"><img alt="node_neg.png" src="assets/node_neg.png" width="299"/></p>
+<p align="center"><img alt="Neg" src="assets/Neg.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

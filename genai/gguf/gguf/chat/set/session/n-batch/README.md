@@ -4,7 +4,7 @@
 
 <p>Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be &gt;=32 to use BLAS) Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-batch.png" alt="N Batch" width="270" /></p>
+<p align="center"><img alt="n_batch" src="assets/n_batch.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

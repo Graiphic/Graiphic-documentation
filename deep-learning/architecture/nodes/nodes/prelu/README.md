@@ -4,7 +4,7 @@
 
 <p>PRelu takes input data (Tensor) and slope tensor as input, and produces one output data (Tensor) where the function <code>f(x) = slope * x for x &lt; 0</code>, <code>f(x) = x for x &gt;= 0</code>., is applied to the data tensor elementwise. This operator supports <strong>unidirectional broadcasting</strong> (tensor slope should be unidirectional broadcastable to input tensor X); for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_prelu.png" src="assets/node_prelu.png" width="299"/></p>
+<p align="center"><img alt="PRelu" src="assets/PRelu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

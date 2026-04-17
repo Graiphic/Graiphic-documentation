@@ -4,7 +4,7 @@
 
 <p>Lecun normal initializer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="LeCunNormal" src="assets/LeCunNormal.png" width="210"/></p>
 
 <p>Initializers allow you to pre-specify an initialization strategy, encoded in the Initializer object, without knowing the shape and dtype of the variable being initialized.<br/>Draws samples from a truncated normal distribution centered on 0 with <strong><em>stddev = sqrt(1 / fan_in) </em></strong>where <em>fan_in </em>is the number of input units in the weight tensor.</p>
 

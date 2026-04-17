@@ -4,7 +4,7 @@
 
 <p>Generates a Hamming window as described in the paper <a href="https://ieeexplore.ieee.org/document/1455106">https://ieeexplore.ieee.org/document/1455106</a>.</p>
 
-<p align="center"><img alt="node_hamming_window.png" src="assets/node_hamming_window.png" width="299"/></p>
+<p align="center"><img alt="HammingWindow" src="assets/HammingWindow.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

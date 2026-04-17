@@ -4,7 +4,7 @@
 
 <p>Returns the AdditiveAttention layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="additive_attention_format.png" src="assets/additive_attention_format.png" width="233"/></p>
+<p align="center"><img alt="AdditiveAttention" src="assets/AdditiveAttention.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

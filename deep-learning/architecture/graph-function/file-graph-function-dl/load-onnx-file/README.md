@@ -5,7 +5,7 @@
 <p>Loads an ONNX model from file and creates the corresponding execution graph.<br/>
 This VI initializes an ONNXModel object from a .onnx file, making it ready for use within the Deep Learning environment. It allows importing external models into the LabVIEW graphical workflow, with an optional loading popup.</p>
 
-<p align="center"><img alt="load_model_and_create_graph" src="assets/load_model_and_create_graph.png" width="220"/></p>
+<p align="center"><img alt="Load ONNX File" src="assets/Load ONNX File.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

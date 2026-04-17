@@ -4,7 +4,7 @@
 
 <p>Defines the weight of the AdditiveAttention layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_additive_attention_name.png" alt="Set_Weights_Additive_Attention_Name.Png" width="228" /></p>
+<p align="center"><img alt="AdditiveAttention" src="assets/AdditiveAttention.png" width="228"/></p>
 
 <h3>Input parameters</h3>
 

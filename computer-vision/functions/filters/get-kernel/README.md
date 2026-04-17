@@ -4,7 +4,7 @@
 
 <p>Reads a predefined kernel. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_kernel.png" alt="Get_Kernel.Png" width="283" /></p>
+<p align="center"><img alt="Get Kernel" src="assets/Get Kernel.png" width="283"/></p>
 
 <h3>Input parameters</h3>
 

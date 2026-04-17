@@ -4,7 +4,7 @@
 
 <p>Adjust the saturation in the image.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/saturation.png" alt="Saturation.Png" width="234" /></p>
+<p align="center"><img alt="Saturation" src="assets/Saturation.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

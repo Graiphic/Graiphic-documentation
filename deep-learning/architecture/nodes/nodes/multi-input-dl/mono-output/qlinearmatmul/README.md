@@ -4,7 +4,7 @@
 
 <p>Matrix product that behaves like <a href="https://numpy.org/doc/stable/reference/generated/numpy.matmul.html">numpy.matmul</a>. It consumes two quantized input tensors, their scales and zero points, scale and zero point of output, and computes the quantized output. The quantization formula is y = saturate((x / y_scale) + y_zero_point). For (x / y_scale), it is rounding to nearest ties to even. Refer to <a href="https://en.wikipedia.org/wiki/Rounding">https://en.wikipedia.org/wiki/Rounding</a> for details. Scale and zero point must have same shape. They must be either scalar (per tensor) or N-D tensor (per row for ‘a’ and per column for ‘b’). Scalar refers to per tensor quantization whereas N-D refers to per row or per column quantization. If the input is 2D of shape [M, K] then zero point and scale tensor may be an M element vector [v_1, v_2, …, v_M] for per row quantization and K element vector of shape [v_1, v_2, …, v_K] for per column quantization. If the input is N-D tensor with shape [D1, D2, M, K] then zero point and scale tensor may have shape [D1, D2, M, 1] for per row quantization and shape [D1, D2, 1, K] for per column quantization. Production must never overflow, and accumulation may overflow if and only if in 32 bits.</p>
 
-<p align="center"><img alt="node_q_linear_mat_mul.png" src="assets/node_q_linear_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="QLinearMatMul" src="assets/QLinearMatMul.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

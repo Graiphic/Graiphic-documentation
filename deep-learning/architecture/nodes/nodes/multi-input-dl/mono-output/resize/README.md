@@ -4,7 +4,7 @@
 
 <p>Resize the input tensor. In general, it calculates every value in the output tensor as a weighted average of neighborhood (a.k.a. sampling locations) in the input tensor. Each dimension value of the output tensor is : output_dimension = floor(input_dimension * (roi_end – roi_start) * scale), if input “sizes” is not specified.</p>
 
-<p align="center"><img alt="node_resize.png" src="assets/node_resize.png" width="299"/></p>
+<p align="center"><img alt="Resize" src="assets/Resize.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

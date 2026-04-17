@@ -4,7 +4,7 @@
 
 <p>Adds the weight of the Attention layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="attention_format_by_name.PNG" src="assets/attention_format_by_name.PNG" width="244"/></p>
+<p align="center"><img alt="Attention" src="assets/Attention.png" width="244"/></p>
 
 <h3>Input parameters</h3>
 

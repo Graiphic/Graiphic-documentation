@@ -4,7 +4,7 @@
 
 <p>Given <code>data</code> tensor, pads, mode, and value. Example: Insert 0 pads to the beginning of the second dimension. data = [ [1.0, 1.2], [2.3, 3.4], [4.5, 5.7], ] pads = [0, 2, 0, 0] output = [ [ [0.0, 0.0, 1.0, 1.2], [0.0, 0.0, 2.3, 3.4], [0.0, 0.0, 4.5, 5.7], ], ].</p>
 
-<p align="center"><img alt="node_microsoft_pad.png" src="assets/node_microsoft_pad.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftPad" src="assets/MicrosoftPad.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

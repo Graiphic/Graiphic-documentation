@@ -4,7 +4,7 @@
 
 <p>Recopies the Image Src into the Image Dst. If a pixel value is 0 in the Image Mask, the corresponding pixel in Image Dst is set to 0. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/mask-1.png" alt="Mask 1.Png" width="245" /></p>
+<p align="center"><img alt="Mask" src="assets/Mask.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

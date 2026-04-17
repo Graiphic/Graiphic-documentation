@@ -4,7 +4,7 @@
 
 <p>This VI transforms a .onnx model file into the native .keras format introduced in Keras 3.x. It enables seamless reuse of ONNX models inside modern TensorFlow/Keras workflows. Optionally, the source ONNX model can be visualized in Netron.</p>
 
-<p align="center"><img alt="convert_onnx_to_keras" src="assets/convert_onnx_to_keras.png" width="220"/></p>
+<p align="center"><img alt="ONNX To Keras" src="assets/ONNX To Keras.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

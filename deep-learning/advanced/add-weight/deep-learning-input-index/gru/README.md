@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the GRU layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="gru_format_by_index.PNG" src="assets/gru_format_by_index.PNG" width="295"/></p>
+<p align="center"><img alt="GRU" src="assets/GRU.png" width="295"/></p>
 
 <h3>Input parameters</h3>
 

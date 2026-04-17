@@ -4,7 +4,7 @@
 
 <p>Set yarn_attn_factor to common_params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic.</p>
 
-<p align="center"><img src="assets/yarn-attn-factor.png" alt="Yarn Attn Factor" width="270" /></p>
+<p align="center"><img alt="yarn_attn_factor" src="assets/yarn_attn_factor.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Creates a sequence of numbers that begins at <code>start</code> and extends by increments of <code>delta</code> up to but not including <code>limit</code>.</p>
 
-<p align="center"><img alt="node_microsoft_range.png" src="assets/node_microsoft_range.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftRange" src="assets/MicrosoftRange.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

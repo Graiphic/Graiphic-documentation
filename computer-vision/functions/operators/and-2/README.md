@@ -4,7 +4,7 @@
 
 <p>Performs an AND or NAND operation on two images or an image and a constant. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/and.png" alt="And.Png" width="267" /></p>
+<p align="center"><img alt="And" src="assets/And.png" width="267"/></p>
 
 <h3>Input parameters</h3>
 

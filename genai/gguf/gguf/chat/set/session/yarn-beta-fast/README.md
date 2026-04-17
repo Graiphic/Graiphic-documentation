@@ -4,7 +4,7 @@
 
 <p>Set yarn_beta_fast to common_params stored in local. NB : YaRN low correction dim Type : polymorphic.</p>
 
-<p align="center"><img src="assets/yarn-beta-fast.png" alt="Yarn Beta Fast" width="270" /></p>
+<p align="center"><img alt="yarn_beta_fast" src="assets/yarn_beta_fast.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

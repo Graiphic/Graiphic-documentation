@@ -4,7 +4,7 @@
 
 <p>This VI uses a Python-based export pipeline to convert a PyTorch model saved as .pt (TorchScript) into a .onnx file. Input shapes and ranks must be provided to define the tracing inputs. The generated ONNX model can be optionally opened in Netron.</p>
 
-<p align="center"><img alt="convert_pt_to_onnx" src="assets/convert_pt_to_onnx.png" width="220"/></p>
+<p align="center"><img alt="Pytorch To ONNX" src="assets/Pytorch To ONNX.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

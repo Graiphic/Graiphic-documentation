@@ -4,7 +4,7 @@
 
 <p>Runs text generation with the Llama model from a preprocessed sequence of tokens. The model generates the output incrementally and returns tokens one by one as they are produced (streaming mode).</p>
 
-<p align="center"><img alt="llama_generate_streaming_text.png" src="assets/llama_generate_streaming_text.png" width="244"/></p>
+<p align="center"><img alt="Generate Streaming Text" src="assets/Generate Streaming Text.png" width="244"/></p>
 
 <h3>Input parameters</h3>
 

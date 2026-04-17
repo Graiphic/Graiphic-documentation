@@ -4,7 +4,7 @@
 
 <p>When an error occurs during the execution of the model it is recorded in a temporary file. The “Open Log Folder” function allows you to open the folder that contains these temporary files.</p>
 
-<p align="center"><img alt="open_log_folder" src="assets/open_log_folder.PNG" width="220"/></p>
+<p align="center"><img alt="Open Log Folder" src="assets/Open Log Folder.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

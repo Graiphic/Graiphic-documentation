@@ -5,7 +5,7 @@
 <p>Adds the “FollowingModel” to the model.<br/>
 If the model has several outputs and you want to link a particular output with the FollowingModel, you must use the “OneToMult” VI. This VI separates the Model into an array of Models representing the different branches/outputs. This function does not handle the case where FollowingModel has several inputs.</p>
 
-<p align="center"><img alt="add_graph" src="assets/add_graph.PNG" width="220"/></p>
+<p align="center"><img alt="Add Graph" src="assets/Add Graph.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

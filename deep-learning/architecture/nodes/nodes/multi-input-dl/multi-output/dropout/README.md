@@ -44,7 +44,7 @@
 
 <p>This operator has <strong>optional</strong> inputs/outputs. See <a href="https://github.com/onnx/onnx/blob/main/docs/IR.md">ONNX IR</a> for more details about the representation of optional arguments. An empty string may be used in the place of an actual argument’s name to indicate a missing argument. Trailing optional arguments (those not followed by an argument that is present) may also be simply omitted.</p>
 
-<p align="center"><img alt="node_dropout.png" src="assets/node_dropout.png" width="311"/></p>
+<p align="center"><img alt="Dropout" src="assets/Dropout.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

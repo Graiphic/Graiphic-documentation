@@ -4,7 +4,7 @@
 
 <p>Absolute takes one input data (Tensor) and produces one output data (Tensor) where absolute value, y = abs(x), is applied to the tensor elementwise.</p>
 
-<p align="center"><img alt="node_abs.png" src="assets/node_abs.png" width="299"/></p>
+<p align="center"><img alt="Abs" src="assets/Abs.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Returns the MultiHeadAttention layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="multi_head_attention_format.png" src="assets/multi_head_attention_format.png" width="233"/></p>
+<p align="center"><img alt="MultiHeadAttention" src="assets/MultiHeadAttention.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

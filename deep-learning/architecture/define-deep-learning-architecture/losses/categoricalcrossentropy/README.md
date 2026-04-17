@@ -4,7 +4,7 @@
 
 <p>Computes the crossentropy loss between the labels and predictions.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="230"/></p>
+<p align="center"><img alt="Categorical Crossentropy" src="assets/Categorical Crossentropy.png" width="230"/></p>
 
 <table>
   <tbody>

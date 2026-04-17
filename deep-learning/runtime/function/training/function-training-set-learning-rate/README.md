@@ -4,7 +4,7 @@
 
 <p>Set Learning Rate to the Training Session.</p>
 
-<p align="center"><img src="assets/function_training_set_learning_rate.png" alt="function_training_set_learning_rate" width="257" /></p>
+<p align="center"><img alt="Set Learning Rate" src="assets/Set Learning Rate.png" width="257"/></p>
 
 <h3>Input parameters</h3>
 

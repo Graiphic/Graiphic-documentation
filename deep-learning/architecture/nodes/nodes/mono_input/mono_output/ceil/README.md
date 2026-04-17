@@ -4,7 +4,7 @@
 
 <p>Ceil takes one input data (Tensor) and produces one output data (Tensor) where the ceil is, y = ceil(x), is applied to the tensor elementwise. If x is integral, +0, -0, NaN, or infinite, x itself is returned.</p>
 
-<p align="center"><img alt="node_ceil.png" src="assets/node_ceil.png" width="299"/></p>
+<p align="center"><img alt="Ceil" src="assets/Ceil.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

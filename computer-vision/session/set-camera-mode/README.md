@@ -4,7 +4,7 @@
 
 <p>Modify the camera mode (Resolution and FPS). Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_camera_modes.png" alt="Set_Camera_Modes.Png" width="327" /></p>
+<p align="center"><img alt="Set Camera Mode" src="assets/Set Camera Mode.png" width="327"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set n_probs to common_params stored in local. NB : if greater than 0, output the probabilities of top n_probs tokens. Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-probs.png" alt="N Probs" width="270" /></p>
+<p align="center"><img alt="n_probs" src="assets/n_probs.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

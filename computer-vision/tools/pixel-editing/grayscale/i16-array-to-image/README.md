@@ -4,7 +4,7 @@
 
 <p>Creates an image from a 2D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/i16_array_to_image.png" alt="I16_Array_To_Image.Png" width="261" /></p>
+<p align="center"><img alt="I16 Array To Image" src="assets/I16 Array To Image.png" width="261"/></p>
 
 <h3>Input parameters</h3>
 

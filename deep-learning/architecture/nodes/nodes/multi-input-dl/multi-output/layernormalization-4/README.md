@@ -4,7 +4,7 @@
 
 <p>This is layer normalization defined in ONNX as function. The overall computation can be split into two stages. The first stage is standardization, which makes the normalized elements have zero mean and unit variances.</p>
 
-<p align="center"><img alt="node_batch_norm.png" src="assets/node_batch_norm.png" width="311"/></p>
+<p align="center"><img alt="LayerNormalization" src="assets/LayerNormalization.png" width="311"/></p>
 
 <p>The computation required by standardization can be described by the following equations.</p>
 

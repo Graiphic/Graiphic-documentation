@@ -142,7 +142,7 @@
 <li>rounding to nearest ties to even.</li>
 </ul>
 
-<p align="center"><img alt="node_dinamic_quantize_linear.png" src="assets/node_dinamic_quantize_linear.png" width="311"/></p>
+<p align="center"><img alt="DynamicQuantizeLinear" src="assets/DynamicQuantizeLinear.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

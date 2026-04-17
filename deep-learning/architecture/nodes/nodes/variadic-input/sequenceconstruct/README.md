@@ -4,7 +4,7 @@
 
 <p>Construct a tensor sequence containing ‘inputs’ tensors. All tensors in ‘inputs’ must have the same data type.</p>
 
-<p align="center"><img alt="node_sequence_construct.png" src="assets/node_sequence_construct.png" width="344"/></p>
+<p align="center"><img alt="SequenceConstruct" src="assets/SequenceConstruct.png" width="344"/></p>
 
 <h3>Input parameters</h3>
 

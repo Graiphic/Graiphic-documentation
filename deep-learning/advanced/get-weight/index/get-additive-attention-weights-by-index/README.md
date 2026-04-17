@@ -4,7 +4,7 @@
 
 <p>Gets the weights of the AdditiveAttention layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_weights_by_index.png" alt="Get_Weights_By_Index.Png" width="240" /></p>
+<p align="center"><img alt="AdditiveAttention" src="assets/AdditiveAttention.png" width="240"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Det calculates determinant of a square matrix or batches of square matrices. Det takes one input tensor of shape <code>[*, M, M]</code>, where <code>*</code> is zero or more batch dimensions, and the inner-most 2 dimensions form square matrices. The output is a tensor of shape <code>[*]</code>, containing the determinants of all input submatrices. e.g., When the input is 2-D, the output is a scalar(shape is empty: <code>[]</code>).</p>
 
-<p align="center"><img alt="node_det.png" src="assets/node_det.png" width="299"/></p>
+<p align="center"><img alt="Det" src="assets/Det.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Computes the cosine similarity between true labels and predicted labels.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="230"/></p>
+<p align="center"><img alt="Cosine Similarity" src="assets/Cosine Similarity.png" width="230"/></p>
 
 <table>
   <tbody>

@@ -4,7 +4,7 @@
 
 <p>This VI converts a TensorFlow model saved in the SavedModel directory format into a .onnx file, using the tf2onnx converter. It enables TensorFlow-trained models to be deployed in ONNX-compatible runtimes and platforms.</p>
 
-<p align="center"><img alt="convert_tf_to_onnx" src="assets/convert_tf_to_onnx.png" width="220"/></p>
+<p align="center"><img alt="TF SavedModel To ONNX" src="assets/TF SavedModel To ONNX.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

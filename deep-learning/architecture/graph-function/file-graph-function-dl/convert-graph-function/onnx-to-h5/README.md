@@ -4,7 +4,7 @@
 
 <p>This VI transforms a .onnx model into the HDF5 format (.h5) commonly used in TensorFlow/Keras workflows. It enables ONNX models to be reused in training or inference pipelines within the Keras ecosystem. Optionally, the converted model can be visualized in Netron.</p>
 
-<p align="center"><img alt="convert_onnx_to_h5" src="assets/convert_onnx_to_h5.png" width="220"/></p>
+<p align="center"><img alt="ONNX To H5" src="assets/ONNX To H5.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

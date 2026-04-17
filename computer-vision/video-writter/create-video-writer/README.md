@@ -4,7 +4,7 @@
 
 <p>Creates a video reference. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/create_video_writer.png" alt="Create_Video_Writer.Png" width="282" /></p>
+<p align="center"><img alt="CreateVideoWriter" src="assets/CreateVideoWriter.png" width="282"/></p>
 
 <h3>Input parameters</h3>
 

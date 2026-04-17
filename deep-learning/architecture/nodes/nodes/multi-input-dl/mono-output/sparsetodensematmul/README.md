@@ -4,7 +4,7 @@
 
 <p>Performs element-wise binary addition (with Numpy-style broadcasting support). This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_sparse_to_dense_mat_mul.png" src="assets/node_sparse_to_dense_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="SparseToDenseMatMul" src="assets/SparseToDenseMatMul.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

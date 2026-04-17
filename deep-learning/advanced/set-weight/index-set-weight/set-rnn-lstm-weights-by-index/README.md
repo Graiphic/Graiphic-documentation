@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the RNN layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_lstm_index.png" alt="Set_Weights_Lstm_Index.Png" width="244" /></p>
+<p align="center"><img alt="RNN(LSTM)" src="assets/RNN(LSTM).png" width="244"/></p>
 
 <h3>Input parameters</h3>
 

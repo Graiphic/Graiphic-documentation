@@ -4,7 +4,7 @@
 
 <p>Produces a scalar(tensor of empty shape) containing the number of tensors in ‘input_sequence’.</p>
 
-<p align="center"><img alt="node_sequence_length.png" src="assets/node_sequence_length.png" width="299"/></p>
+<p align="center"><img alt="SequenceLength" src="assets/SequenceLength.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

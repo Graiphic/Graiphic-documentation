@@ -4,7 +4,7 @@
 
 <p>Generate the ONNX Graph then create a Session from it. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/acc_execution_open_graph_default.png" alt="Acc_Execution_Open_Graph_Default.Png" width="301" /></p>
+<p align="center"><img alt="Default" src="assets/Default.png" width="301"/></p>
 
 <h3>Input parameters</h3>
 

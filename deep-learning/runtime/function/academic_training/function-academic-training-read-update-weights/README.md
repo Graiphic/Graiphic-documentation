@@ -4,7 +4,7 @@
 
 <p>Read all model weights (trainable and frozen) from the Academic Training Session and update the Inference Session weights.</p>
 
-<p align="center"><img src="assets/function_academic_read_update_weights.png" alt="function_academic_read_update_weights" width="260" /></p>
+<p align="center"><img alt="Read and Update Weights" src="assets/Read and Update Weights.png" width="260"/></p>
 
 <h3>Input parameters</h3>
 

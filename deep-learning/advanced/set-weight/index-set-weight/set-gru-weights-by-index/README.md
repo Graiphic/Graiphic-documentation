@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the GRU layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_gru_index.png" alt="Set_Weights_Gru_Index.Png" width="239" /></p>
+<p align="center"><img alt="GRU" src="assets/GRU.png" width="239"/></p>
 
 <h3>Input parameters</h3>
 

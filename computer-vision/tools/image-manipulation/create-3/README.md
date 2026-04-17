@@ -4,7 +4,7 @@
 
 <p>Creates a temporary memory location for an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/create.png" alt="Create.Png" width="216" /></p>
+<p align="center"><img alt="Create" src="assets/Create.png" width="216"/></p>
 
 <h3>Input parameters</h3>
 

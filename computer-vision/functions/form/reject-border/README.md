@@ -4,7 +4,7 @@
 
 <p>Eliminates particles that touch the border of an image. The source image must be an 8-bit binary image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/reject_border.png" alt="Reject_Border.Png" width="282" /></p>
+<p align="center"><img alt="Reject Border" src="assets/Reject Border.png" width="282"/></p>
 
 <h3>Input parameters</h3>
 

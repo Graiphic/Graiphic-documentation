@@ -4,7 +4,7 @@
 
 <p>Builds a single ROI descriptor from an of array ROI descriptors. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/group_rois.png" alt="Group_Rois.Png" width="289" /></p>
+<p align="center"><img alt="Group ROIs" src="assets/Group ROIs.png" width="289"/></p>
 
 <h3>Input parameters</h3>
 

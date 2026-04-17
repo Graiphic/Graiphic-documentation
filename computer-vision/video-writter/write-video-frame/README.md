@@ -4,7 +4,7 @@
 
 <p>Write an image to the video. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/write_video_frame.png" alt="Write_Video_Frame.Png" width="297" /></p>
+<p align="center"><img alt="WriteVideoFrame" src="assets/WriteVideoFrame.png" width="297"/></p>
 
 <h3>Input parameters</h3>
 

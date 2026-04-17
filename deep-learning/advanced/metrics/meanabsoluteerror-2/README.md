@@ -4,7 +4,7 @@
 
 <p>Computes the mean absolute error between the labels and predictions. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="mean_absolute_error.png" src="assets/mean_absolute_error.png" width="460"/></p>
+<p align="center"><img alt="MeanAbsoluteError" src="assets/MeanAbsoluteError.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

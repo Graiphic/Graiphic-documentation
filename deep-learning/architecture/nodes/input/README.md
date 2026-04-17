@@ -4,7 +4,7 @@
 
 <p>Setup and add “Input” node into the model during the definition graph step.</p>
 
-<p align="center"><img alt="node_input.png" src="assets/node_input.png" width="263"/></p>
+<p align="center"><img alt="Input" src="assets/Input.png" width="263"/></p>
 
 <h3>Input parameters</h3>
 

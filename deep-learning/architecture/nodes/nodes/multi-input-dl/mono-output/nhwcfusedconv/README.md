@@ -4,7 +4,7 @@
 
 <p>NhwcFusedConv is a Conv operator with optional activation and add operators fused in.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="NhwcFusedConv" src="assets/NhwcFusedConv.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>MatMulBnb4 is a <a href="../matmul/README.md">MatMul</a> with weight quantized with 4 bits using either FP4 or NF4 data type (<a href="https://arxiv.org/pdf/2305.14314.pdf">https://arxiv.org/pdf/2305.14314.pdf</a>). It does Matrix Multiplication like <a href="../matmul/README.md">MatMul</a> (<a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#matmul">https://github.com/onnx/onnx/blob/main/docs/Operators.md#matmul</a>) with differences: 1. Input B is a 2D constant Matrix. Its input feature count and output feature count are specified by attribute ‘K’ and ‘N’. 2. Input B is quantized with 4 bits with quantization data type specified by attribute ‘quant_type’. It is transposed, flattened and quantized blockwisely with block size specified by attribute ‘block_size’. And block_size is not an arbitrary number and must be a power of 2 and not smaller than 16, like 16, 32, 64, 128,.. 3. Input B’s quantization constants or scales are specified by input ‘absmax’.</p>
 
-<p align="center"><img alt="node_mat_mul.png" src="assets/node_mat_mul.png" width="299"/></p>
+<p align="center"><img alt="MatMulBnb4" src="assets/MatMulBnb4.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

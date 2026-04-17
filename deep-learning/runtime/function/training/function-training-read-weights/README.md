@@ -4,7 +4,7 @@
 
 <p>Read all model weights (trainable and frozen) from the Training Session. The weights are stored in raw format to interpret them, you’ll need to convert them into n-dimensional typed arrays</p>
 
-<p align="center"><img src="assets/function_training_read_weights.png" alt="function_training_read_weights" width="250" /></p>
+<p align="center"><img alt="Read Weights" src="assets/Read Weights.png" width="250"/></p>
 
 <h3>Input parameters</h3>
 

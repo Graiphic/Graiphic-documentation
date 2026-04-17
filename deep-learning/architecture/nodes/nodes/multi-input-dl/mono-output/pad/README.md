@@ -4,7 +4,7 @@
 
 <p>Given a tensor containing the data to be padded (<code>data</code>), a tensor containing the number of start and end pad values for axis (<code>pads</code>), (optionally) a <code>mode</code>, and (optionally) <code>constant_value</code>, a padded tensor (<code>output</code>) is generated.</p>
 
-<p align="center"><img alt="node_pad.png" src="assets/node_pad.png" width="299"/></p>
+<p align="center"><img alt="Pad" src="assets/Pad.png" width="299"/></p>
 
 <p>The three supported <code>modes</code> are (similar to corresponding modes supported by <code>numpy.pad</code>):</p>
 

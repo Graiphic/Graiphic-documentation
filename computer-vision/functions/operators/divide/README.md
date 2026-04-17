@@ -4,7 +4,7 @@
 
 <p>Divides one image by another image or an image by a constant. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/divide.png" alt="Divide.Png" width="245" /></p>
+<p align="center"><img alt="Divide" src="assets/Divide.png" width="245"/></p>
 
 <h3>Input parameters</h3>
 

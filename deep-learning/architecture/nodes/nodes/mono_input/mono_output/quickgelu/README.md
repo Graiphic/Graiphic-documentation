@@ -4,7 +4,7 @@
 
 <p>Compute x * Sigmoid(alpha * x).</p>
 
-<p align="center"><img alt="node_microsoft_gelu.png" src="assets/node_microsoft_gelu.png" width="299"/></p>
+<p align="center"><img alt="QuickGelu" src="assets/QuickGelu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

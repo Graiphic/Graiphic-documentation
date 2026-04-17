@@ -4,7 +4,7 @@
 
 <p>Inverts the pixel intensities of an image to compute the negative of an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/inverse.png" alt="Inverse.Png" width="234" /></p>
+<p align="center"><img alt="Inverse" src="assets/Inverse.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

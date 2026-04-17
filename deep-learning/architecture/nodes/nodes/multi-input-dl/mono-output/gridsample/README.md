@@ -4,7 +4,7 @@
 
 <p>Given an input <code>X</code> and a flow-field <code>grid</code>, computes the output <code>Y</code> using <code>X</code> values and pixel locations from the <code>grid</code>.</p>
 
-<p align="center"><img alt="node_grid_sample.png" src="assets/node_grid_sample.png" width="299"/></p>
+<p align="center"><img alt="GridSample" src="assets/GridSample.png" width="299"/></p>
 
 <p>For spatial input <code>X</code> with shape (N, C, H, W), the <code>grid</code> will have shape (N, H_out, W_out, 2), the output <code>Y</code> will have shape (N, C, H_out, W_out). For volumetric input <code>X</code> with shape (N, C, D, H, W), the <code>grid</code> will have shape (N, D_out, H_out, W_out, 3), the output <code>Y</code> will have shape (N, C, D_out, H_out, W_out). More generally, for an input <code>X</code> of rank r+2 with shape (N, C, d1, d2, …, dr), the <code>grid</code> will have shape (N, D1_out, D2_out, …, Dr_out, r), the output <code>Y</code> will have shape (N, C, D1_out, D2_out, …, Dr_out).</p>
 

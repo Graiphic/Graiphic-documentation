@@ -4,7 +4,7 @@
 
 <p>Applies a sub-graph to each sample in the input sequence(s).</p>
 
-<p align="center"><img alt="input_array_object_3.png" src="assets/input_array_object_3.png" width="326"/></p>
+<p align="center"><img alt="SequenceMap" src="assets/SequenceMap.png" width="326"/></p>
 
 <p>Inputs can be either tensors or sequences, with the exception of the first input which must be a sequence. The length of the first input sequence will determine the number of samples in the outputs. Any other sequence inputs should have the same number of samples. The number of inputs and outputs, should match the one of the subgraph.</p>
 

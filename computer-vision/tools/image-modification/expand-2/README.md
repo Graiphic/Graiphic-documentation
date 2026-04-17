@@ -4,7 +4,7 @@
 
 <p>Expands (duplicates) an image or part of an image by adjusting the horizontal and vertical resolution. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/expand.png" alt="Expand.Png" width="305" /></p>
+<p align="center"><img alt="Expand" src="assets/Expand.png" width="305"/></p>
 
 <h3>Input parameters</h3>
 

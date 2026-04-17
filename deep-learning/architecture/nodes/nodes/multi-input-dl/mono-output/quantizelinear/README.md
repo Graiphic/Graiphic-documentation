@@ -4,7 +4,7 @@
 
 <p>The linear quantization operator consumes a high-precision tensor, a scale, and a zero point to compute the low-precision/quantized tensor. The scale factor and zero point must have the same shape, determining the quantization granularity. The quantization formula is <code>y = saturate((x / y_scale) + y_zero_point)</code>.</p>
 
-<p align="center"><img alt="node_quantize_linear.png" src="assets/node_quantize_linear.png" width="299"/></p>
+<p align="center"><img alt="QuantizeLinear" src="assets/QuantizeLinear.png" width="299"/></p>
 
 <p>Saturation is done according to:</p>
 

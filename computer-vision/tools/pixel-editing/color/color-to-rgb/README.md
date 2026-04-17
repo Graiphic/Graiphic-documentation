@@ -4,7 +4,7 @@
 
 <p>Extracts the three planes (RGB or HSL) from an image.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/color_to_rgb.png" alt="Color_To_Rgb.Png" width="261" /></p>
+<p align="center"><img alt="Color To RGB" src="assets/Color To RGB.png" width="261"/></p>
 
 <h3>Input parameters</h3>
 

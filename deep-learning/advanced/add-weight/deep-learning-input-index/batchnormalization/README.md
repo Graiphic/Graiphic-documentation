@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the BatchNormalization layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="batch_norm_format_by_index.PNG" src="assets/batch_norm_format_by_index.PNG" width="288"/></p>
+<p align="center"><img alt="BatchNormalization" src="assets/BatchNormalization.png" width="288"/></p>
 
 <h3>Input parameters</h3>
 

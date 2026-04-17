@@ -4,7 +4,7 @@
 
 <p>The WordConvEmbedding takes in a batch of sequence words and embed each word to a vector.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="WordConvEmbedding" src="assets/WordConvEmbedding.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Ordered Quantize Gelu.</p>
 
-<p align="center"><img alt="node_q_ordered_gelu.png" src="assets/node_q_ordered_gelu.png" width="299"/></p>
+<p align="center"><img alt="QOrderedGelu" src="assets/QOrderedGelu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

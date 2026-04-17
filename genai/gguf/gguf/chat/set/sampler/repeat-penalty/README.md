@@ -4,7 +4,7 @@
 
 <p>Set repeat_penalty to common_params stored in local. NB : 1.0 = disabled Type : polymorphic.</p>
 
-<p align="center"><img src="assets/repeat-penalty.png" alt="Repeat Penalty" width="270" /></p>
+<p align="center"><img alt="repeat_penalty" src="assets/repeat_penalty.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

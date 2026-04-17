@@ -4,7 +4,7 @@
 
 <p>Generates a Hann window as described in the paper <a href="https://ieeexplore.ieee.org/document/1455106">https://ieeexplore.ieee.org/document/1455106</a>.</p>
 
-<p align="center"><img alt="node_hann_window.png" src="assets/node_hann_window.png" width="299"/></p>
+<p align="center"><img alt="HannWindow" src="assets/HannWindow.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

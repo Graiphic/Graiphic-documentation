@@ -4,7 +4,7 @@
 
 <p>Local Response Normalization proposed in the <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">AlexNet paper</a>. It normalizes over local input regions.</p>
 
-<p align="center"><img alt="node_lrn.png" src="assets/node_lrn.png" width="299"/></p>
+<p align="center"><img alt="LRN" src="assets/LRN.png" width="299"/></p>
 
 <p>The local region is defined across the channels. For an element <code>X[n, c, d1, ..., dk]</code> in a tensor of shape <code>(N x C x D1 x D2, ..., Dk)</code>, its region is <code>{X[n, i, d1, ..., dk] | max(0, c - floor((size - 1) / 2)) &lt;= i &lt;= min(C - 1, c + ceil((size - 1) / 2))}</code>.</p>
 

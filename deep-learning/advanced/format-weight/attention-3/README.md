@@ -4,7 +4,7 @@
 
 <p>Returns the Attention layer weights. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="attention_format.png" src="assets/attention_format.png" width="233"/></p>
+<p align="center"><img alt="Attention" src="assets/Attention.png" width="233"/></p>
 
 <h3>Input parameters</h3>
 

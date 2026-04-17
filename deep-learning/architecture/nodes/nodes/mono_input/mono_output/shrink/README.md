@@ -4,7 +4,7 @@
 
 <p>Shrink takes one input data (Tensor) and produces one Tensor output, having same datatype and shape with input. It has two attributes, lambd and bias. The formula of this operator is: If x &lt; -lambd, y = x + bias; If x &gt; lambd, y = x – bias; Otherwise, y = 0.</p>
 
-<p align="center"><img alt="node_shrink.png" src="assets/node_shrink.png" width="299"/></p>
+<p align="center"><img alt="Shrink" src="assets/Shrink.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Group Query Self/Cross Attention.</p>
 
-<p align="center"><img alt="node_group_query_attention.png" src="assets/node_group_query_attention.png" width="311"/></p>
+<p align="center"><img alt="GroupQueryAttention" src="assets/GroupQueryAttention.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

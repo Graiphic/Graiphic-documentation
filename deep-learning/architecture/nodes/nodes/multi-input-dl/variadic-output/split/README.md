@@ -4,7 +4,7 @@
 
 <p>Split a tensor into a list of tensors, along the specified ‘axis’. Either input ‘split’ or the attribute ‘num_outputs’ should be specified, but not both. If the attribute ‘num_outputs’ is specified, then the tensor is split into equal sized parts. If the tensor is not evenly splittable into <code>num_outputs</code>, the last chunk will be smaller. If the input ‘split’ is specified, it indicates the sizes of each output in the split.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="Split" src="assets/Split.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

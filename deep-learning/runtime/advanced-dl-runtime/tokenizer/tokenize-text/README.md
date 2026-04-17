@@ -4,7 +4,7 @@
 
 <p>Tokenize input text and store it in a ptr.</p>
 
-<p align="center"><img alt="tokenizer_tokenize_text.png" src="assets/tokenizer_tokenize_text.png" width="228"/></p>
+<p align="center"><img alt="Tokenize Text" src="assets/Tokenize Text.png" width="228"/></p>
 
 <h3>Input parameters</h3>
 

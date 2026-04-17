@@ -4,7 +4,7 @@
 
 <p>Set dry_penalty_last_n to common_params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, -1 = context size) Type : polymorphic.</p>
 
-<p align="center"><img src="assets/dry-penalty-last-n.png" alt="Dry Penalty Last N" width="270" /></p>
+<p align="center"><img alt="dry_penalty_last_n" src="assets/dry_penalty_last_n.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

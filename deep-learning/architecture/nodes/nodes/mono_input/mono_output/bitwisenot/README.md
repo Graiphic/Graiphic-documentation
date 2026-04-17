@@ -4,7 +4,7 @@
 
 <p>Returns the bitwise not of the input tensor element-wise.</p>
 
-<p align="center"><img alt="node_bitwise_not.png" src="assets/node_bitwise_not.png" width="299"/></p>
+<p align="center"><img alt="BitwiseNot" src="assets/BitwiseNot.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

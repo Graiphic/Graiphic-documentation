@@ -4,7 +4,7 @@
 
 <p>Open Netron visualization of the given model.</p>
 
-<p align="center"><img alt="netron_summary" src="assets/netron_summary.png" width="220"/></p>
+<p align="center"><img alt="Netron Summary" src="assets/Netron Summary.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

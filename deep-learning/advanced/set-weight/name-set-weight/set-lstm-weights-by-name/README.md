@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the LSTM layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="set_weights_lstm_name.PNG" src="assets/set_weights_lstm_name.PNG" width="244"/></p>
+<p align="center"><img alt="LSTM" src="assets/LSTM.png" width="244"/></p>
 
 <h3>Input parameters</h3>
 

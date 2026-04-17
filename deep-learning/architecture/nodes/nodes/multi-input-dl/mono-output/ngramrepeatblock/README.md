@@ -4,7 +4,7 @@
 
 <p>Enforce no repetition of n-grams. Scores are set to <code>-inf</code> for tokens that form a repeated n-gram if added to the back of the input_ids.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="309"/></p>
+<p align="center"><img alt="NGramRepeatBlock" src="assets/NGramRepeatBlock.png" width="309"/></p>
 
 <h3>Input parameters</h3>
 

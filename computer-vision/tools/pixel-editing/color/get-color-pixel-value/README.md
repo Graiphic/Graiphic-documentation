@@ -4,7 +4,7 @@
 
 <p>Reads the pixel values from a color image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_color_pixel_value.png" alt="Get_Color_Pixel_Value.Png" width="241" /></p>
+<p align="center"><img alt="Get Color Pixel Value" src="assets/Get Color Pixel Value.png" width="241"/></p>
 
 <h3>Input parameters</h3>
 

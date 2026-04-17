@@ -4,7 +4,7 @@
 
 <p>The Weighted Sum function merges a base image with an other one (generally a mask) using a given coefficient. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/weighted_sum.png" alt="Weighted_Sum.Png" width="279" /></p>
+<p align="center"><img alt="Weighted Sum" src="assets/Weighted Sum.png" width="279"/></p>
 
 <h3>Input parameters</h3>
 

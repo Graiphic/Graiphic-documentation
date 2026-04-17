@@ -4,7 +4,7 @@
 
 <p>Computes the indices of the max elements of the input tensor’s element along the provided axis. The resulting tensor has the same rank as the input if keepdims equals 1. If keepdims equals 0, then the resulting tensor has the reduced dimension pruned. If select_last_index is True (default False), the index of the last occurrence of the max is selected if the max appears more than once in the input. Otherwise the index of the first occurrence is selected. The type of the output tensor is integer.</p>
 
-<p align="center"><img alt="node_argmax.png" src="assets/node_argmax.png" width="299"/></p>
+<p align="center"><img alt="ArgMax" src="assets/ArgMax.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

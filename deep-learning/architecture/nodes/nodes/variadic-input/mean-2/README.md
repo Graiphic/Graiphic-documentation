@@ -4,7 +4,7 @@
 
 <p>Element-wise mean of each of the input tensors (with Numpy-style broadcasting support). All inputs and outputs must have the same data type. This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_mean.png" src="assets/node_mean.png" width="299"/></p>
+<p align="center"><img alt="Mean" src="assets/Mean.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

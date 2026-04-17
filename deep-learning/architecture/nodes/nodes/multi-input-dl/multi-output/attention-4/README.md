@@ -4,7 +4,7 @@
 
 <p>Multi-Head Attention that can be either unidirectional (like GPT-2) or bidirectional (like BERT).</p>
 
-<p align="center"><img alt="node_attention.png" src="assets/node_attention.png" width="311"/></p>
+<p align="center"><img alt="Attention" src="assets/Attention.png" width="311"/></p>
 
 <p>The weights for input projection of Q, K and V are merged. The data is stacked on the second dimension. Its shape is (input_hidden_size, hidden_size + hidden_size + v_hidden_size). Here hidden_size is the hidden dimension of Q and K, and v_hidden_size is that of V.</p>
 

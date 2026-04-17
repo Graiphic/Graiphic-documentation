@@ -4,7 +4,7 @@
 
 <p>Returns the tensor resulted from performing the <code>xor</code> logical operation elementwise on the input tensors <code>A</code> and <code>B</code> (with Numpy-style broadcasting support). This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>; for more details please check <a href="https://github.com/onnx/onnx/blob/main/docs/Broadcasting.md">Broadcasting in ONNX</a>.</p>
 
-<p align="center"><img alt="node_xor.png" src="assets/node_xor.png" width="299"/></p>
+<p align="center"><img alt="Xor" src="assets/Xor.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Creates random weights for all layers in the model.</p>
 
-<p align="center"><img alt="set_all_random_weight" src="assets/set_all_random_weight.PNG" width="220"/></p>
+<p align="center"><img alt="All (Random)" src="assets/All (Random).png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

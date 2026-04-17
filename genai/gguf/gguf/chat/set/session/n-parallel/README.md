@@ -4,7 +4,7 @@
 
 <p>Set n_parallel to common_params stored in local. NB : number of parallel sequences to decode Type : polymorphic.</p>
 
-<p align="center"><img src="assets/n-parallel.png" alt="N Parallel" width="270" /></p>
+<p align="center"><img alt="n_parallel" src="assets/n_parallel.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

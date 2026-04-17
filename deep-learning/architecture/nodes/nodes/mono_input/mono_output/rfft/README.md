@@ -4,7 +4,7 @@
 
 <p>This function computes the n-point one dimensional Fourier transform for a real-valued input where n is an even number.</p>
 
-<p align="center"><img alt="node_rfft.png" src="assets/node_rfft.png" width="299"/></p>
+<p align="center"><img alt="Rfft" src="assets/Rfft.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Free the audio buffer and create a new one (empty). Type : polymorphic.</p>
 
-<p align="center"><img src="assets/audio-buffer.png" alt="Audio Buffer" width="270" /></p>
+<p align="center"><img alt="Audio Buffer" src="assets/Audio Buffer.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

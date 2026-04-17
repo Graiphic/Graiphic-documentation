@@ -4,7 +4,7 @@
 
 <p>Gets the index of the layer selected by the name given as input.</p>
 
-<p align="center"><img alt="get_index_by_name" src="assets/get_index_by_name.PNG" width="220"/></p>
+<p align="center"><img alt="Individual by Name" src="assets/Individual by Name.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Create Cuda Session with its Session Options on the stored local Env. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/acc_execution_open_file_tensor-rt.png" alt="Acc_Execution_Open_File_Tensor Rt.Png" width="307" /></p>
+<p align="center"><img alt="TensorRT" src="assets/TensorRT.png" width="307"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Run the forward model with the raw input data from the CPU, the output buffer is allocated automatically. Output is stored inside Academic Training Session (we can’t execute backward).</p>
 
-<p align="center"><img alt="academic_fw_cpu_2" src="assets/academic_fw_cpu.png" width="220"/></p>
+<p align="center"><img alt="CPU" src="assets/CPU.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

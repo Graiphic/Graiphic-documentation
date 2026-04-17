@@ -4,7 +4,7 @@
 
 <p>This DecoderAttention supports self attention and cross attention, key and value cache, and key_padding_mask. The attention mask is not support at the moment. Some boolean parameters are passed by runtime input for generic purpose</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="311"/></p>
+<p align="center"><img alt="DecoderAttention" src="assets/DecoderAttention.png" width="311"/></p>
 
 <h3>Input parameters</h3>
 

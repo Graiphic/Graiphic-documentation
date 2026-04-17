@@ -4,7 +4,7 @@
 
 <p>Read an image file. The file format can be a standard format (BMP, TIFF, JPEG/JPG, TIFF, GIF, PNG, PPM, PGM and WebP) or a nonstandard format known to the user. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/read_image_file.png" alt="Read_Image_File.Png" width="234" /></p>
+<p align="center"><img alt="Read Image File" src="assets/Read Image File.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

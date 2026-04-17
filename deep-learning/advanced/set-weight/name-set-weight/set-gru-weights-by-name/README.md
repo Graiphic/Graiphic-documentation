@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the GRU layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="set_weights_gru_name.PNG" src="assets/set_weights_gru_name.PNG" width="239"/></p>
+<p align="center"><img alt="GRU" src="assets/GRU.png" width="239"/></p>
 
 <h3>Input parameters</h3>
 

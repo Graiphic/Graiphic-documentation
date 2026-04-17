@@ -4,7 +4,7 @@
 
 <p>Extracts the pixels from a color image or from part of a color image into a U32 2D array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/image_to_u32_array.png" alt="Image_To_U32_Array.Png" width="258" /></p>
+<p align="center"><img alt="Color Image To U32 Array" src="assets/Color Image To U32 Array.png" width="258"/></p>
 
 <h3>Input parameters</h3>
 

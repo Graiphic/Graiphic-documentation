@@ -4,7 +4,7 @@
 
 <p>This operator element-wise adds x, skip and bias, then apply group normalization and optional activation. This operator transforms input according to s = x + skip + bias y = gamma * (s – mean) / sqrt(variance + epsilon) + beta</p>
 
-<p align="center"><img alt="node_skip_group_norm.png" src="assets/node_skip_group_norm.png" width="311"/></p>
+<p align="center"><img alt="SkipGroupNorm" src="assets/SkipGroupNorm.png" width="311"/></p>
 
 <p>The input channels are separated into num_groups groups, each containing num_channels / num_groups channels. The num_channels must be divisible by num_groups. The mean and standard-deviation of s are calculated separately over the each group. The weight and bias are per-channel affine transform parameter vectors of size num_channels.</p>
 

@@ -4,7 +4,7 @@
 
 <p>Adjust the value in the image.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/value.png" alt="Value.Png" width="234" /></p>
+<p align="center"><img alt="Value" src="assets/Value.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

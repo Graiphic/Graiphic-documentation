@@ -4,7 +4,7 @@
 
 <p>Normalizes the norm or value range of an array. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/normalize.png" alt="Normalize.Png" width="294" /></p>
+<p align="center"><img alt="Normalize" src="assets/Normalize.png" width="294"/></p>
 
 <h3>Input parameters</h3>
 

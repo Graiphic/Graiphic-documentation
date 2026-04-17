@@ -4,7 +4,7 @@
 
 <p>Set Linear Learning Rate Scheduler to the Training Session.</p>
 
-<p align="center"><img src="assets/function_training_set_linear_learning_rate_scheduler.png" alt="function_training_set_linear_learning_rate_scheduler" width="248" /></p>
+<p align="center"><img alt="Set Linear Learning Rate Scheduler" src="assets/Set Linear Learning Rate Scheduler.png" width="248"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set dynatemp_exponent to common_params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic.</p>
 
-<p align="center"><img src="assets/dynatemp-exponent.png" alt="Dynatemp Exponent" width="270" /></p>
+<p align="center"><img alt="dynatemp_exponent" src="assets/dynatemp_exponent.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

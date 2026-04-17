@@ -4,7 +4,7 @@
 
 <p>Quantized version of Longformer Self Attention (using int8 with specific matrix Layout).</p>
 
-<p align="center"><img alt="node_longformer_attention.png" src="assets/node_longformer_attention.png" width="299"/></p>
+<p align="center"><img alt="QOrderedLongformerAttention" src="assets/QOrderedLongformerAttention.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

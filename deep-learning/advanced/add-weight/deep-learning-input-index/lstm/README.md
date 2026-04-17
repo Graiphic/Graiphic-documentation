@@ -4,7 +4,7 @@
 
 <p>Adds the weights of the LSTM layer to the weights table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="lstm_format_by_index.PNG" src="assets/lstm_format_by_index.PNG" width="285"/></p>
+<p align="center"><img alt="LSTM" src="assets/LSTM.png" width="285"/></p>
 
 <h3>Input parameters</h3>
 

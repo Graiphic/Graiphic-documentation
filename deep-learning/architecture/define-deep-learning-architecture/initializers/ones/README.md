@@ -4,7 +4,7 @@
 
 <p>Initializer that generates tensors initialized to 1. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="Ones" src="assets/Ones.png" width="210"/></p>
 
 <h3>Output parameters</h3>
 

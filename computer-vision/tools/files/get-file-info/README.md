@@ -4,7 +4,7 @@
 
 <p>Obtains information regarding the contents of the file. This information is supplied for standard file formats only : BMP, TIFF, JPEG, JPEG2000, PNG, or AIPD. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_file_info.png" alt="Get_File_Info.Png" width="229" /></p>
+<p align="center"><img alt="Get File Info" src="assets/Get File Info.png" width="229"/></p>
 
 <h3>Input parameters</h3>
 

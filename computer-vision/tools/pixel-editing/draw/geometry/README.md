@@ -4,7 +4,7 @@
 
 <p>Draw geometric objects in an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/draw.png" alt="Draw.Png" width="256" /></p>
+<p align="center"><img alt="Geometry" src="assets/Geometry.png" width="256"/></p>
 
 <h3>Input parameters</h3>
 

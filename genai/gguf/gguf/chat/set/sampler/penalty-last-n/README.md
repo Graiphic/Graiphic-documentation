@@ -4,7 +4,7 @@
 
 <p>Set penalty_last_n to common_params stored in local. NB : last n tokens to penalize (0 = disable penalty, -1 = context size) Type : polymorphic.</p>
 
-<p align="center"><img src="assets/penalty-last-n.png" alt="Penalty Last N" width="270" /></p>
+<p align="center"><img alt="penalty_last_n" src="assets/penalty_last_n.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

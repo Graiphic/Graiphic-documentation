@@ -4,7 +4,7 @@
 
 <p>Set grp_attn_n to common_params stored in local. NB : group-attention factor Type : polymorphic.</p>
 
-<p align="center"><img src="assets/grp-attn-n.png" alt="Grp Attn N" width="270" /></p>
+<p align="center"><img alt="grp_attn_n" src="assets/grp_attn_n.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

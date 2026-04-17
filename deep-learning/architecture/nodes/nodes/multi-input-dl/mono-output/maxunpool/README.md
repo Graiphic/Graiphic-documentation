@@ -4,7 +4,7 @@
 
 <p>MaxUnpool essentially computes the partial inverse of the <a href="../../../mono_input/multi-output-nodes-dl/maxpool/README.md">MaxPool</a> op.</p>
 
-<p align="center"><img alt="node_max_un_pool.png" src="assets/node_max_un_pool.png" width="299"/></p>
+<p align="center"><img alt="MaxUnpool" src="assets/MaxUnpool.png" width="299"/></p>
 
 <p>The input information to this op is typically the output information from a MaxPool op. The first input tensor X is the tensor that needs to be unpooled, which is typically the pooled tensor (first output) from MaxPool. The second input tensor, I, contains the indices to the (locally maximal) elements corresponding to the elements in the first input tensor X. Input tensor I is typically the second output of the MaxPool op. The third (optional) input is a tensor that specifies the output size of the unpooling operation.</p>
 

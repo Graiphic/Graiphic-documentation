@@ -4,7 +4,7 @@
 
 <p>Initializes the asynchronous streaming fit session. Prepares internal resources to run training and stream the latest outputs.</p>
 
-<p align="center"><img alt="asynchronous_fit_streaming_init" src="assets/asynchronous_fit_streaming_init.png" width="220"/></p>
+<p align="center"><img alt="Init" src="assets/Init.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

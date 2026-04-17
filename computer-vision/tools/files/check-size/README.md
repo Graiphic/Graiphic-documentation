@@ -4,7 +4,7 @@
 
 <p>Check if the image is smaller than the size filled as input. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/check_size.png" alt="Check_Size.Png" width="270" /></p>
+<p align="center"><img alt="Check Size" src="assets/Check Size.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

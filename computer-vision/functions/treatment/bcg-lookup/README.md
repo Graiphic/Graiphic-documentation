@@ -4,7 +4,7 @@
 
 <p>Applies a brightness, contrast, and gamma correction to an image. The correction is performed by computing and applying a lookup table. Brightness, Contrast, and Gamma control the changes made to the transfer function represented by the lookup table. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/bcg_lookup.png" alt="Bcg_Lookup.Png" width="316" /></p>
+<p align="center"><img alt="BCG Lookup" src="assets/BCG Lookup.png" width="316"/></p>
 
 <h3>Input parameters</h3>
 

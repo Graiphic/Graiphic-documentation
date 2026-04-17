@@ -4,7 +4,7 @@
 
 <p>Calculates the natural log of the given input tensor, element-wise.</p>
 
-<p align="center"><img alt="node_log.png" src="assets/node_log.png" width="299"/></p>
+<p align="center"><img alt="Log" src="assets/Log.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

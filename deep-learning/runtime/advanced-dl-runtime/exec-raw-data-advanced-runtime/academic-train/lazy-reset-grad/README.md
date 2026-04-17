@@ -4,7 +4,7 @@
 
 <p>Clears the accumulated gradients in memory. This is typically done after an optimizer step to prevent reusing stale gradients in the next update.</p>
 
-<p align="center"><img alt="academic_lazy_reset_grad" src="assets/academic_lazy_reset_grad.png" width="220"/></p>
+<p align="center"><img alt="Lazy Reset Grad" src="assets/Lazy Reset Grad.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

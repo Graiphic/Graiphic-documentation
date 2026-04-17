@@ -4,7 +4,7 @@
 
 <p>Creates an image mask by extracting a region surrounding a reference pixel, called the origin, and using a tolerance of intensity variations based on this reference pixel. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/magic_wand.png" alt="Magic_Wand.Png" width="307" /></p>
+<p align="center"><img alt="Magic Wand" src="assets/Magic Wand.png" width="307"/></p>
 
 <h3>Input parameters</h3>
 

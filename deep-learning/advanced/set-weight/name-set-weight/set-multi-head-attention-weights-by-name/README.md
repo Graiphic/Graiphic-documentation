@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the MultiHeadAttention layer selected by the name. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_multi_head_attention_name.png" alt="Set_Weights_Multi_Head_Attention_Name.Png" width="338" /></p>
+<p align="center"><img alt="MultiHeadAttention" src="assets/MultiHeadAttention.png" width="338"/></p>
 
 <h3>Input parameters</h3>
 

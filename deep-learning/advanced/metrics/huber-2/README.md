@@ -4,7 +4,7 @@
 
 <p>Computes the huber metrics between y_true and y_pred. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="huber.png" src="assets/huber.png" width="460"/></p>
+<p align="center"><img alt="Huber" src="assets/Huber.png" width="460"/></p>
 
 <h3>Input parameters</h3>
 

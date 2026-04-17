@@ -8,7 +8,7 @@
 
 <p>where the reduce-sum performs a summation over all the indices occurring in the input terms (term1, term2) that do not occur in the output-term.</p>
 
-<p align="center"><img alt="input_array_object_3.png" src="assets/input_array_object_3.png" width="299"/></p>
+<p align="center"><img alt="Einsum" src="assets/Einsum.png" width="299"/></p>
 
 <p>The Einsum operator evaluates algebraic tensor operations on a sequence of tensors, using the Einstein summation convention. The equation string contains a comma-separated sequence of lower case letters. Each term corresponds to an operand tensor, and the characters within the terms correspond to operands dimensions.</p>
 

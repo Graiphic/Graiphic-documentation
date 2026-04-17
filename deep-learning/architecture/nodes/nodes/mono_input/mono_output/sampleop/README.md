@@ -4,7 +4,7 @@
 
 <p>This version of the operator has been available since version 1 of the ‘com.microsoft’ operator set.</p>
 
-<p align="center"><img alt="node_sample_op.png" src="assets/node_sample_op.png" width="299"/></p>
+<p align="center"><img alt="SampleOp" src="assets/SampleOp.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Outputs a tensor sequence that inserts ‘tensor’ into ‘input_sequence’ at ‘position’. ‘tensor’ must have the same data type as ‘input_sequence’. Accepted range for ‘position’ is in <code>[-n, n]</code>, where <code>n</code> is the number of tensors in ‘input_sequence’. Negative value means counting positions from the back. ‘position’ is optional, by default it inserts ‘tensor’ to the back of ‘input_sequence’.</p>
 
-<p align="center"><img alt="node_sequence_erase.png" src="assets/node_sequence_erase.png" width="344"/></p>
+<p align="center"><img alt="SequenceInsert" src="assets/SequenceInsert.png" width="344"/></p>
 
 <h3>Input parameters</h3>
 

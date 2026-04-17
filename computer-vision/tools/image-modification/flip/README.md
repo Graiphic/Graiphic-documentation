@@ -4,7 +4,7 @@
 
 <p>Transforms an image through its symmetry. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/symmetry.png" alt="Symmetry.Png" width="316" /></p>
+<p align="center"><img alt="Flip" src="assets/Flip.png" width="316"/></p>
 
 <h3>Input parameters</h3>
 

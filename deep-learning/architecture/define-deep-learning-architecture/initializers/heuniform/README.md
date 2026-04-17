@@ -4,7 +4,7 @@
 
 <p>He uniform variance scaling initializer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="HeUniform" src="assets/HeUniform.png" width="210"/></p>
 
 <p>Draws samples from a uniform distribution within <em>[-limit, limit]</em>, within <em><strong>limit = sqrt(6 / fan_in) </strong></em>(<em>fan_in</em> is the number of input units in the weight tensor).</p>
 

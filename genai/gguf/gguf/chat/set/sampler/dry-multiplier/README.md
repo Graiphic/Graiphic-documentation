@@ -4,7 +4,7 @@
 
 <p>Set dry_multiplier to common_params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic.</p>
 
-<p align="center"><img src="assets/dry-multiplier.png" alt="Dry Multiplier" width="270" /></p>
+<p align="center"><img alt="dry_multiplier" src="assets/dry_multiplier.png" width="270"/></p>
 
 <h3>Input parameters</h3>
 

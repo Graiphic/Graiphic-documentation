@@ -4,7 +4,7 @@
 
 <p>Free the ptr created by “Tokenize Text”.</p>
 
-<p align="center"><img alt="tokenizer_close_tokenized_text.png" src="assets/tokenizer_close_tokenized_text.png" width="228"/></p>
+<p align="center"><img alt="Close Tokenized Text" src="assets/Close Tokenized Text.png" width="228"/></p>
 
 <h3>Input parameters</h3>
 

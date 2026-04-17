@@ -4,7 +4,7 @@
 
 <p>Gelu takes one input data (Tensor) and produces one output data (Tensor) where the gaussian error linear units function, y = 0.5 * x * (1 + erf(x/sqrt(2))) is applied to the tensor elementwise. If the attribute “approximate” is set to “tanh”, the function estimation, y = 0.5 * x * (1 + Tanh(sqrt(2/\pi) * (x + 0.044715 * x^3))) is used and applied to the tensor elementwise.</p>
 
-<p align="center"><img src="assets/node_gelu.png" alt="Node_Gelu.Png" width="299" /></p>
+<p align="center"><img alt="GELU" src="assets/GELU.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Set Learning Rate to the Academic Training Session.</p>
 
-<p align="center"><img src="assets/function_academic_set_learning_rate.png" alt="function_academic_set_learning_rate" width="260" /></p>
+<p align="center"><img alt="Set Learning Rate" src="assets/Set Learning Rate.png" width="260"/></p>
 
 <h3>Input parameters</h3>
 

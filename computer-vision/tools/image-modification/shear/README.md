@@ -4,7 +4,7 @@
 
 <p>Applies a shear effect to an image. This effect distorts the image by pushing it sideways or vertically, giving the impression that the image is tilted or slid in one direction without changing its surface.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/shear.png" alt="Shear.Png" width="234" /></p>
+<p align="center"><img alt="Shear" src="assets/Shear.png" width="234"/></p>
 
 <h3>Input parameters</h3>
 

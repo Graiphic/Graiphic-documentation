@@ -4,7 +4,7 @@
 
 <p>Defines the weights of the BatchNormalization layer selected by the index. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/set_weights_batch_norm_index.png" alt="Set_Weights_Batch_Norm_Index.Png" width="329" /></p>
+<p align="center"><img alt="BatchNormalization" src="assets/BatchNormalization.png" width="329"/></p>
 
 <h3>Input parameters</h3>
 

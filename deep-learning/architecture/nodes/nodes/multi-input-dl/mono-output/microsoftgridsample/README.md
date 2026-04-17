@@ -4,7 +4,7 @@
 
 <p>Given an <code>input</code> and a flow-field <code>grid</code>, computes the <code>output</code> using <code>input</code> values and pixel locations from <code>grid</code>. Currently, only spatial (4-D) inputs are supported. For <code>input</code> with shape (N, C, H, W) and <code>grid</code> with shape (N, H_out, W_out, 2), the <code>output</code> will have shape (N, C, H_out, W_out). For each output location <code>output[n, :, h, w]</code>, the size-2 vector <code>grid[n, h, w]</code> specifies <code>input</code> pixel locations <code>x</code> and <code>y</code>, which are used to interpolate the output value <code>output[n, :, h, w]</code>. The GridSample operator is often used in doing grid generator and sampler in the <a href="https://arxiv.org/abs/1506.02025">Spatial Transformer Networks</a>. See also in <a href="https://pytorch.org/docs/master/generated/torch.nn.functional.grid_sample.html#torch-nn-functional-grid-sample">torch.nn.functional.grid_sample</a>.</p>
 
-<p align="center"><img alt="node_grid_sample.png" src="assets/node_grid_sample.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftGridSample" src="assets/MicrosoftGridSample.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

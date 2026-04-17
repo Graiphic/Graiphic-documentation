@@ -4,7 +4,7 @@
 
 <p>Performs element-wise binary quantized multiplication (with Numpy-style broadcasting support). “This operator supports <strong>multidirectional (i.e., Numpy-style) broadcasting</strong>” The output of this op is the int32 accumulated result of the mul operation : <code>C (int32) = (A - A_zero_point) * (B - B_zero_point)</code></p>
 
-<p align="center"><img alt="node_mul_integer.png" src="assets/node_mul_integer.png" width="299"/></p>
+<p align="center"><img alt="MulInteger" src="assets/MulInteger.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

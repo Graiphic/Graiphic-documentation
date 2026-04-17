@@ -4,7 +4,7 @@
 
 <p>Extracts (reduces) an image or part of an image with adjustment of the horizontal and vertical resolution. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/extract-1.png" alt="Extract 1.Png" width="302" /></p>
+<p align="center"><img alt="Extract" src="assets/Extract.png" width="302"/></p>
 
 <h3>Input parameters</h3>
 

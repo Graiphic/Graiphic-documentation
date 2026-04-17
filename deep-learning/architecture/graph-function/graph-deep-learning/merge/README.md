@@ -5,7 +5,7 @@
 <p>Merge multiple branches of graphs to create a single graph and avoid duplication.<br/>
 The typical usecase is when design multiple inputs / outputs / branch graph design.</p>
 
-<p align="center"><img alt="merge" src="assets/merge.PNG" width="220"/></p>
+<p align="center"><img alt="Merge" src="assets/Merge.png" width="220"/></p>
 
 <h3>Input parameters</h3>
 

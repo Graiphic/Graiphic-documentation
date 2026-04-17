@@ -4,7 +4,7 @@
 
 <p>Computes the logarithm of the hyperbolic cosine of the prediction error.​ Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="230"/></p>
+<p align="center"><img alt="LogCosH" src="assets/LogCosH.png" width="230"/></p>
 
 <table>
   <tbody>

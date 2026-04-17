@@ -4,7 +4,7 @@
 
 <p>Returns the upper or lower triangular part of a 2-D matrix, or batches of 2-D matrices. If the attribute “upper” is set to true, the upper triangular matrix is retained. Lower triangular matrix is retained otherwise. Default value for upper is true. Trilu takes one input tensor of shape [*, N, M], where * is zero or more batch dimensions. The upper triangular part consists of the elements on and above the given diagonal (k). The lower triangular part consists of elements on and below the diagonal. All other elements in the matrix are set to zero. If k = 0, the triangular part on and above/below the main diagonal is retained. If upper is set to true, a positive k retains the upper triangular matrix excluding k diagonals above the main diagonal. A negative k value includes as many diagonals below the main diagonal. If upper is set to false, a positive k retains the lower triangular matrix including k diagonals above the main diagonal. A negative k value excludes as many diagonals below the main diagonal.</p>
 
-<p align="center"><img alt="node_microsoft_trilu.png" src="assets/node_microsoft_trilu.png" width="299"/></p>
+<p align="center"><img alt="MicrosoftTrilu" src="assets/MicrosoftTrilu.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

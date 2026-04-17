@@ -4,7 +4,7 @@
 
 <p>Lecun uniform initializer. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="enum.png" src="assets/enum.png" width="210"/></p>
+<p align="center"><img alt="LeCunUniform" src="assets/LeCunUniform.png" width="210"/></p>
 
 <p>Draws samples from a uniform distribution within <em>[-limit, limit]</em>, where <strong><em>limit = sqrt(3 / fan_in) </em></strong>(<em>fan_in </em>is the number of input units in the weight tensor).</p>
 

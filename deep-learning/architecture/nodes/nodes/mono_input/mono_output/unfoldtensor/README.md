@@ -4,7 +4,7 @@
 
 <p>Returns a tensor which contains all slices of size <code>size</code> from input tensor in the dimension <code>dim</code>. Step between two slices is given by <code>step</code>. If <code>sizedim</code> is the size of dimension <code>dim</code> for input tensor, the size of dimension <code>dim</code> in the returned tensor will be <code>(sizedim - size) / step + 1</code>. An additional dimension of size <code>size</code> is appended in the returned tensor.</p>
 
-<p align="center"><img alt="input_interger_32.png" src="assets/input_interger_32.png" width="299"/></p>
+<p align="center"><img alt="UnfoldTensor" src="assets/UnfoldTensor.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

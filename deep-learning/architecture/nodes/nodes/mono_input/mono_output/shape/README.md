@@ -4,7 +4,7 @@
 
 <p>Takes a tensor as input and outputs an 1D int64 tensor containing the shape of the input tensor. Optional attributes start and end can be used to compute a slice of the input tensor’s shape. If start axis is omitted, the slice starts from axis 0. The end axis, if specified, is exclusive (and the returned value will not include the size of that axis). If the end axis is omitted, the axes upto the last one will be included. Negative axes indicate counting back from the last axis. Note that axes will be clamped to the range [0, r], where r is the rank of the input tensor if they are out-of-range (after adding r in the case of negative axis). Thus, specifying any end value &gt; r is equivalent to specifying an end value of r, and specifying any start value &lt; -r is equivalent to specifying a start value of 0. If start &gt; end, the result will be an empty shape.</p>
 
-<p align="center"><img alt="node_shape.png" src="assets/node_shape.png" width="299"/></p>
+<p align="center"><img alt="Shape" src="assets/Shape.png" width="299"/></p>
 
 <h3>Input parameters</h3>
 

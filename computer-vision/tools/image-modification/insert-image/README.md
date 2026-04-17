@@ -4,7 +4,7 @@
 
 <p>Inserts an image in the Image Src. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/insert_image.png" alt="Insert_Image.Png" width="249" /></p>
+<p align="center"><img alt="Insert Image" src="assets/Insert Image.png" width="249"/></p>
 
 <h3>Input parameters</h3>
 

@@ -4,7 +4,7 @@
 
 <p>Close all references.</p>
 
-<p align="center"><img alt="free_all_gpu" src="assets/free_all_gpu.png" width="220"/></p>
+<p align="center"><img alt="Reset GPU Device" src="assets/Reset GPU Device.png" width="220"/></p>
 
 <h2>Example</h2>
 

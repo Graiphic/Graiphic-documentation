@@ -4,7 +4,7 @@
 
 <p>Display the image on a separate window. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/display_image.png" alt="Display_Image.Png" width="354" /></p>
+<p align="center"><img alt="Display Image" src="assets/Display Image.png" width="354"/></p>
 
 <h3>Input parameters</h3>
 

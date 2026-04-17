@@ -4,7 +4,7 @@
 
 <p>Obtains information about the video file. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/get_video_info.png" alt="Get_Video_Info.Png" width="247" /></p>
+<p align="center"><img alt="Get Video Info" src="assets/Get Video Info.png" width="247"/></p>
 
 <h3>Input parameters</h3>
 

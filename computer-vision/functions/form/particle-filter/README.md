@@ -4,7 +4,7 @@
 
 <p>Filters (keeps or removes) each particle in an image according to its measurements. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img src="assets/particle_filter.png" alt="Particle_Filter.Png" width="289" /></p>
+<p align="center"><img alt="Particle Filter" src="assets/Particle Filter.png" width="289"/></p>
 
 <h3>Input parameters</h3>
 
