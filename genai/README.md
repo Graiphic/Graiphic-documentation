@@ -1,7 +1,7 @@
 <h1>GenAI Toolkit</h1>
 
 <div class="graiphic-home-hero">
-  <p align="center"><img src="../img/genai.svg" alt="GenAI Toolkit icon" width="128" /></p>
+  <p align="center"><img src="../img/GenAI.png" alt="GenAI Toolkit icon" width="128" /></p>
   <p class="graiphic-home-kicker">
     <span class="graiphic-home-kicker-line">LLM workflows, speech pipelines,</span>
     <span class="graiphic-home-kicker-line">and multimodal inference for LabVIEW.</span>

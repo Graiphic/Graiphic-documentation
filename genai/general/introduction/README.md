@@ -1,6 +1,6 @@
 <h1>Introduction</h1>
 
-<p align="center"><img src="../../../img/genai.svg" alt="GenAI" width="220" /></p>
+<p align="center"><img src="../../../img/GenAI.png" alt="GenAI" width="220" /></p>
 
 <p>Welcome to the GenAI Toolkit documentation base.</p>
 
