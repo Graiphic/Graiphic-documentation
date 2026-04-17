@@ -2883,14 +2883,16 @@
         });
     }
 
+    var manifestVersion = "2026-04-17-manifests-2";
+
     Promise.all([
-      fetch("nav-tree.json").then(function (response) {
+      fetch("nav-tree.json?v=" + encodeURIComponent(manifestVersion)).then(function (response) {
         if (!response.ok) {
           throw new Error("Failed to load navigation manifest");
         }
         return response.json();
       }),
-      fetch("search-manifest.json")
+      fetch("search-manifest.json?v=" + encodeURIComponent(manifestVersion))
         .then(function (response) {
           if (!response.ok) {
             throw new Error("Failed to load search manifest");
