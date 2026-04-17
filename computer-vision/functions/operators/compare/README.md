@@ -4,7 +4,7 @@
 
 <p>Performs comparison operations between two images or an image and a constant. An operation between an image and a constant occurs when Image Src B is not connected. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="Compare" src="assets/Compare.png" width="279"/></p>
+<p align="center"><img alt="Compare" src="assets/compare.png" width="279"/></p>
 
 <h3>Input parameters</h3>
 

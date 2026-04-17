@@ -4,7 +4,7 @@
 
 <p>Applies a threshold to an image. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="Threshold" src="assets/Threshold.png" width="292"/></p>
+<p align="center"><img alt="Threshold" src="assets/threshold.png" width="292"/></p>
 
 <h3>Input parameters</h3>
 

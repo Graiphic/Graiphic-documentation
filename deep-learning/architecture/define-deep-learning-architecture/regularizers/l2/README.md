@@ -4,7 +4,7 @@
 
 <p>Define L2 regularizer. L2 regularization applies a penalty proportional to the <strong>square of the weights</strong>. It discourages large weight values and helps improve <strong>generalization</strong> by smoothing the model. When selected explicitly, the <strong><code>l2</code> coefficient is user-defined</strong>, while <code>l1</code> is ignored. Type : <em><strong>polymorphic</strong><strong>.</strong></em></p>
 
-<p align="center"><img alt="L2" src="assets/L2.png" width="221"/></p>
+<p align="center"><img alt="L2" src="assets/l2.png" width="221"/></p>
 
 <h3>Input parameters</h3>
 
