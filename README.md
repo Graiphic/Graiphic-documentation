@@ -11,13 +11,14 @@
   </p>
   <p class="graiphic-home-lead">
     Explore Graiphic's toolkit documentation from a single GitHub Pages experience covering SOTA, Accelerator,
-    Deep Learning, Computer Vision, and CUDA. Search any guide, VI, or toolkit page directly from the left panel.
+    Deep Learning, Computer Vision, CUDA, and GenAI. Search any guide, VI, or toolkit page directly from the left panel.
   </p>
   <div class="graiphic-home-pills">
     <span class="graiphic-home-pill">Graph Orchestration</span>
     <span class="graiphic-home-pill">LabVIEW Toolkits</span>
     <span class="graiphic-home-pill">AI Deployment</span>
     <span class="graiphic-home-pill">Vision &amp; CUDA</span>
+    <span class="graiphic-home-pill">GenAI &amp; LLMs</span>
   </div>
 </div>
 
@@ -87,6 +88,18 @@ Documentation:
 - [Hardware Compatibility](./cuda/general-cuda/hardware-compatibility/README.md)
 - [Deployment](./cuda/general-cuda/deployment/README.md)
 - [FAQ](./cuda/general-cuda/faq/README.md)
+
+### GenAI Toolkit
+
+The **GenAI Toolkit** gathers LLM, speech, and multimodal workflows for Anthropic APIs, GGUF runtimes, local text generation, and audio-oriented outputs inside LabVIEW.
+
+Documentation:
+- [Toolkit Overview](./genai/README.md)
+- [Anthropic](./genai/anthropic/README.md)
+- [Advanced Message](./genai/anthropic/message/advanced-message/README.md)
+- [Audio Process](./genai/audio-process/README.md)
+- [GGUF](./genai/gguf/README.md)
+- [Text Generation](./genai/gguf/text-generation/README.md)
 
 &copy; 2025 **Graiphic Technologies de France**  
 [https://graiphic.io](https://graiphic.io)

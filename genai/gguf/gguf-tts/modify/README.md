@@ -1,7 +1,7 @@
 <h1>Modify</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Modify.</p>
+<p>This section groups the GenAI documentation available under Modify.</p>
 
 <h3>Pages</h3>
 

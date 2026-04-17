@@ -1,7 +1,7 @@
 <h1>Gemma 3</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Gemma 3.</p>
+<p>This section groups the GenAI documentation available under Gemma 3.</p>
 
 <h3>Pages</h3>
 

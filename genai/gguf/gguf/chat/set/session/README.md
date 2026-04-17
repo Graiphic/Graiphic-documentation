@@ -1,7 +1,7 @@
 <h1>Session</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Session.</p>
+<p>This section groups the GenAI documentation available under Session.</p>
 
 <h3>Pages</h3>
 

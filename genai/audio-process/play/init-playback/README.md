@@ -1,7 +1,7 @@
 <h1>Init Playback</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Init Playback.</p>
+<p>This section groups the GenAI documentation available under Init Playback.</p>
 
 <h3>Pages</h3>
 

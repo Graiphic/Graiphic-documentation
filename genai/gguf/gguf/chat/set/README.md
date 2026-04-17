@@ -1,7 +1,7 @@
 <h1>Set</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Set.</p>
+<p>This section groups the GenAI documentation available under Set.</p>
 
 <h3>Categories</h3>
 

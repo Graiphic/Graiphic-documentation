@@ -1,7 +1,7 @@
 <h1>GGUF TTS</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under GGUF TTS.</p>
+<p>This section groups the GenAI documentation available under GGUF TTS.</p>
 
 <h3>Categories</h3>
 

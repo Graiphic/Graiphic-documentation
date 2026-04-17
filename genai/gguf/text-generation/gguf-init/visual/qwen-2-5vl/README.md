@@ -1,7 +1,7 @@
 <h1>Qwen 2.5VL</h1>
 <h2>Description</h2>
 
-<p>This section groups the experimental GenAI documentation available under Qwen 2.5VL.</p>
+<p>This section groups the GenAI documentation available under Qwen 2.5VL.</p>
 
 <h3>Pages</h3>
 
