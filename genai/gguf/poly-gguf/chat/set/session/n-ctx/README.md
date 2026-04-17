@@ -1,11 +1,5 @@
 <h1>N CTX</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Set n_ctx to common_params stored in local. n_ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model&#x27;s active memory during inference. Type : polymorphic.</p>

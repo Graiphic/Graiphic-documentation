@@ -9054,517 +9054,517 @@
       "title": "GenAI",
       "path": "/genai/README.md",
       "keywords": "genai",
-      "content": "GenAI Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI Toolkit documentation generated from the current HTML exports. Categories Anthropic Audio Process GGUF"
+      "content": "GenAI Description This section groups the experimental GenAI Toolkit documentation generated from the current HTML exports. Categories Anthropic Audio Process GGUF"
     },
     {
       "title": "Anthropic",
       "path": "/genai/anthropic/README.md",
       "keywords": "genai anthropic",
-      "content": "Anthropic Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Anthropic. Categories Message"
+      "content": "Anthropic Description This section groups the experimental GenAI documentation available under Anthropic. Categories Message"
     },
     {
       "title": "Message",
       "path": "/genai/anthropic/message/README.md",
       "keywords": "genai anthropic message",
-      "content": "Message Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Message. Pages Advanced Message Simplify Image Message Simplify PDF Message Simplify Text Message"
+      "content": "Message Description This section groups the experimental GenAI documentation available under Message. Pages Advanced Message Simplify Image Message Simplify PDF Message Simplify Text Message"
     },
     {
       "title": "Advanced Message",
       "path": "/genai/anthropic/message/advanced-message/README.md",
       "keywords": "genai anthropic message advanced message",
-      "content": "Advanced Message Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class json_request : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "content": "Advanced Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class json_request : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Simplify Image Message",
       "path": "/genai/anthropic/message/simplify-image-message/README.md",
       "keywords": "genai anthropic message simplify image message",
-      "content": "Simplify Image Message Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "content": "Simplify Image Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Simplify PDF Message",
       "path": "/genai/anthropic/message/simplify-pdf-message/README.md",
       "keywords": "genai anthropic message simplify pdf message",
-      "content": "Simplify PDF Message Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases: - Analyzing financial reports and understanding charts/tables - Extracting key information from legal documents - Translation assistance for documents - Converting document information into structured formats Type : polymorphic. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "content": "Simplify PDF Message Description Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases: - Analyzing financial reports and understanding charts/tables - Extracting key information from legal documents - Translation assistance for documents - Converting document information into structured formats Type : polymorphic. Input parameters Anthropic in : class message : string file_path : path Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Simplify Text Message",
       "path": "/genai/anthropic/message/simplify-text-message/README.md",
       "keywords": "genai anthropic message simplify text message",
-      "content": "Simplify Text Message Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
+      "content": "Simplify Text Message Description Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic. Input parameters Anthropic in : class message : string Output parameters Anthropic out : class response : cluster id : string type : string role : string model : string content : array of cluster type : string text : string stop_reason : string stop_sequence : string usage : cluster input_tokens : integer cache_creation_input_tokens : integer cache_read_input_tokens : integer output_tokens : integer last_response : string"
     },
     {
       "title": "Audio Process",
       "path": "/genai/audio-process/README.md",
       "keywords": "genai audio process",
-      "content": "Audio Process Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Audio Process. Categories Play"
+      "content": "Audio Process Description This section groups the experimental GenAI documentation available under Audio Process. Categories Play"
     },
     {
       "title": "Play",
       "path": "/genai/audio-process/play/README.md",
       "keywords": "genai audio process play",
-      "content": "Play Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Play. Categories Poly Init Playback"
+      "content": "Play Description This section groups the experimental GenAI documentation available under Play. Categories Poly Init Playback"
     },
     {
       "title": "Poly Init Playback",
       "path": "/genai/audio-process/play/poly-init-playback/README.md",
       "keywords": "genai audio process play poly init playback",
-      "content": "Poly Init Playback Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Poly Init Playback. Pages Play Sound From A Buffer Play Sound From A File"
+      "content": "Poly Init Playback Description This section groups the experimental GenAI documentation available under Poly Init Playback. Pages Play Sound From A Buffer Play Sound From A File"
     },
     {
       "title": "Play Sound From A Buffer",
       "path": "/genai/audio-process/play/poly-init-playback/play-sound-from-a-buffer/README.md",
       "keywords": "genai audio process play poly init playback play sound from a buffer",
-      "content": "Play Sound From A Buffer Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Play a Sound Buffer. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
+      "content": "Play Sound From A Buffer Description Play a Sound Buffer. Typically used alongside a TTS (Text-to-Speech) buffer. Type : polymorphic. Input parameters Sound Buffer : integer Output Device : integer Parameters : cluster volume : float sampleRate : integer Channels : integer Output parameters PlayBuffer out : class"
     },
     {
       "title": "Play Sound From A File",
       "path": "/genai/audio-process/play/poly-init-playback/play-sound-from-a-file/README.md",
       "keywords": "genai audio process play poly init playback play sound from a file",
-      "content": "Play Sound From A File Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Play the Sound File Path. Type : polymorphic. Input parameters Sound File Path : path Output Device : integer volume : float Output parameters Play out : class"
+      "content": "Play Sound From A File Description Play the Sound File Path. Type : polymorphic. Input parameters Sound File Path : path Output Device : integer volume : float Output parameters Play out : class"
     },
     {
       "title": "GGUF",
       "path": "/genai/gguf/README.md",
       "keywords": "genai gguf",
-      "content": "GGUF Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under GGUF. Categories Poly GGUF Poly GGUF TTS Text Generation"
+      "content": "GGUF Description This section groups the experimental GenAI documentation available under GGUF. Categories Poly GGUF Poly GGUF TTS Text Generation"
     },
     {
       "title": "Poly GGUF",
       "path": "/genai/gguf/poly-gguf/README.md",
       "keywords": "genai gguf poly gguf",
-      "content": "Poly GGUF Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Poly GGUF. Categories Chat"
+      "content": "Poly GGUF Description This section groups the experimental GenAI documentation available under Poly GGUF. Categories Chat"
     },
     {
       "title": "Chat",
       "path": "/genai/gguf/poly-gguf/chat/README.md",
       "keywords": "genai gguf poly gguf chat",
-      "content": "Chat Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Chat. Categories Set"
+      "content": "Chat Description This section groups the experimental GenAI documentation available under Chat. Categories Set"
     },
     {
       "title": "Set",
       "path": "/genai/gguf/poly-gguf/chat/set/README.md",
       "keywords": "genai gguf poly gguf chat set",
-      "content": "Set Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Set. Categories Sampler Session"
+      "content": "Set Description This section groups the experimental GenAI documentation available under Set. Categories Sampler Session"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/README.md",
       "keywords": "genai gguf poly gguf chat set sampler",
-      "content": "Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Sampler. Pages Dry Allowed Length Dry Base Dry Multiplier Dry Penalty Last N Dynatemp Exponent Dynatemp Range Min Keep Min P Mirostat Mirostat Eta Mirostat Tau N Prev N Probs Penalty Freq Penalty Last N Penalty Present Repeat Penalty Samplers Temperature Top K Top P Typ P Xtc Probability Xtc Threshold"
+      "content": "Sampler Description This section groups the experimental GenAI documentation available under Sampler. Pages Dry Allowed Length Dry Base Dry Multiplier Dry Penalty Last N Dynatemp Exponent Dynatemp Range Min Keep Min P Mirostat Mirostat Eta Mirostat Tau N Prev N Probs Penalty Freq Penalty Last N Penalty Present Repeat Penalty Samplers Temperature Top K Top P Typ P Xtc Probability Xtc Threshold"
     },
     {
       "title": "Dry Allowed Length",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-allowed-length/README.md",
       "keywords": "genai gguf poly gguf chat set sampler dry allowed length",
-      "content": "Dry Allowed Length Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set dry_allowed_length to common_params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic. Input parameters GGUF in : class dry_allowed_length : integer Output parameters GGUF out : class"
+      "content": "Dry Allowed Length Description Set dry_allowed_length to common_params stored in local. NB : tokens extending repetitions beyond this receive penalty Type : polymorphic. Input parameters GGUF in : class dry_allowed_length : integer Output parameters GGUF out : class"
     },
     {
       "title": "Dry Base",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-base/README.md",
       "keywords": "genai gguf poly gguf chat set sampler dry base",
-      "content": "Dry Base Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set dry_base to common_params stored in local. NB : 0.0 = disabled multiplier * base ^ (length of sequence before token - allowed length) Type : polymorphic. Input parameters GGUF in : class dry_base : float Output parameters GGUF out : class"
+      "content": "Dry Base Description Set dry_base to common_params stored in local. NB : 0.0 = disabled multiplier * base ^ (length of sequence before token - allowed length) Type : polymorphic. Input parameters GGUF in : class dry_base : float Output parameters GGUF out : class"
     },
     {
       "title": "Dry Multiplier",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-multiplier/README.md",
       "keywords": "genai gguf poly gguf chat set sampler dry multiplier",
-      "content": "Dry Multiplier Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set dry_multiplier to common_params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic. Input parameters GGUF in : class dry_multiplier : float Output parameters GGUF out : class"
+      "content": "Dry Multiplier Description Set dry_multiplier to common_params stored in local. NB : 0.0 = disabled DRY repetition penalty for tokens extending repetition: Type : polymorphic. Input parameters GGUF in : class dry_multiplier : float Output parameters GGUF out : class"
     },
     {
       "title": "Dry Penalty Last N",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/dry-penalty-last-n/README.md",
       "keywords": "genai gguf poly gguf chat set sampler dry penalty last n",
-      "content": "Dry Penalty Last N Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set dry_penalty_last_n to common_params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class dry_penalty_last_n : integer Output parameters GGUF out : class"
+      "content": "Dry Penalty Last N Description Set dry_penalty_last_n to common_params stored in local. NB :how many tokens to scan for repetitions (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class dry_penalty_last_n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Dynatemp Exponent",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/dynatemp-exponent/README.md",
       "keywords": "genai gguf poly gguf chat set sampler dynatemp exponent",
-      "content": "Dynatemp Exponent Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set dynatemp_exponent to common_params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic. Input parameters GGUF in : class dynatemp_exponent : float Output parameters GGUF out : class"
+      "content": "Dynatemp Exponent Description Set dynatemp_exponent to common_params stored in local. NB : controls how entropy maps to temperature in dynamic temperature sampler Type : polymorphic. Input parameters GGUF in : class dynatemp_exponent : float Output parameters GGUF out : class"
     },
     {
       "title": "Dynatemp Range",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/dynatemp-range/README.md",
       "keywords": "genai gguf poly gguf chat set sampler dynatemp range",
-      "content": "Dynatemp Range Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set dynatemp_range to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class dynatemp_range : float Output parameters GGUF out : class"
+      "content": "Dynatemp Range Description Set dynatemp_range to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class dynatemp_range : float Output parameters GGUF out : class"
     },
     {
       "title": "Min Keep",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/min-keep/README.md",
       "keywords": "genai gguf poly gguf chat set sampler min keep",
-      "content": "Min Keep Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set min_keep to common_params stored in local. NB : 0 = disabled, otherwise samplers should return at least min_keep tokens Type : polymorphic. Input parameters GGUF in : class min_keep : integer Output parameters GGUF out : class"
+      "content": "Min Keep Description Set min_keep to common_params stored in local. NB : 0 = disabled, otherwise samplers should return at least min_keep tokens Type : polymorphic. Input parameters GGUF in : class min_keep : integer Output parameters GGUF out : class"
     },
     {
       "title": "Min P",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/min-p/README.md",
       "keywords": "genai gguf poly gguf chat set sampler min p",
-      "content": "Min P Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set min_p to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class min_p : float Output parameters GGUF out : class"
+      "content": "Min P Description Set min_p to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class min_p : float Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/mirostat/README.md",
       "keywords": "genai gguf poly gguf chat set sampler mirostat",
-      "content": "Mirostat Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set mirostat to common_params stored in local. NB : 0 = disabled, 1 = mirostat, 2 = mirostat 2.0 Type : polymorphic. Input parameters GGUF in : class mirostat : integer Output parameters GGUF out : class"
+      "content": "Mirostat Description Set mirostat to common_params stored in local. NB : 0 = disabled, 1 = mirostat, 2 = mirostat 2.0 Type : polymorphic. Input parameters GGUF in : class mirostat : integer Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat Eta",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/mirostat-eta/README.md",
       "keywords": "genai gguf poly gguf chat set sampler mirostat eta",
-      "content": "Mirostat Eta Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set mirostat_tau to common_params stored in local. NB : learning rate Type : polymorphic. Input parameters GGUF in : class mirostat_eta : float Output parameters GGUF out : class"
+      "content": "Mirostat Eta Description Set mirostat_tau to common_params stored in local. NB : learning rate Type : polymorphic. Input parameters GGUF in : class mirostat_eta : float Output parameters GGUF out : class"
     },
     {
       "title": "Mirostat Tau",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/mirostat-tau/README.md",
       "keywords": "genai gguf poly gguf chat set sampler mirostat tau",
-      "content": "Mirostat Tau Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set mirostat_tau to common_params stored in local. NB : target entropy Type : polymorphic. Input parameters GGUF in : class mirostat_tau : float Output parameters GGUF out : class"
+      "content": "Mirostat Tau Description Set mirostat_tau to common_params stored in local. NB : target entropy Type : polymorphic. Input parameters GGUF in : class mirostat_tau : float Output parameters GGUF out : class"
     },
     {
       "title": "N Prev",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/n-prev/README.md",
       "keywords": "genai gguf poly gguf chat set sampler n prev",
-      "content": "N Prev Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_prev to common_params stored in local. NB : number of previous tokens to remember Type : polymorphic. Input parameters GGUF in : class n_prev : integer Output parameters GGUF out : class"
+      "content": "N Prev Description Set n_prev to common_params stored in local. NB : number of previous tokens to remember Type : polymorphic. Input parameters GGUF in : class n_prev : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Probs",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/n-probs/README.md",
       "keywords": "genai gguf poly gguf chat set sampler n probs",
-      "content": "N Probs Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_probs to common_params stored in local. NB : if greater than 0, output the probabilities of top n_probs tokens. Type : polymorphic. Input parameters GGUF in : class n_probs : integer Output parameters GGUF out : class"
+      "content": "N Probs Description Set n_probs to common_params stored in local. NB : if greater than 0, output the probabilities of top n_probs tokens. Type : polymorphic. Input parameters GGUF in : class n_probs : integer Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Freq",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/penalty-freq/README.md",
       "keywords": "genai gguf poly gguf chat set sampler penalty freq",
-      "content": "Penalty Freq Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set penalty_freq to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_freq : float Output parameters GGUF out : class"
+      "content": "Penalty Freq Description Set penalty_freq to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_freq : float Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Last N",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/penalty-last-n/README.md",
       "keywords": "genai gguf poly gguf chat set sampler penalty last n",
-      "content": "Penalty Last N Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set penalty_last_n to common_params stored in local. NB : last n tokens to penalize (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class penalty_last_n : integer Output parameters GGUF out : class"
+      "content": "Penalty Last N Description Set penalty_last_n to common_params stored in local. NB : last n tokens to penalize (0 = disable penalty, -1 = context size) Type : polymorphic. Input parameters GGUF in : class penalty_last_n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Penalty Present",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/penalty-present/README.md",
       "keywords": "genai gguf poly gguf chat set sampler penalty present",
-      "content": "Penalty Present Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set penalty_present to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_present : float Output parameters GGUF out : class"
+      "content": "Penalty Present Description Set penalty_present to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class penalty_present : float Output parameters GGUF out : class"
     },
     {
       "title": "Repeat Penalty",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/repeat-penalty/README.md",
       "keywords": "genai gguf poly gguf chat set sampler repeat penalty",
-      "content": "Repeat Penalty Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set repeat_penalty to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class repeat penalty : float Output parameters GGUF out : class"
+      "content": "Repeat Penalty Description Set repeat_penalty to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class repeat penalty : float Output parameters GGUF out : class"
     },
     {
       "title": "Samplers",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/samplers/README.md",
       "keywords": "genai gguf poly gguf chat set sampler samplers",
-      "content": "Samplers Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set samplers to common_params stored in local. NB : it define which parameters and in which order these parameters are used to select the tokens Type : polymorphic. Input parameters GGUF in : class samplers : array of enum Enum : enum Output parameters GGUF out : class"
+      "content": "Samplers Description Set samplers to common_params stored in local. NB : it define which parameters and in which order these parameters are used to select the tokens Type : polymorphic. Input parameters GGUF in : class samplers : array of enum Enum : enum Output parameters GGUF out : class"
     },
     {
       "title": "Temperature",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/temperature/README.md",
       "keywords": "genai gguf poly gguf chat set sampler temperature",
-      "content": "Temperature Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set temperature to common_params stored in local. NB : <= 0.0 to sample greedily, 0.0 to not output probabilities Type : polymorphic. Input parameters GGUF in : class temperature : float Output parameters GGUF out : class"
+      "content": "Temperature Description Set temperature to common_params stored in local. NB : <= 0.0 to sample greedily, 0.0 to not output probabilities Type : polymorphic. Input parameters GGUF in : class temperature : float Output parameters GGUF out : class"
     },
     {
       "title": "Top K",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/top-k/README.md",
       "keywords": "genai gguf poly gguf chat set sampler top k",
-      "content": "Top K Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set top_k to common_params stored in local. NB : <= 0 to use vocab size Type : polymorphic. Input parameters GGUF in : class top_k : integer Output parameters GGUF out : class"
+      "content": "Top K Description Set top_k to common_params stored in local. NB : <= 0 to use vocab size Type : polymorphic. Input parameters GGUF in : class top_k : integer Output parameters GGUF out : class"
     },
     {
       "title": "Top P",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/top-p/README.md",
       "keywords": "genai gguf poly gguf chat set sampler top p",
-      "content": "Top P Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set top_p to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class top_p : float Output parameters GGUF out : class"
+      "content": "Top P Description Set top_p to common_params stored in local. NB : 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class top_p : float Output parameters GGUF out : class"
     },
     {
       "title": "Typ P",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/typ-p/README.md",
       "keywords": "genai gguf poly gguf chat set sampler typ p",
-      "content": "Typ P Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set typ_p to common_params stored in local. NB : typical_p, 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class typ_p : float Output parameters GGUF out : class"
+      "content": "Typ P Description Set typ_p to common_params stored in local. NB : typical_p, 1.0 = disabled Type : polymorphic. Input parameters GGUF in : class typ_p : float Output parameters GGUF out : class"
     },
     {
       "title": "Xtc Probability",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/xtc-probability/README.md",
       "keywords": "genai gguf poly gguf chat set sampler xtc probability",
-      "content": "Xtc Probability Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set xtc_probability to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class xtc_probability : float Output parameters GGUF out : class"
+      "content": "Xtc Probability Description Set xtc_probability to common_params stored in local. NB : 0.0 = disabled Type : polymorphic. Input parameters GGUF in : class xtc_probability : float Output parameters GGUF out : class"
     },
     {
       "title": "Xtc Threshold",
       "path": "/genai/gguf/poly-gguf/chat/set/sampler/xtc-threshold/README.md",
       "keywords": "genai gguf poly gguf chat set sampler xtc threshold",
-      "content": "Xtc Threshold Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set xtc_threshold to common_params stored in local. NB : > 0.5 disables XTC Type : polymorphic. Input parameters GGUF in : class xtc_threshold : float Output parameters GGUF out : class"
+      "content": "Xtc Threshold Description Set xtc_threshold to common_params stored in local. NB : > 0.5 disables XTC Type : polymorphic. Input parameters GGUF in : class xtc_threshold : float Output parameters GGUF out : class"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/poly-gguf/chat/set/session/README.md",
       "keywords": "genai gguf poly gguf chat set session",
-      "content": "Session Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Session. Pages CPU Threads Defrag Thold Grp Attn N Grp Attn W N Batch N Chunks N CTX N Keep N Parallel N Predict N Sequences N Ybatch Nb GPU Layers Rope Freq Base Rope Freq Scale Yarn Attn Factor Yarn Beta Fast Yarn Beta Slow Yarn Ext Factor Yarn Orig CTX"
+      "content": "Session Description This section groups the experimental GenAI documentation available under Session. Pages CPU Threads Defrag Thold Grp Attn N Grp Attn W N Batch N Chunks N CTX N Keep N Parallel N Predict N Sequences N Ybatch Nb GPU Layers Rope Freq Base Rope Freq Scale Yarn Attn Factor Yarn Beta Fast Yarn Beta Slow Yarn Ext Factor Yarn Orig CTX"
     },
     {
       "title": "CPU Threads",
       "path": "/genai/gguf/poly-gguf/chat/set/session/cpu-threads/README.md",
       "keywords": "genai gguf poly gguf chat set session cpu threads",
-      "content": "CPU Threads Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_cpu_threads to common_params stored in local. NB : <= 0 automatic definition Type : polymorphic. Input parameters GGUF in : class n_cpu_threads : integer Output parameters GGUF out : class"
+      "content": "CPU Threads Description Set n_cpu_threads to common_params stored in local. NB : <= 0 automatic definition Type : polymorphic. Input parameters GGUF in : class n_cpu_threads : integer Output parameters GGUF out : class"
     },
     {
       "title": "Defrag Thold",
       "path": "/genai/gguf/poly-gguf/chat/set/session/defrag-thold/README.md",
       "keywords": "genai gguf poly gguf chat set session defrag thold",
-      "content": "Defrag Thold Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set defrag_thold to common_params stored in local. NB : KV cache defragmentation threshold Type : polymorphic. Input parameters GGUF in : class defrag_thold : float Output parameters GGUF out : class"
+      "content": "Defrag Thold Description Set defrag_thold to common_params stored in local. NB : KV cache defragmentation threshold Type : polymorphic. Input parameters GGUF in : class defrag_thold : float Output parameters GGUF out : class"
     },
     {
       "title": "Grp Attn N",
       "path": "/genai/gguf/poly-gguf/chat/set/session/grp-attn-n/README.md",
       "keywords": "genai gguf poly gguf chat set session grp attn n",
-      "content": "Grp Attn N Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set grp_attn_n to common_params stored in local. NB : group-attention factor Type : polymorphic. Input parameters GGUF in : class grp_attn_n : integer Output parameters GGUF out : class"
+      "content": "Grp Attn N Description Set grp_attn_n to common_params stored in local. NB : group-attention factor Type : polymorphic. Input parameters GGUF in : class grp_attn_n : integer Output parameters GGUF out : class"
     },
     {
       "title": "Grp Attn W",
       "path": "/genai/gguf/poly-gguf/chat/set/session/grp-attn-w/README.md",
       "keywords": "genai gguf poly gguf chat set session grp attn w",
-      "content": "Grp Attn W Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set grp_attn_w to common_params stored in local. NB : group-attention width Type : polymorphic. Input parameters GGUF in : class grp_attn_w : integer Output parameters GGUF out : class"
+      "content": "Grp Attn W Description Set grp_attn_w to common_params stored in local. NB : group-attention width Type : polymorphic. Input parameters GGUF in : class grp_attn_w : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Batch",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-batch/README.md",
       "keywords": "genai gguf poly gguf chat set session n batch",
-      "content": "N Batch Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_batch : integer Output parameters GGUF out : class"
+      "content": "N Batch Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_batch : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Chunks",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-chunks/README.md",
       "keywords": "genai gguf poly gguf chat set session n chunks",
-      "content": "N Chunks Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_chunks to common_params stored in local. NB : max number of chunks to process (-1 = unlimited) Type : polymorphic. Input parameters GGUF in : class n_chunks : integer Output parameters GGUF out : class"
+      "content": "N Chunks Description Set n_chunks to common_params stored in local. NB : max number of chunks to process (-1 = unlimited) Type : polymorphic. Input parameters GGUF in : class n_chunks : integer Output parameters GGUF out : class"
     },
     {
       "title": "N CTX",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-ctx/README.md",
       "keywords": "genai gguf poly gguf chat set session n ctx",
-      "content": "N CTX Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_ctx to common_params stored in local. n_ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model's active memory during inference. Type : polymorphic. Input parameters GGUF in : class n_ctx : integer Output parameters GGUF out : class"
+      "content": "N CTX Description Set n_ctx to common_params stored in local. n_ctx is the maximum context size in tokens that a model can take into account for a prompt and its responses, thus defining the model's active memory during inference. Type : polymorphic. Input parameters GGUF in : class n_ctx : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Keep",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-keep/README.md",
       "keywords": "genai gguf poly gguf chat set session n keep",
-      "content": "N Keep Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_keep to common_params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic. Input parameters GGUF in : class n_keep : integer Output parameters GGUF out : class"
+      "content": "N Keep Description Set n_keep to common_params stored in local. NB : number of tokens to keep from initial prompt Type : polymorphic. Input parameters GGUF in : class n_keep : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Parallel",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-parallel/README.md",
       "keywords": "genai gguf poly gguf chat set session n parallel",
-      "content": "N Parallel Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_parallel to common_params stored in local. NB : number of parallel sequences to decode Type : polymorphic. Input parameters GGUF in : class n_parallel : integer Output parameters GGUF out : class"
+      "content": "N Parallel Description Set n_parallel to common_params stored in local. NB : number of parallel sequences to decode Type : polymorphic. Input parameters GGUF in : class n_parallel : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Predict",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-predict/README.md",
       "keywords": "genai gguf poly gguf chat set session n predict",
-      "content": "N Predict Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set nb token to predict to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class n_predict : integer Output parameters GGUF out : class"
+      "content": "N Predict Description Set nb token to predict to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class n_predict : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Sequences",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-sequences/README.md",
       "keywords": "genai gguf poly gguf chat set session n sequences",
-      "content": "N Sequences Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_sequences to common_params stored in local. NB : number of sequences to decode Type : polymorphic. Input parameters GGUF in : class n_sequences : integer Output parameters GGUF out : class"
+      "content": "N Sequences Description Set n_sequences to common_params stored in local. NB : number of sequences to decode Type : polymorphic. Input parameters GGUF in : class n_sequences : integer Output parameters GGUF out : class"
     },
     {
       "title": "N Ybatch",
       "path": "/genai/gguf/poly-gguf/chat/set/session/n-ybatch/README.md",
       "keywords": "genai gguf poly gguf chat set session n ybatch",
-      "content": "N Ybatch Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_ubatch : integer Output parameters GGUF out : class"
+      "content": "N Ybatch Description Set n_batch to common_params stored in local. NB : logical batch size for prompt processing (must be >=32 to use BLAS) Type : polymorphic. Input parameters GGUF in : class n_ubatch : integer Output parameters GGUF out : class"
     },
     {
       "title": "Nb GPU Layers",
       "path": "/genai/gguf/poly-gguf/chat/set/session/nb-gpu-layers/README.md",
       "keywords": "genai gguf poly gguf chat set session nb gpu layers",
-      "content": "Nb GPU Layers Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set nb_gpu_layers to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class nb gpu layers : integer Output parameters GGUF out : class"
+      "content": "Nb GPU Layers Description Set nb_gpu_layers to common_params stored in local. Type : polymorphic. Input parameters GGUF in : class nb gpu layers : integer Output parameters GGUF out : class"
     },
     {
       "title": "Rope Freq Base",
       "path": "/genai/gguf/poly-gguf/chat/set/session/rope-freq-base/README.md",
       "keywords": "genai gguf poly gguf chat set session rope freq base",
-      "content": "Rope Freq Base Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set rope_freq_base to common_params stored in local. NB : RoPE base frequency Type : polymorphic. Input parameters GGUF in : class rope_freq_base : float Output parameters GGUF out : class"
+      "content": "Rope Freq Base Description Set rope_freq_base to common_params stored in local. NB : RoPE base frequency Type : polymorphic. Input parameters GGUF in : class rope_freq_base : float Output parameters GGUF out : class"
     },
     {
       "title": "Rope Freq Scale",
       "path": "/genai/gguf/poly-gguf/chat/set/session/rope-freq-scale/README.md",
       "keywords": "genai gguf poly gguf chat set session rope freq scale",
-      "content": "Rope Freq Scale Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set rope_freq_scale to common_params stored in local. NB : RoPE frequency scaling factor Type : polymorphic. Input parameters GGUF in : class rope_freq_scale : float Output parameters GGUF out : class"
+      "content": "Rope Freq Scale Description Set rope_freq_scale to common_params stored in local. NB : RoPE frequency scaling factor Type : polymorphic. Input parameters GGUF in : class rope_freq_scale : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Attn Factor",
       "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-attn-factor/README.md",
       "keywords": "genai gguf poly gguf chat set session yarn attn factor",
-      "content": "Yarn Attn Factor Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set yarn_attn_factor to common_params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic. Input parameters GGUF in : class yarn_attn_factor : float Output parameters GGUF out : class"
+      "content": "Yarn Attn Factor Description Set yarn_attn_factor to common_params stored in local. NB : YaRN magnitude scaling factor Type : polymorphic. Input parameters GGUF in : class yarn_attn_factor : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Beta Fast",
       "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-beta-fast/README.md",
       "keywords": "genai gguf poly gguf chat set session yarn beta fast",
-      "content": "Yarn Beta Fast Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set yarn_beta_fast to common_params stored in local. NB : YaRN low correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_fast : float Output parameters GGUF out : class"
+      "content": "Yarn Beta Fast Description Set yarn_beta_fast to common_params stored in local. NB : YaRN low correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_fast : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Beta Slow",
       "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-beta-slow/README.md",
       "keywords": "genai gguf poly gguf chat set session yarn beta slow",
-      "content": "Yarn Beta Slow Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set yarn_beta_slow to common_params stored in local. NB : YaRN high correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_slow : float Output parameters GGUF out : class"
+      "content": "Yarn Beta Slow Description Set yarn_beta_slow to common_params stored in local. NB : YaRN high correction dim Type : polymorphic. Input parameters GGUF in : class yarn_beta_slow : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Ext Factor",
       "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-ext-factor/README.md",
       "keywords": "genai gguf poly gguf chat set session yarn ext factor",
-      "content": "Yarn Ext Factor Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set yarn_ext_factor to common_params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic. Input parameters GGUF in : class yarn_ext_factor : float Output parameters GGUF out : class"
+      "content": "Yarn Ext Factor Description Set yarn_ext_factor to common_params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic. Input parameters GGUF in : class yarn_ext_factor : float Output parameters GGUF out : class"
     },
     {
       "title": "Yarn Orig CTX",
       "path": "/genai/gguf/poly-gguf/chat/set/session/yarn-orig-ctx/README.md",
       "keywords": "genai gguf poly gguf chat set session yarn orig ctx",
-      "content": "Yarn Orig CTX Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Set n_print to common_params stored in local. NB : YaRN original context length Type : polymorphic. Input parameters GGUF in : class yarn_orig_ctx : integer Output parameters GGUF out : class"
+      "content": "Yarn Orig CTX Description Set n_print to common_params stored in local. NB : YaRN original context length Type : polymorphic. Input parameters GGUF in : class yarn_orig_ctx : integer Output parameters GGUF out : class"
     },
     {
       "title": "Poly GGUF TTS",
       "path": "/genai/gguf/poly-gguf-tts/README.md",
       "keywords": "genai gguf poly gguf tts",
-      "content": "Poly GGUF TTS Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Poly GGUF TTS. Categories Init Modify Run Pages Close"
+      "content": "Poly GGUF TTS Description This section groups the experimental GenAI documentation available under Poly GGUF TTS. Categories Init Modify Run Pages Close"
     },
     {
       "title": "Close",
       "path": "/genai/gguf/poly-gguf-tts/close/README.md",
       "keywords": "genai gguf poly gguf tts close",
-      "content": "Close Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session and its buffer Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
+      "content": "Close Description Initialize a session and its buffer Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Init",
       "path": "/genai/gguf/poly-gguf-tts/init/README.md",
       "keywords": "genai gguf poly gguf tts init",
-      "content": "Init Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Init. Pages Sampler Session Session & Sampler"
+      "content": "Init Description This section groups the experimental GenAI documentation available under Init. Pages Sampler Session Session & Sampler"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/poly-gguf-tts/init/sampler/README.md",
       "keywords": "genai gguf poly gguf tts init sampler",
-      "content": "Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize TTS sampler Type : polymorphic. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TTS in : class Output parameters TTS out : class"
+      "content": "Sampler Description Initialize TTS sampler Type : polymorphic. Input parameters Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/poly-gguf-tts/init/session/README.md",
       "keywords": "genai gguf poly gguf tts init session",
-      "content": "Session Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Output parameters TTS out : class"
+      "content": "Session Description Initialize a session Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Output parameters TTS out : class"
     },
     {
       "title": "Session & Sampler",
       "path": "/genai/gguf/poly-gguf-tts/init/session-sampler/README.md",
       "keywords": "genai gguf poly gguf tts init session sampler",
-      "content": "Session & Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
+      "content": "Session & Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Parameters : cluster Model Path : path Tokenizer Path : path n gpu layers : integer use guide tokens : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
     },
     {
       "title": "Modify",
       "path": "/genai/gguf/poly-gguf-tts/modify/README.md",
       "keywords": "genai gguf poly gguf tts modify",
-      "content": "Modify Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Modify. Pages Audio Buffer Sampler"
+      "content": "Modify Description This section groups the experimental GenAI documentation available under Modify. Pages Audio Buffer Sampler"
     },
     {
       "title": "Audio Buffer",
       "path": "/genai/gguf/poly-gguf-tts/modify/audio-buffer/README.md",
       "keywords": "genai gguf poly gguf tts modify audio buffer",
-      "content": "Audio Buffer Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Free the audio buffer and create a new one (empty). Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
+      "content": "Audio Buffer Description Free the audio buffer and create a new one (empty). Type : polymorphic. Input parameters TTS in : class Output parameters TTS out : class"
     },
     {
       "title": "Sampler",
       "path": "/genai/gguf/poly-gguf-tts/modify/sampler/README.md",
       "keywords": "genai gguf poly gguf tts modify sampler",
-      "content": "Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Free the sampler and create a new one with the input parameters. Type : polymorphic. Input parameters TTS in : class Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
+      "content": "Sampler Description Free the sampler and create a new one with the input parameters. Type : polymorphic. Input parameters TTS in : class Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TTS out : class"
     },
     {
       "title": "Run",
       "path": "/genai/gguf/poly-gguf-tts/run/README.md",
       "keywords": "genai gguf poly gguf tts run",
-      "content": "Run Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Run. Pages Buffer File"
+      "content": "Run Description This section groups the experimental GenAI documentation available under Run. Pages Buffer File"
     },
     {
       "title": "Buffer",
       "path": "/genai/gguf/poly-gguf-tts/run/buffer/README.md",
       "keywords": "genai gguf poly gguf tts run buffer",
-      "content": "Buffer Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio_buffer : integer"
+      "content": "Buffer Description Run TTS and add the result into buffer. Type : polymorphic. Input parameters TTS in : class Prompt : string voice : string Output parameters TTS out : class audio_buffer : integer"
     },
     {
       "title": "File",
       "path": "/genai/gguf/poly-gguf-tts/run/file/README.md",
       "keywords": "genai gguf poly gguf tts run file",
-      "content": "File Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Run TTS and save the result into .wav file. Type : polymorphic. Input parameters TTS in : class Prompt : string Wav File Path : path voice : string Output parameters TTS out : class"
+      "content": "File Description Run TTS and save the result into .wav file. Type : polymorphic. Input parameters TTS in : class Prompt : string Wav File Path : path voice : string Output parameters TTS out : class"
     },
     {
       "title": "Text Generation",
       "path": "/genai/gguf/text-generation/README.md",
       "keywords": "genai gguf text generation",
-      "content": "Text Generation Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Text Generation. Categories Poly GGUF Init"
+      "content": "Text Generation Description This section groups the experimental GenAI documentation available under Text Generation. Categories Poly GGUF Init"
     },
     {
       "title": "Poly GGUF Init",
       "path": "/genai/gguf/text-generation/poly-gguf-init/README.md",
       "keywords": "genai gguf text generation poly gguf init",
-      "content": "Poly GGUF Init Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Poly GGUF Init. Categories Text Only Visual"
+      "content": "Poly GGUF Init Description This section groups the experimental GenAI documentation available under Poly GGUF Init. Categories Text Only Visual"
     },
     {
       "title": "Text Only",
       "path": "/genai/gguf/text-generation/poly-gguf-init/text-only/README.md",
       "keywords": "genai gguf text generation poly gguf init text only",
-      "content": "Text Only Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Text Only. Pages Session Session And Sampler"
+      "content": "Text Only Description This section groups the experimental GenAI documentation available under Text Only. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/poly-gguf-init/text-only/session/README.md",
       "keywords": "genai gguf text generation poly gguf init text only session",
-      "content": "Session Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters TextOnly out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/poly-gguf-init/text-only/session-and-sampler/README.md",
       "keywords": "genai gguf text generation poly gguf init text only session and sampler",
-      "content": "Session And Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TextOnly out : class"
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters TextOnly out : class"
     },
     {
       "title": "Visual",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/README.md",
       "keywords": "genai gguf text generation poly gguf init visual",
-      "content": "Visual Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Visual. Categories Gemma 3 Qwen 2.5VL"
+      "content": "Visual Description This section groups the experimental GenAI documentation available under Visual. Categories Gemma 3 Qwen 2.5VL"
     },
     {
       "title": "Gemma 3",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/gemma-3/README.md",
       "keywords": "genai gguf text generation poly gguf init visual gemma 3",
-      "content": "Gemma 3 Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Gemma 3. Pages Session Session And Sampler"
+      "content": "Gemma 3 Description This section groups the experimental GenAI documentation available under Gemma 3. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/gemma-3/session/README.md",
       "keywords": "genai gguf text generation poly gguf init visual gemma 3 session",
-      "content": "Session Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Output parameters Gemma3 out : class"
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Output parameters Gemma3 out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/gemma-3/session-and-sampler/README.md",
       "keywords": "genai gguf text generation poly gguf init visual gemma 3 session and sampler",
-      "content": "Session And Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Gemma3 out : class"
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Gemma3 out : class"
     },
     {
       "title": "Qwen 2.5VL",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/qwen-2-5vl/README.md",
       "keywords": "genai gguf text generation poly gguf init visual qwen 2 5vl",
-      "content": "Qwen 2.5VL Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description This section groups the experimental GenAI documentation available under Qwen 2.5VL. Pages Session Session And Sampler"
+      "content": "Qwen 2.5VL Description This section groups the experimental GenAI documentation available under Qwen 2.5VL. Pages Session Session And Sampler"
     },
     {
       "title": "Session",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/qwen-2-5vl/session/README.md",
       "keywords": "genai gguf text generation poly gguf init visual qwen 2 5vl session",
-      "content": "Session Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
+      "content": "Session Description Initialize a session. Type : polymorphic. Input parameters Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Output parameters Qwen25VL out : class"
     },
     {
       "title": "Session And Sampler",
       "path": "/genai/gguf/text-generation/poly-gguf-init/visual/qwen-2-5vl/session-and-sampler/README.md",
       "keywords": "genai gguf text generation poly gguf init visual qwen 2 5vl session and sampler",
-      "content": "Session And Sampler Experimental documentation. This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated. Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Qwen25VL out : class"
+      "content": "Session And Sampler Description Initialize a session and its sampler Type : polymorphic. Input parameters Session Parameters : cluster Model File Path : path MMProj File Path : path n cpu threads : integer nb gpu layers : integer n_ctx : integer system prompt : string always keep system prompt : boolean Sampler Parameters : cluster temperature : float top_p : float min_p : float top_k : integer Output parameters Qwen25VL out : class"
     }
   ]
 }

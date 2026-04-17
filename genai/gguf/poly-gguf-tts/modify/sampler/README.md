@@ -1,11 +1,5 @@
 <h1>Sampler</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Free the sampler and create a new one with the input parameters. Type : polymorphic.</p>

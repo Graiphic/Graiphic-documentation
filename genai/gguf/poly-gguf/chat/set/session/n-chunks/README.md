@@ -1,11 +1,5 @@
 <h1>N Chunks</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Set n_chunks to common_params stored in local. NB : max number of chunks to process (-1 = unlimited) Type : polymorphic.</p>

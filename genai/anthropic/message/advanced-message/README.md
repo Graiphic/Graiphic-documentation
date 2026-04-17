@@ -1,11 +1,5 @@
 <h1>Advanced Message</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API can be used for either single queries or stateless multi-turn conversations. Type : polymorphic.</p>

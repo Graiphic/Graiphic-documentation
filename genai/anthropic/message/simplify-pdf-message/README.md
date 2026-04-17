@@ -1,11 +1,5 @@
 <h1>Simplify PDF Message</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Claude works with any standard PDF. You can ask Claude about any text, pictures, charts, and tables in the PDFs you provide. Some sample use cases:<br/>- Analyzing financial reports and understanding charts/tables<br/>- Extracting key information from legal documents<br/>- Translation assistance for documents<br/>- Converting document information into structured formats Type : polymorphic.</p>

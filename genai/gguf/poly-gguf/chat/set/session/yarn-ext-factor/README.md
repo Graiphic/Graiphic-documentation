@@ -1,11 +1,5 @@
 <h1>Yarn Ext Factor</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Set yarn_ext_factor to common_params stored in local. NB : YaRN extrapolation mix factor Type : polymorphic.</p>

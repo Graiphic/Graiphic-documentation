@@ -1,11 +1,5 @@
 <h1>Xtc Threshold</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Set xtc_threshold to common_params stored in local. NB : &gt; 0.5 disables XTC Type : polymorphic.</p>

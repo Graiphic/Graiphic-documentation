@@ -1,11 +1,5 @@
 <h1>Rope Freq Scale</h1>
 
-<!-- GENAI_EXPERIMENTAL_NOTICE_START -->
-<blockquote>
-<p><strong>Experimental documentation.</strong> This GenAI Toolkit page is experimental and may change significantly while the toolkit is being validated.</p>
-</blockquote>
-<!-- GENAI_EXPERIMENTAL_NOTICE_END -->
-
 <h2>Description</h2>
 
 <p>Set rope_freq_scale to common_params stored in local. NB : RoPE frequency scaling factor Type : polymorphic.</p>
