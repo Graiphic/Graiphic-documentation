@@ -48,6 +48,12 @@
           "kind": "category",
           "children": [
             {
+              "title": "GraphMX",
+              "path": "/accelerator/graphmx/README.md",
+              "kind": "page",
+              "children": []
+            },
+            {
               "title": "Installation guide",
               "path": "/accelerator/quick_start-installation_guide/README.md",
               "kind": "category",
@@ -139,12 +145,6 @@
                   "children": []
                 }
               ]
-            },
-            {
-              "title": "GraphMX",
-              "path": "/accelerator/graphmx/README.md",
-              "kind": "page",
-              "children": []
             },
             {
               "title": "Execution",

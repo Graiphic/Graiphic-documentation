@@ -2,9 +2,9 @@
 
 - **Toolkits**
   - [LabVIEW Accelerator Toolkit](/accelerator/README.md)
+    - [GraphMX](/accelerator/graphmx/README.md)
     - [Execution](/accelerator/api-execution/README.md)
     - [General](/accelerator/quick_start-general/README.md)
-    - [GraphMX](/accelerator/graphmx/README.md)
     - [Installation Guide](/accelerator/quick_start-installation_guide/README.md)
   - [LabVIEW Computer Vision Toolkit](/computer-vision/README.md)
     - [Functions](/computer-vision/functions/README.md)
