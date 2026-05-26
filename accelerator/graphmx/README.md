@@ -1,7 +1,5 @@
 # GraphMX Inference Assistant
 
-> Temporary screenshots use the DeepMX assistant layout until the final GraphMX captures are available.
-
 ## Description
 
 GraphMX is an Express VI used to configure an ONNX graph model for inference with ONNX Runtime.
@@ -63,6 +61,10 @@ The provider can then be selected directly from the block diagram, and default p
 
 <p align="center"><img src="assets/graphmx-execution-provider-on-diagram.png" alt="GraphMX execution provider exposed on diagram" width="780" /></p>
 
+The provider list can then be changed to another available provider, for example NVIDIA CUDA.
+
+<p align="center"><img src="assets/graphmx-execution-provider-nvidia-cuda.png" alt="GraphMX execution provider set to NVIDIA CUDA" width="780" /></p>
+
 ## Generated VI
 
 After validation, GraphMX drops a configured inference VI on the block diagram.
@@ -82,8 +84,6 @@ Typical terminals are:
 The generated VI is meant to be wired directly into the LabVIEW diagram without rebuilding the ONNX Runtime session setup by hand.
 
 ## Typical Workflow
-
-<p align="center"><img src="assets/graphmx-palette.png" alt="GraphMX in the LabVIEW Accelerator palette" width="260" /></p>
 
 1. Drop **GraphMX** from the Accelerator palette.
 2. Select an ONNX model file.
