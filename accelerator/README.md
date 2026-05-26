@@ -30,6 +30,10 @@
     <span class="graiphic-home-card-title">General</span>
     <span class="graiphic-home-card-copy">Read the orientation guides, compatibility notes, deployment advice, and FAQ.</span>
   </a>
+  <a class="graiphic-home-card" href="graphmx/README.md">
+    <span class="graiphic-home-card-title">GraphMX</span>
+    <span class="graiphic-home-card-copy">Configure an ONNX graph model with an Express VI, model mapping, and execution provider setup.</span>
+  </a>
   <a class="graiphic-home-card" href="api-execution/README.md">
     <span class="graiphic-home-card-title">Execution</span>
     <span class="graiphic-home-card-copy">Work with execution APIs, advanced CUDA flows, inputs, outputs, and async inference.</span>
@@ -40,6 +44,7 @@
 
 - [Accelerator installation](quick_start-installation_guide/installation-guide/README.md)
 - [Execution providers](quick_start-installation_guide/execution_providers/README.md)
+- [GraphMX Inference Assistant](graphmx/README.md)
 - [Introduction](quick_start-general/introduction/README.md)
 - [Beginner's Guide](quick_start-general/beginners-guide/README.md)
 - [Hardware Compatibility](quick_start-general/hardware-compatibility/README.md)

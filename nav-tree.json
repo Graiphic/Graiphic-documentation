@@ -141,6 +141,12 @@
               ]
             },
             {
+              "title": "GraphMX",
+              "path": "/accelerator/graphmx/README.md",
+              "kind": "page",
+              "children": []
+            },
+            {
               "title": "Execution",
               "path": "/accelerator/api-execution/README.md",
               "kind": "category",
@@ -1735,6 +1741,12 @@
           "path": "/deep-learning/README.md",
           "kind": "category",
           "children": [
+            {
+              "title": "DeepMX",
+              "path": "/deep-learning/deepmx/README.md",
+              "kind": "page",
+              "children": []
+            },
             {
               "title": "Installation guide",
               "path": "/deep-learning/installation-guide/README.md",
@@ -10285,6 +10297,12 @@
           "kind": "category",
           "children": [
             {
+              "title": "VisionMX",
+              "path": "/computer-vision/visionmx/README.md",
+              "kind": "page",
+              "children": []
+            },
+            {
               "title": "Installation guide",
               "path": "/computer-vision/installation-guide-computer-vision/README.md",
               "kind": "category",
@@ -12090,6 +12108,7 @@
   ],
   "searchPaths": [
     "/accelerator/README.md",
+    "/accelerator/graphmx/README.md",
     "/accelerator/api-execution/README.md",
     "/accelerator/api-execution/cuda_advanced/README.md",
     "/accelerator/api-execution/cuda_advanced/construct_ptr_input_data/README.md",
@@ -12193,6 +12212,7 @@
     "/accelerator/quick_start-installation_guide/execution_providers/cuda/README.md",
     "/accelerator/quick_start-installation_guide/installation-guide/README.md",
     "/computer-vision/README.md",
+    "/computer-vision/visionmx/README.md",
     "/computer-vision/functions/README.md",
     "/computer-vision/functions/filters/README.md",
     "/computer-vision/functions/filters/get-kernel/README.md",
@@ -12478,6 +12498,7 @@
     "/cuda/transforms-cuda/fft/README.md",
     "/cuda/transforms-cuda/resume/README.md",
     "/deep-learning/README.md",
+    "/deep-learning/deepmx/README.md",
     "/deep-learning/advanced/README.md",
     "/deep-learning/advanced/add-weight/README.md",
     "/deep-learning/advanced/add-weight/deep-learning-input-index/README.md",

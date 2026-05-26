@@ -30,6 +30,10 @@
     <span class="graiphic-home-card-title">General</span>
     <span class="graiphic-home-card-copy">Read the introduction, beginner guidance, display notes, deployment help, and FAQ.</span>
   </a>
+  <a class="graiphic-home-card" href="visionmx/README.md">
+    <span class="graiphic-home-card-title">VisionMX</span>
+    <span class="graiphic-home-card-copy">Configure camera, image, video, or raw-data acquisition with an Express VI.</span>
+  </a>
   <a class="graiphic-home-card" href="tools/README.md">
     <span class="graiphic-home-card-title">Tools</span>
     <span class="graiphic-home-card-copy">Browse windows, files, ROI editing, image manipulation, and pixel-editing utilities.</span>
@@ -52,6 +56,7 @@
 
 - [Introduction](general-computer-vision/introduction/README.md)
 - [Beginner's Guide](general-computer-vision/beginners-guide/README.md)
+- [VisionMX Execution Assistant](visionmx/README.md)
 - [Display](general-computer-vision/cv-display/README.md)
 - [Tools Resume](tools/resume-17/README.md)
 - [Session Resume](session/resume-16/README.md)

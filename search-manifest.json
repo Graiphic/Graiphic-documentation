@@ -1,6 +1,6 @@
 {
   "generated_from": "nav-tree.json",
-  "count": 1962,
+  "count": 1965,
   "items": [
     {
       "title": "LabVIEW SOTA",
@@ -42,7 +42,13 @@
       "title": "LabVIEW Accelerator Toolkit",
       "path": "/accelerator/README.md",
       "keywords": "accelerator",
-      "content": "LabVIEW Accelerator Toolkit Hardware aware execution for ONNX Runtime workflows in LabVIEW. The LabVIEW Accelerator Toolkit connects LabVIEW applications to ONNX Runtime and execution providers such as CUDA, TensorRT, OpenVINO, and OneDNN. Use this section to install providers, understand deployment constraints, and execute graphs efficiently. ONNX Runtime Execution Providers GPU Deployment LabVIEW Execution Explore The Toolkit Installation Guide Set up the toolkit, configure providers, and prepare the runtime environment. General Read the orientation guides, compatibility notes, deployment advice, and FAQ. Execution Work with execution APIs, advanced CUDA flows, inputs, outputs, and async inference. Quick Access Accelerator installation Execution providers Introduction Beginner's Guide Hardware Compatibility Deployment"
+      "content": "LabVIEW Accelerator Toolkit Hardware aware execution for ONNX Runtime workflows in LabVIEW. The LabVIEW Accelerator Toolkit connects LabVIEW applications to ONNX Runtime and execution providers such as CUDA, TensorRT, OpenVINO, and OneDNN. Use this section to install providers, understand deployment constraints, and execute graphs efficiently. ONNX Runtime Execution Providers GPU Deployment LabVIEW Execution Explore The Toolkit Installation Guide Set up the toolkit, configure providers, and prepare the runtime environment. General Read the orientation guides, compatibility notes, deployment advice, and FAQ. GraphMX Configure an ONNX graph model with an Express VI, model mapping, and execution provider setup. Execution Work with execution APIs, advanced CUDA flows, inputs, outputs, and async inference. Quick Access Accelerator installation Execution providers GraphMX Inference Assistant Introduction Beginner's Guide Hardware Compatibility Deployment"
+    },
+    {
+      "title": "GraphMX Inference Assistant",
+      "path": "/accelerator/graphmx/README.md",
+      "keywords": "accelerator graphmx express vi onnx graph inference onnxruntime execution provider model mapping netron resume",
+      "content": "GraphMX Inference Assistant Description GraphMX is an Express VI used to configure an ONNX graph model for inference with ONNX Runtime. It reads the model interface, prepares the generated VI terminals, and lets the user decide which values stay fixed in the assistant and which values remain inputs on the block diagram. Type: Express VI. Model Path Select an ONNX model file, specify the path on diagram, inspect the graph with Netron, or generate a text Resume with inputs, outputs, names, types, and shapes. Model Mapping Defines model inputs and outputs with name, data type, and dimension count. The mapping is filled automatically from the ONNX model metadata or prepared manually when the final model is not available yet. Execution Provider Select CPU, DirectML, CUDA, TensorRT, OpenVINO, or ONNX/default runtime execution. If Specify Execution Provider on diagram is disabled, the provider is fixed and provider-specific parameter clusters can be exposed. If enabled, the generated VI exposes an Execution Provider input and default parameters are applied. Generated VI Exposes optional model path, optional Execution Provider, provider-specific parameters, mapped model inputs and outputs, Close Session, and Stopped terminals."
     },
     {
       "title": "Installation guide",
@@ -661,6 +667,12 @@
       "path": "/deep-learning/README.md",
       "keywords": "deep learning",
       "content": "LabVIEW Deep Learning Toolkit Build, train, inspect, and deploy neural architectures directly from LabVIEW. The LabVIEW Deep Learning Toolkit covers model construction, graph definition, runtime execution, training metrics, weight management, and advanced helpers for ONNX backed neural workflows. This page gives you a clean entry point into the main branches of the toolkit. Model Architecture Training Runtime Weights & Metrics ONNX Deployment Explore The Toolkit Installation Guide Install the toolkit and prepare the local environment, providers, and support dependencies. General Start with the introduction, beginner guides, examples, deployment notes, and troubleshooting. Architecture Define layers, nodes, graph functions, and model structure building blocks. Runtime Create sessions, execute graphs, manage inputs and outputs, and use runtime utilities. Advanced Inspect metrics, manage weights, format tensors, and use advanced deep learning helpers. More Browse complementary parameter references and supporting documentation around the toolkit. Quick Access Introduction Beginner's Guide Layers Nodes Graph Function Metrics"
+    },
+    {
+      "title": "DeepMX Inference Assistant",
+      "path": "/deep-learning/deepmx/README.md",
+      "keywords": "deep learning deepmx express vi onnx inference onnxruntime execution provider model mapping netron resume",
+      "content": "DeepMX Inference Assistant Description DeepMX is an Express VI used to configure an ONNX model for inference with ONNX Runtime. It reads the model interface, prepares the generated VI terminals, and lets the user decide which values stay fixed in the assistant and which values remain inputs on the block diagram. Type: Express VI. Model Path Select an ONNX model file, specify the path on diagram, inspect the graph with Netron, or generate a text Resume with inputs, outputs, names, types, and shapes. Model Mapping Defines model inputs and outputs with name, data type, and dimension count. The mapping is filled automatically from the ONNX model metadata or prepared manually when the final model is not available yet. Execution Provider Select CPU, DirectML, CUDA, TensorRT, OpenVINO, or ONNX/default runtime execution. If Specify Execution Provider on diagram is disabled, the provider is fixed and provider-specific parameter clusters can be exposed. If enabled, the generated VI exposes an Execution Provider input and default parameters are applied. Generated VI Exposes optional model path, optional Execution Provider, provider-specific parameters, mapped model inputs and outputs, Close Session, and Stopped terminals."
     },
     {
       "title": "Installation guide",
@@ -7315,6 +7327,12 @@
       "path": "/computer-vision/README.md",
       "keywords": "computer vision",
       "content": "LabVIEW Computer Vision Toolkit Image processing, display flows, sessions, and LabVIEW ready vision tooling. The LabVIEW Computer Vision Toolkit gathers image processing functions, manipulation utilities, display helpers, session management, and video writer tools. Use it to build visual pipelines, inspect data, and deploy ONNX backed vision workflows in LabVIEW. Image Processing Display & UI Session Management Video Workflows Explore The Toolkit Installation Guide Install the toolkit and prepare the local environment for Computer Vision workflows. General Read the introduction, beginner guidance, display notes, deployment help, and FAQ. Tools Browse windows, files, ROI editing, image manipulation, and pixel editing utilities. Session Open, configure, and release video or camera sessions used throughout the toolkit. Functions Use the processing and analysis functions grouped by filters, operators, and inspection flows. Video Writter Create, feed, and release video writer sessions for recording or export pipelines. Quick Access Introduction Beginner's Guide Display Tools Resume Session Resume Functions Resume"
+    },
+    {
+      "title": "VisionMX Execution Assistant",
+      "path": "/computer-vision/visionmx/README.md",
+      "keywords": "computer vision visionmx express vi camera image file video file raw data usb camera cv display picture source execution flow controls indicators stop stopped",
+      "content": "VisionMX Execution Assistant Description VisionMX is an Express VI used to configure an image acquisition or image input source for the LabVIEW Computer Vision Toolkit. It prepares a ready-to-wire VI for camera frames, image files, video files, or raw image arrays. Source USB Camera detects connected cameras and supported modes, then displays live preview, width, height, and image type. Image File uses a source path field to browse for an image and displays preview, width, height, image type, and file type. Video File uses a source path field to browse for a video, plays the preview in a loop, shows current frame number, width, height, image type, frame rate, loop timing, codec, frame count, and has data. Raw Data receives image arrays directly from LabVIEW, including Grayscale U8, Grayscale U16, RGB U32, HSL U32, 2D U32, 3D U8, color order such as RGB or BGR, and array type CHW or HWC. Execution Flow is enabled for USB Camera and Video File only. Single Execution reads one image and closes internally. Standard Controlled Execution reads multiple frames inside a user loop and exposes stop wiring. Managed Continuous Execution creates a while loop around the node and should mainly be used on first placement to avoid nested loops. Controls Indicators include Specify source on diagram, Output Indicator with CV Display or LabVIEW Picture, Display output informations, source input, display output, Stop, Stopped, error in, and error out."
     },
     {
       "title": "Installation guide",

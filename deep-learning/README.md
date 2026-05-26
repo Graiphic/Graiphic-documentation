@@ -30,6 +30,10 @@
     <span class="graiphic-home-card-title">General</span>
     <span class="graiphic-home-card-copy">Start with the introduction, beginner guides, examples, deployment notes, and troubleshooting.</span>
   </a>
+  <a class="graiphic-home-card" href="deepmx/README.md">
+    <span class="graiphic-home-card-title">DeepMX</span>
+    <span class="graiphic-home-card-copy">Configure an ONNX model for inference with an Express VI, model mapping, and execution provider setup.</span>
+  </a>
   <a class="graiphic-home-card" href="architecture/README.md">
     <span class="graiphic-home-card-title">Architecture</span>
     <span class="graiphic-home-card-copy">Define layers, nodes, graph functions, and model structure building blocks.</span>
@@ -52,6 +56,7 @@
 
 - [Introduction](general/introduction/README.md)
 - [Beginner's Guide](general/beginners-guide/README.md)
+- [DeepMX Inference Assistant](deepmx/README.md)
 - [Layers](architecture/layers/README.md)
 - [Nodes](architecture/nodes/README.md)
 - [Graph Function](architecture/graph-function/README.md)
