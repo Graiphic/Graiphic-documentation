@@ -33,6 +33,12 @@
                   "children": []
                 },
                 {
+                  "title": "Understanding SOTA",
+                  "path": "/sota/general-sota/understanding-sota/README.md",
+                  "kind": "page",
+                  "children": []
+                },
+                {
                   "title": "Licensing",
                   "path": "/sota/general-sota/licensing/README.md",
                   "kind": "page",
@@ -13610,6 +13616,7 @@
     "/sota/README.md",
     "/sota/general-sota/README.md",
     "/sota/general-sota/introduction-sota/README.md",
+    "/sota/general-sota/understanding-sota/README.md",
     "/sota/general-sota/licensing/README.md",
     "/sota/installation-guide-sota/README.md",
     "/sota/installation-guide-sota/sota-installation/README.md",

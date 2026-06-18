@@ -25,6 +25,10 @@
     <span class="graiphic-home-card-title">Installation Guide</span>
     <span class="graiphic-home-card-copy">Install SOTA and prepare the environment used by the other Graiphic toolkits.</span>
   </a>
+  <a class="graiphic-home-card" href="general-sota/understanding-sota/README.md">
+    <span class="graiphic-home-card-title">Understanding SOTA</span>
+    <span class="graiphic-home-card-copy">Discover how SOTA installs toolkits, addons, hardware runtimes, licenses, and notifications.</span>
+  </a>
   <a class="graiphic-home-card" href="general-sota/README.md">
     <span class="graiphic-home-card-title">General</span>
     <span class="graiphic-home-card-copy">Read the core product overview, licensing notes, and general platform guidance.</span>
@@ -35,4 +39,5 @@
 
 - [SOTA installation](installation-guide-sota/sota-installation/README.md)
 - [Introduction](general-sota/introduction-sota/README.md)
+- [Understanding SOTA](general-sota/understanding-sota/README.md)
 - [Licensing](general-sota/licensing/README.md)

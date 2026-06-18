@@ -60,6 +60,7 @@
       - [Text Generation](/genai/gguf/text-generation/README.md)
   - [LabVIEW SOTA](/sota/README.md)
     - [General](/sota/general-sota/README.md)
+      - [Understanding SOTA](/sota/general-sota/understanding-sota/README.md)
     - [Installation Guide](/sota/installation-guide-sota/README.md)
 
 - **Auxiliary Pages**

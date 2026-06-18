@@ -30,6 +30,7 @@
 Documentation:
 - [Introduction](./sota/general-sota/introduction-sota/README.md)
 - [Installation Guide](./sota/installation-guide-sota/sota-installation/README.md)
+- [Understanding SOTA](./sota/general-sota/understanding-sota/README.md)
 - [Licensing](./sota/general-sota/licensing/README.md)
 
 ### LabVIEW Accelerator Toolkit
